@@ -7,7 +7,7 @@ The source code for the Interspeech 2024 paper "Lightweight Transducer Based on 
 
 ## Usage
 ### Data preparation
-Download AISHELL-1 from the link [data_aishell.tgz](https://www.openslr.org/resources/33/data_aishell.tgz), and extract it to the directory `data/aishell`.
+Download [AISHELL-1](https://www.openslr.org/resources/33/data_aishell.tgz) and extract it to the directory `data/aishell`.
 
 ### Train
 ```bash
