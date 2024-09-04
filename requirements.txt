@@ -1,0 +1,6 @@
+torch
+numpy
+pandas
+einops
+scipy
+sentencepiece
