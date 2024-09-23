@@ -1,5 +1,5 @@
 # Lightweight-Transducer
-The source code for the Interspeech 2024 paper "[Lightweight Transducer Based on Frame Level Criterion](https://www.isca-archive.org/interspeech_2024/wan24_interspeech.pdf)".
+The source code for the Interspeech 2024 paper ["Lightweight Transducer Based on Frame Level Criterion"](https://www.isca-archive.org/interspeech_2024/wan24_interspeech.pdf).
 
 ## Install
 - Python3
