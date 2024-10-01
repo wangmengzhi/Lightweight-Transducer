@@ -1,10 +1,6 @@
 import torch
 import torch.nn.functional as tf
-#import torch.fft
 from scipy.signal import check_COLA, get_window
-import torch.fft
-#from torch.cuda.amp import autocast as autocast
-
 
 class STFT(torch.nn.Module):
     def __init__(self, win_len=1024, win_hop=512, fft_len=1024,

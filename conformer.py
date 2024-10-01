@@ -1,12 +1,8 @@
 import torch
 from torch import nn, einsum
 import torch.nn.functional as F
-import math
-from math import pi, log
-
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
-from init import init_with_xavier_uniform,init_with_lecun_normal,init_with_uniform
 
 # helper functions
 
@@ -36,8 +32,6 @@ class DepthWiseConv1d(nn.Module):
         super().__init__()
         self.padding = padding
         self.conv = nn.Conv1d(chan_in, chan_out, kernel_size, groups = chan_in)
-        for n, p in self.named_parameters():
-            init_with_xavier_uniform(n, p)
 
     def forward(self, x):
         x = F.pad(x, self.padding)
@@ -128,8 +122,6 @@ class FeedForward(nn.Module):
             nn.Linear(dim * mult, dim),
             nn.Dropout(dropout,inplace=True)
         )
-        for n, p in self.named_parameters():
-            init_with_xavier_uniform(n, p)
 
     def forward(self, x):
         return self.net(x)
@@ -181,7 +173,6 @@ class ConformerBlock(nn.Module):
         super().__init__()
         self.ff1 = FeedForward(dim = dim, mult = ff_mult, dropout = ff_dropout)
         self.ff2 = FeedForward(dim = dim, mult = ff_mult, dropout = ff_dropout)
-        
         self.ff1 = Scale(0.5, PreNorm(dim, self.ff1))
         self.ff2 = Scale(0.5, PreNorm(dim, self.ff2))
         self.conv = ConformerConvModule(dim = dim, output_dim=heads*dim_v, lorder = lorder, rorder = rorder, dropout = conv_dropout)

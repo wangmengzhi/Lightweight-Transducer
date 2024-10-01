@@ -4,3 +4,4 @@ pandas
 einops
 scipy
 sentencepiece
+soundfile

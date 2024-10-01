@@ -9,9 +9,8 @@ from torch.utils.data import Dataset, DataLoader
 import numpy as np
 import math
 import random
-import wave
+import soundfile
 import timeit
-import sys
 import argparse
 import pandas
 from torch.cuda.amp import autocast as autocast
@@ -20,7 +19,6 @@ from conv_stft import STFT
 import scipy.signal
 import sentencepiece as spm
 from lstmp import LSTMP
-from init import init_with_xavier_uniform,init_with_lecun_normal,init_with_uniform
 
 sp = spm.SentencePieceProcessor()
 sp.Load("bpe.model")
@@ -28,9 +26,8 @@ sp.Load("bpe.model")
 torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
 torch.backends.cudnn.benchmark=True
-torch.cuda.set_per_process_memory_fraction(23/24, 0)
 
-n_class=12000
+n_class=6766
 cur_step=0
 
 def hz2mel(hz):
@@ -81,16 +78,8 @@ def get_filterbanks(nfilt=20,nfft=512,samplerate=16000,lowfreq=0,highfreq=None):
 
 def audiofile_to_input_vector(audio_filename, train=True):
     try:
-        if audio_filename.lower().endswith('.wav'):
-            wav_file = wave.open(audio_filename, 'r')
-            nchannels, sampwidth, fs, wav_length = wav_file.getparams()[:4]
-            str_data = wav_file.readframes(wav_length)
-            x = np.fromstring(str_data, dtype=np.short)
-            x=x[::nchannels]
-            x=x.astype(np.float32) #/32768.0
-        else:
-            x,fs=librosa.load(audio_filename,sr=None)
-            x=x*32768.0
+        x,fs=soundfile.read(audio_filename)
+        x*=32768
     except Exception as e:
         print(e,audio_filename)
         return None,16000
@@ -144,6 +133,7 @@ w2i,i2w,w2p,pi2w,p2i,w2pi,i2p=get_dict()
 
 sos_id=w2i['<s>']
 eos_id=w2i['</s>']
+unk_id=w2i['<unk>']
 
 def text_to_char_array(original):
     label=[]
@@ -161,12 +151,13 @@ def text_to_char_array(original):
         elif w in w2i:
             label.append(w2i[w])
         else:
-            s=''
             for c in w:
                 if c in w2i:
-                    s+=c
                     label.append(w2i[c])
+                else:
+                    label.append(unk_id)
       label.append(eos_id)
+      label = [unk_id if x>=n_class else x for x in label]
     except Exception as e:
         print(e)
         print('error label',original)
@@ -178,7 +169,6 @@ def collate_fn(batch):
     ys=[]
     xl=[]
     yl=[]
-    hl=[]
     srs=[]
     
     batch_size=len(batch)
@@ -256,11 +246,10 @@ class Encoder(nn.Module):
             nn.Conv2d(64, 64, 3, 2,1),
             nn.LeakyReLU(inplace=True),
         )
-        self.proj=torch.nn.Conv1d(n_input//16*256,dmodel,1,1,0)
-        for n, p in self.proj.named_parameters():
-            init_with_lecun_normal(n, p, 0.1)
+        self.proj=nn.Linear(n_input//4*64,dmodel)
         net=[]
-        for i in range(12):
+        self.n_layers=12
+        for i in range(self.n_layers):
             block = ConformerBlock(
                 dim = dmodel,
                 dim_qk=64,
@@ -293,12 +282,12 @@ class Encoder(nn.Module):
         x=x.unsqueeze(1)
         x=self.conv(x)
         x=x.view(x.shape[0],-1,x.shape[-1])
+        x=x.permute(0,2,1) #B H T->B T H
         x=self.proj(x)
         x=self.dropout(x)
-        x=x.permute(0,2,1) #B H T->B T H
         for i in range(len(self.net)):
             x = self.net[i](x)
-            if i in [3]:
+            if i==3:
                 x=self.down(x.permute(0,2,1)).permute(0,2,1)
         x=x.permute(1,0,2)
         return x
@@ -388,8 +377,7 @@ class Model(nn.Module):
         fb=get_filterbanks(80,512,16000,0,8000).T.astype(np.float32)
         self.fb = torch.from_numpy(fb)
         self.fb_inv=torch.from_numpy(np.linalg.pinv(fb))
-        self.ctc_loss=nn.CTCLoss(blank=0,reduction='none', zero_infinity=True) #mean
-        self.lsm_prob=0.1        
+        self.ctc_loss=nn.CTCLoss(blank=0,reduction='none', zero_infinity=True) #mean  
     
     def get_feat(self, x, x_mask, speedup,sr):
         if x_mask is None:
@@ -447,54 +435,55 @@ class Model(nn.Module):
         T,B,H=enc.shape
         
         ctc_logit=self.ctc_out(enc).log_softmax(-1)
-        ctc_label=y.clone()
-        ctc_label_len=(y>=0).sum(1)-1
-        ctc_label[(ctc_label<0)|(ctc_label==eos_id)]=0
-        ctc_in_len=torch.full((B,),T,dtype=torch.long)
-        ctc_loss=self.ctc_loss(ctc_logit,ctc_label,ctc_in_len,ctc_label_len)
-        ctc_loss=ctc_loss/ctc_label_len
-        y2=y.clone()
-        y2[y2==eos_id]=-1
-        y2=y2.permute(1,0)
-        y2_mask=(y2>=0).float()
-        lab_T=y2.shape[0]
+        if y is not None:
+            ctc_label=y.clone()
+            ctc_label_len=(y>=0).sum(1)-1
+            ctc_label[(ctc_label<0)|(ctc_label==eos_id)]=0
+            ctc_in_len=torch.full((B,),T,dtype=torch.long)
+            ctc_loss=self.ctc_loss(ctc_logit,ctc_label,ctc_in_len,ctc_label_len)
+            ctc_loss=ctc_loss/ctc_label_len
+            y2=y.clone()
+            y2[y2==eos_id]=-1
+            y2=y2.permute(1,0)
+            y2_mask=(y2>=0).float()
+            lab_T=y2.shape[0]
             
-        ctc_align,ctc_loss2=ctc_fa(ctc_logit.permute(1,0,2),0,y2)
-        ctc_align=ctc_align[:,:,1::2].permute(0,2,1) #B LAB_T T
-        ctc_align_norm=ctc_align/(ctc_align.sum(-1,keepdim=True).clamp(min=1))
+            ctc_align,ctc_loss2=ctc_fa(ctc_logit.permute(1,0,2),0,y2)
+            ctc_align=ctc_align[:,:,1::2].permute(0,2,1) #B LAB_T T
+            ctc_align_norm=ctc_align/(ctc_align.sum(-1,keepdim=True).clamp(min=1))
             
-        ctc_align_cum=torch.cumsum(ctc_align,dim=-1)
-        ctc_align=(ctc_align_cum==1)&(ctc_align>0)
-        nonblank=(ctc_align.sum(1)>0).float()
-        transducer_lab=ctc_align.float().argmax(1)
-        batch_idx=torch.arange(B,device=enc.device).long().unsqueeze(1).repeat(1,T)
-        transducer_lab=y2.permute(1,0)[batch_idx.view(-1),transducer_lab.view(-1)]
-        transducer_lab=transducer_lab.reshape(B,T)*nonblank
-        transducer_lab=transducer_lab.permute(1,0)
-        am=torch.bmm(ctc_align_norm,enc.transpose(1,0)).transpose(1,0)
-        lm_input=y2.long()
-        sos=torch.ones((1,B),dtype=torch.long,device=enc.device)*sos_id
-        lm=torch.cat((sos,lm_input[:-1]),dim=0)
-        lm_emb=F.embedding(lm.clamp(min=0).long(),self.emb.weight)
-        lm=self.lm(lm_emb)
-        batch_idx=torch.arange(B,device=enc.device).long()
-        dec_idx=enc.new_zeros(B).long()
-        logits=[]
-        blanks=[]
-        last_ct=enc.new_zeros(B,H)
-        for i in range(T):
-            blank=torch.cat([enc[i],lm[dec_idx,batch_idx],last_ct],dim=-1).detach()
-            blanks.append(blank)
-            last_ct[nonblank[:,i].bool()]=enc[i][nonblank[:,i].bool()]
-            dec_idx=dec_idx+nonblank[:,i].long()
-        blanks=torch.stack(blanks) #TB
-        blanks=self.to_blank(blanks)
-        amlm=torch.cat([am,lm],dim=-1)
-        logit=self.out(amlm)
-        rnnt_loss=self.loss(logit,y2,y2_mask*(ctc_loss2<2).float().unsqueeze(0),True,0.9,n_class)
-        blank_label=1-nonblank.detach().float()
-        blank_loss=self.bce_loss(blanks.squeeze(-1).transpose(1,0).float(), blank_label).mean()
-        dec=torch.argmax(logit,-1).permute(1,0)
+            ctc_align_cum=torch.cumsum(ctc_align,dim=-1)
+            ctc_align=(ctc_align_cum==1)&(ctc_align>0)
+            nonblank=(ctc_align.sum(1)>0).float()
+            transducer_lab=ctc_align.float().argmax(1)
+            batch_idx=torch.arange(B,device=enc.device).long().unsqueeze(1).repeat(1,T)
+            transducer_lab=y2.permute(1,0)[batch_idx.view(-1),transducer_lab.view(-1)]
+            transducer_lab=transducer_lab.reshape(B,T)*nonblank
+            transducer_lab=transducer_lab.permute(1,0)
+            am=torch.bmm(ctc_align_norm,enc.transpose(1,0)).transpose(1,0)
+            lm_input=y2.long()
+            sos=torch.ones((1,B),dtype=torch.long,device=enc.device)*sos_id
+            lm=torch.cat((sos,lm_input[:-1]),dim=0)
+            lm_emb=F.embedding(lm.clamp(min=0).long(),self.emb.weight)
+            lm=self.lm(lm_emb)
+            batch_idx=torch.arange(B,device=enc.device).long()
+            dec_idx=enc.new_zeros(B).long()
+            logits=[]
+            blanks=[]
+            last_ct=enc.new_zeros(B,H)
+            for i in range(T):
+                blank=torch.cat([enc[i],lm[dec_idx,batch_idx],last_ct],dim=-1).detach()
+                blanks.append(blank)
+                last_ct[nonblank[:,i].bool()]=enc[i][nonblank[:,i].bool()]
+                dec_idx=dec_idx+nonblank[:,i].long()
+            blanks=torch.stack(blanks) #TB
+            blanks=self.to_blank(blanks)
+            amlm=torch.cat([am,lm],dim=-1)
+            logit=self.out(amlm)
+            nnt_loss=self.loss(logit,y2,y2_mask*(ctc_loss2<2).float().unsqueeze(0),True,0.9,n_class)
+            blank_label=1-nonblank.detach().float()
+            blank_loss=self.bce_loss(blanks.squeeze(-1).transpose(1,0).float(), blank_label).mean()
+            dec=(torch.argmax(logit,-1)*y2_mask.long()).permute(1,0)
         if not self.training:
             lm = enc.new_zeros(B, 512, requires_grad=False)
             cx = enc.new_zeros(B, self.rnnlm_dim, requires_grad=False)
@@ -523,7 +512,9 @@ class Model(nn.Module):
                     emb[nonblank]=this_emb
             
         dec_ctc=torch.argmax(ctc_logit,-1).permute(1,0)
-        return rnnt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss
+        if y is not None:
+            return nnt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss
+        return x,ctc_logit,dec_ctc,dec
 
 def adjust_lr(optimizer, lr):
     for param_group in optimizer.param_groups:
@@ -659,12 +650,12 @@ def train_once(model,tr_dataloader,epoch,optimizer,total_step,args):
             y=y.cuda()
             x_mask=x_mask.cuda()
             sr=sr.cuda()
-            rnnt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss = model(x,y,x_mask,speedup,sr)
-            rnnt_loss=rnnt_loss.mean()
+            nnt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss = model(x,y,x_mask,speedup,sr)
+            nnt_loss=nnt_loss.mean()
             ctc_loss2=ctc_loss2.mean()
             blank_loss=blank_loss.mean()
             ctc_loss=ctc_loss.mean()
-            loss=ctc_loss*0.3+rnnt_loss*0.7+blank_loss
+            loss=ctc_loss*0.3+nnt_loss*0.7+blank_loss
             loss=loss/args.accum_grad
             loss.backward()
             nn.utils.clip_grad_norm_(model.parameters(), max_norm=5, norm_type=2)
@@ -712,7 +703,7 @@ def train_once(model,tr_dataloader,epoch,optimizer,total_step,args):
                 if j==0:
                     print('LAB:',lab)
                     print('CTC:',rec_ctc)
-                    print('RNNT:',rec)
+                    print('NNT:',rec)
                 total_d+=d
                 total_l+=l
                 total_sub+=sub
@@ -720,9 +711,9 @@ def train_once(model,tr_dataloader,epoch,optimizer,total_step,args):
                 total_dele+=dele
             total_l=max(total_l,1)
             
-            print("TRAIN epoch: %d step: %d lr: %g  rnnt: %.3f ctc: %.3f ctc2: %.3f blank: %.3f loss: %.3f ml: %.3f time: %.3f per: %.3f wer:%.2f S=%.2f I=%.2f D=%.2f" % (epoch,cur_step,optimizer.param_groups[0]['lr'],rnnt_loss,ctc_loss,ctc_loss2,blank_loss,loss,total_loss/(i+1),t2-t1,cur_step/total_step,total_d/total_l*100,total_sub/total_l*100,total_ins/total_l*100,total_dele/total_l*100))
+            print("TRAIN epoch: %d step: %d lr: %g  nnt: %.3f ctc: %.3f ctc2: %.3f blank: %.3f loss: %.3f ml: %.3f time: %.3f per: %.3f wer:%.2f S=%.2f I=%.2f D=%.2f" % (epoch,cur_step,optimizer.param_groups[0]['lr'],nnt_loss,ctc_loss,ctc_loss2,blank_loss,loss,total_loss/(i+1),t2-t1,cur_step/total_step,total_d/total_l*100,total_sub/total_l*100,total_ins/total_l*100,total_dele/total_l*100))
         else:
-            print("TRAIN epoch: %d step: %d lr: %g  rnnt: %.3f ctc: %.3f ctc2: %.3f blank: %.3f loss: %.3f ml: %.3f time: %.3f per: %.3f" % (epoch,cur_step,optimizer.param_groups[0]['lr'],rnnt_loss,ctc_loss,ctc_loss2,blank_loss,loss,total_loss/(i+1),t2-t1,cur_step/total_step))
+            print("TRAIN epoch: %d step: %d lr: %g  nnt: %.3f ctc: %.3f ctc2: %.3f blank: %.3f loss: %.3f ml: %.3f time: %.3f per: %.3f" % (epoch,cur_step,optimizer.param_groups[0]['lr'],nnt_loss,ctc_loss,ctc_loss2,blank_loss,loss,total_loss/(i+1),t2-t1,cur_step/total_step))
                 
         t1 = t2
     return total_loss/(i+1)
@@ -749,12 +740,12 @@ def test_once(model,cv_dataloader,epoch,bpe=True):
             x_mask=x_mask.cuda()
             sr=sr.cuda()
             
-            rnnt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss= model(x,y,x_mask,sr=sr)
-            rnnt_loss=rnnt_loss.mean()
+            nnt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss= model(x,y,x_mask,sr=sr)
+            nnt_loss=nnt_loss.mean()
             ctc_loss=ctc_loss.mean()
             ctc_loss2=ctc_loss2.mean()
             blank_loss=blank_loss.mean()
-            loss=rnnt_loss*0.7+ctc_loss*0.3+blank_loss
+            loss=nnt_loss*0.7+ctc_loss*0.3+blank_loss
 
             total_loss+=loss.item()
             for j in range(len(dec)):
@@ -766,7 +757,7 @@ def test_once(model,cv_dataloader,epoch,bpe=True):
                 if j==0:
                     print('LAB:',lab)
                     print('CTC:',rec_ctc)
-                    print('RNNT:',rec)
+                    print('NNT:',rec)
                 total_d+=d
                 total_l+=l
                 total_sub+=sub
@@ -779,7 +770,7 @@ def test_once(model,cv_dataloader,epoch,bpe=True):
                 total_ins_ctc+=ins
                 total_dele_ctc+=dele
             
-            print("TEST epoch: %d step: %d loss: %.3f mean loss: %.3f time: %.3f per: %.3f mean wer:%.2f S=%.2f I=%.2f D=%.2f ctc wer:%.2f" % (epoch,i,loss,total_loss/(i+1),timeit.default_timer()-t1,i/len(cv_dataloader),total_d/total_l*100,total_sub/total_l*100,total_ins/total_l*100,total_dele/total_l*100,total_d_ctc/total_l_ctc*100))
+            print("TEST epoch: %d step: %d loss: %.3f mean loss: %.3f time: %.3f per: %.3f wer:%.2f S=%.2f I=%.2f D=%.2f ctc wer:%.2f S_ctc=%.2f I_ctc=%.2f D_ctc=%.2f" % (epoch,i,loss,total_loss/(i+1),timeit.default_timer()-t1,i/len(cv_dataloader),total_d/total_l*100,total_sub/total_l*100,total_ins/total_l*100,total_dele/total_l*100,total_d_ctc/total_l_ctc*100,total_sub_ctc/total_l_ctc*100,total_ins_ctc/total_l_ctc*100,total_dele_ctc/total_l_ctc*100))
         
 class PartSampler():
     def __init__(self, start, end) -> None:
@@ -793,7 +784,7 @@ class PartSampler():
     
 def train():
     parser = argparse.ArgumentParser(description="recognition argument")
-    parser.add_argument("--epoch", type=int, default=180)
+    parser.add_argument("--epoch", type=int, default=200)
     parser.add_argument("--test_epoch", type=int, default=10)
     parser.add_argument("--batch_size",type=int,default=64)
     parser.add_argument("--accum_grad", type=int, default=4)
@@ -808,7 +799,7 @@ def train():
     
     np.random.seed(args.random_seed)
     torch.manual_seed(args.random_seed)
-    torch.cuda.manual_seed(args.random_seed)
+    torch.cuda.manual_seed_all(args.random_seed)
     random.seed(args.random_seed)
     
     if not os.path.exists(args.save_path):
