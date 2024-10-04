@@ -3,13 +3,20 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 import torch
 
 checkpoint_avg = {}
+skip_param={'encoder.ctc_out'}
 
 fp='save/model.'
 n_models=0
-for ep in range(170,200):
+for ep in range(240,270):
     checkpoint_path = fp+str(ep)
     checkpoint = torch.load(checkpoint_path, map_location='cpu')
     for k, v in checkpoint.items():
+        flag=False
+        for s in skip_param:
+            if s in k:
+                flag=True
+                break
+        if flag:continue
         if k not in checkpoint_avg:   
             checkpoint_avg[k]=v
         else:

@@ -1,11763 +1,4233 @@
-<s> <s>
-</s> </s>
-<unk> <unk>
-啊 a0 e4 a1 a2 a3 a4
-阿 a1 e1 e3 a3 a4 a0
-埃 ai1 zhi4
-挨 ai1 ai2
-哎 ai1
-唉 ai1 ai3 ai4
-哀 ai1
-皑 ai2
-癌 ai2 yan2
-蔼 ai3
-矮 ai3
-艾 ai4 yi4
-碍 ai4
-爱 ai4
-隘 ai4 e4
-鞍 an1
-氨 an1
-安 an1
-俺 an3 yan4
-按 an4
-暗 an4
-岸 an4
-胺 an4 e4
-案 an4
-肮 ang1 hang2 gang1
-昂 ang2 yang4
-盎 ang4
-凹 ao1 wa1
-敖 ao2 ao4
-熬 ao2 ao1
-翱 ao2
-袄 ao3
-傲 ao4 ao2
-奥 ao4 yu4 you1
-懊 ao4 yu4
-澳 ao4 yu4
-芭 ba1 pa1
-捌 ba1 bie2
-扒 ba1 bai4 bie2 pa2
-叭 ba1 pa1 ba0
-吧 ba0 ba1 pa1
-笆 ba1
-八 ba1 ba2
-疤 ba1
-巴 ba1
-拔 ba2 bo1 bie2 fa2 bei4
-跋 ba2 bei4
-靶 ba3 ba4
-把 ba3 ba4 pa2
-耙 ba4 pa2
-坝 ba4
-霸 ba4 po4
-罢 ba4 ba0
-爸 ba4
-白 bai2 bo2
-柏 bai3 bo2 bo4
-百 bai3 bo2 mo4
-摆 bai3
-佰 bai3 mo4
-败 bai4
-拜 bai4
-稗 bai4
-斑 ban1
-班 ban1
-搬 ban1 su4
-扳 ban1 pan1
-般 ban1 pan2 ban3 bo1
-颁 ban1
-板 ban3
-版 ban3
-扮 ban4 fen3 fen1 huo3
-拌 ban4 pan1
-伴 ban4 pan4
-瓣 ban4
-半 ban4 pan4
-办 ban4
-绊 ban4
-邦 bang1
-帮 bang1
-梆 bang1
-榜 bang3 beng1 bang4 pang2 peng2
-膀 bang3 pang2 pang1 bang4 pang3
-绑 bang3
-棒 bang4
-磅 bang4 pang1 pang2
-蚌 bang4 pi2 feng1 beng4
-镑 bang4
-傍 bang4 pang2 beng1 peng2
-谤 bang4
-苞 bao1 pao2 biao1
-胞 bao1 pao2 pao4
-包 bao1 pao2 fu2
-褒 bao1
-剥 bo1 bao1 pu1
-薄 bao2 bo2 bu4 bo4
-雹 bao2
-保 bao3
-堡 bao3 bu3 pu4
-饱 bao3
-宝 bao3
-抱 bao4 pao1 pou3
-报 bao4
-暴 bao4 pu4 bo2
-豹 bao4
-鲍 bao4
-爆 bao4 bo2
-杯 bei1
-碑 bei1
-悲 bei1
-卑 bei1 bi3 bi4 pi2 ban1
-北 bei3 bei4
-辈 bei4
-背 bei4 bei1
-贝 bei4
-钡 bei4
-倍 bei4 pei2
-狈 bei4
-备 bei4
-惫 bei4
-焙 bei4
-被 bei4 bi4 pi1 pi4
-奔 ben1 ben4 fen4
-苯 ben3
-本 ben3 ben1
-笨 ben4
-崩 beng1
-绷 beng1 beng3 beng4
-甭 beng2 qi4
-泵 beng4 pin4 liu2
-蹦 beng4
-迸 beng4
-逼 bi1
-鼻 bi2
-比 bi3 bi4 pi2 pi3
-鄙 bi3
-笔 bi3
-彼 bi3
-碧 bi4
-蓖 bi4
-蔽 bi4 bie1 pie1
-毕 bi4
-毙 bi4
-毖 bi4
-币 bi4 yin4
-庇 bi4 pi2 pi3
-痹 bi4
-闭 bi4
-敝 bi4
-弊 bi4
-必 bi4
-辟 pi4 bi4 mi3 pi1
-壁 bi4
-臂 bi4 bei0
-避 bi4
-陛 bi4
-鞭 bian1
-边 bian1 bian0
-编 bian1
-贬 bian3
-扁 bian3 pian1 bian1 pian2
-便 bian4 pian2 bian1
-变 bian4
-卞 bian4 pan2
-辨 bian4 bian3 ban4 pian4
-辩 bian4
-辫 bian4
-遍 bian4
-标 biao1
-彪 biao1
-膘 biao1 piao3
-表 biao3
-鳖 bie1
-憋 bie1
-别 bie2 bie4
-瘪 bie3 bie1
-彬 bin1 ban1
-斌 bin1
-濒 bin1
-滨 bin1
-宾 bin1
-摈 bin4
-兵 bing1
-冰 bing1 ning2
-柄 bing3
-丙 bing3 bing4
-秉 bing3
-饼 bing3
-炳 bing3
-病 bing4
-并 bing4 bing1
-玻 bo1 bo2
-菠 bo1
-播 bo1 bo3
-拨 bo1
-钵 bo1
-波 bo1 bei1 bi4
-博 bo2
-勃 bo2
-搏 bo2
-铂 bo2
-箔 bo2
-伯 bo2 mo4 ba4 bai3
-帛 bo2
-舶 bo2
-脖 bo2 bo1
-膊 bo2 po4 lie4 bo0
-渤 bo2
-泊 po1 bo2 po4
-驳 bo2
-捕 bu3
-卜 bo0 bu3 pu1
-哺 bu3 bu1 fu3
-补 bu3
-埠 bu4
-不 bu4 fou3 fou1 fu1 bu2
-布 bu4
-步 bu4
-簿 bu4 bo2
-部 bu4 pou3
-怖 bu4
-擦 ca1
-猜 cai1
-裁 cai2
-材 cai2
-才 cai2 zai1
-财 cai2
-睬 cai3
-踩 cai3 kui2
-采 cai3 cai4
-彩 cai3
-菜 cai4
-蔡 cai4 sa4 ca1
-餐 can1 sun1
-参 can1 cen1 shen1
-蚕 can2 tian3
-残 can2
-惭 can2
-惨 can3
-灿 can4
-苍 cang1
-舱 cang1
-仓 cang1
-沧 cang1
-藏 cang2 zang4 zang1
-操 cao1
-糙 cao1
-槽 cao2 zao1
-曹 cao2
-草 cao3 zao4
-厕 ce4 si0
-策 ce4
-侧 ce4 ze4 zhai1
-册 ce4 zha4
-测 ce4
-层 ceng2
-蹭 ceng4 ceng2
-插 cha1 zha3
-叉 cha1 cha2 cha3 cha4
-茬 cha2 chi2
-茶 cha2
-查 cha2 zha1 chai2
-碴 cha2 cha1
-搽 cha2
-察 cha2 cui4
-岔 cha4
-差 cha4 cha1 chai1 chai4 ci1 cuo1 jie1
-诧 cha4
-拆 chai1 che4 chi4 ca1
-柴 chai2 ci1 zhai4 zi4
-豺 chai2
-搀 chan1
-掺 can4 chan1 shan3
-蝉 chan2
-馋 chan2
-谗 chan2
-缠 chan2
-铲 chan3
-产 chan3
-阐 chan3
-颤 chan4 zhan4
-昌 chang1 chang4
-猖 chang1
-场 chang3 chang2
-尝 chang2
-常 chang2
-长 zhang3 chang2
-偿 chang2
-肠 chang2
-厂 chang3 han3 yan2 an1
-敞 chang3 cheng4 zheng4
-畅 chang4
-唱 chang4
-倡 chang4 chang1
-超 chao1 chao3 chao4 tiao4
-抄 chao1 suo1 chao4 chao3
-钞 chao1
-朝 chao2 zhao1 zhu1
-嘲 chao2 zhao1
-潮 chao2
-巢 chao2 chao4
-吵 chao3 miao3 chao1 chao4
-炒 chao3
-车 che1 ju1
-扯 che3
-撤 che4
-掣 che4
-彻 che4
-澈 che4
-郴 chen1 lan2
-臣 chen2
-辰 chen2
-尘 chen2
-晨 chen2
-忱 chen2 dan4
-沉 chen2
-陈 chen2
-趁 chen4 zhen1 chen2 nian3 zhen3
-衬 chen4
-撑 cheng1
-称 cheng1 chen4 cheng4
-城 cheng2
-橙 cheng2 deng4 chen2
-成 cheng2
-呈 cheng2 kuang2 cheng3
-乘 cheng2 sheng4
-程 cheng2
-惩 cheng2
-澄 cheng2 deng4
-诚 cheng2
-承 cheng2 zheng3 zheng4
-逞 cheng3 ying2
-骋 cheng3
-秤 cheng4 cheng1 ping2
-吃 chi1 qi1
-痴 chi1
-持 chi2
-匙 shi0 chi2
-池 chi2 tuo2 che4
-迟 chi2
-弛 chi2
-驰 chi2
-耻 chi3
-齿 chi3
-侈 chi3 chi2
-尺 chi3 che3
-赤 chi4
-翅 chi4
-斥 chi4 che4 zhe4
-炽 chi4
-充 chong1
-冲 chong1 chong4
-虫 chong2 hui3
-崇 chong2
-宠 chong3
-抽 chou1
-酬 chou2
-畴 chou2
-踌 chou2
-稠 chou2 tiao2 diao4
-愁 chou2 qiao3 jiu1
-筹 chou2
-仇 chou2 qiu2 ju1
-绸 chou2
-瞅 chou3
-丑 chou3
-臭 chou4 xiu4
-初 chu1
-出 chu1
-橱 chu2
-厨 chu2
-躇 chu2 chuo4
-锄 chu2
-雏 chu2
-滁 chu2
-除 chu2 zhu4 shu1
-楚 chu3
-础 chu3
-储 chu3 chu2
-矗 chu4
-搐 chu4
-触 chu4
-处 chu4 chu3
-揣 chuai1 chuai3 duo3 zhui1 tuan2 chuai4
-川 chuan1
-穿 chuan1 chuan4 yuan1
-椽 chuan2
-传 chuan2 zhuan4
-船 chuan2
-喘 chuan3
-串 chuan4 guan4 quan4
-疮 chuang1
-窗 chuang1 cong1
-幢 chuang2 zhuang4
-床 chuang2
-闯 chuang3
-创 chuang4 chuang1
-吹 chui1 chui4
-炊 chui1
-捶 chui2 duo3
-锤 chui2
-垂 chui2 zhui4
-春 chun1 chun3
-椿 chun1
-醇 chun2
-唇 chun2 zhen1 zhen4
-淳 chun2 zhun1 zhun3
-纯 chun2
-蠢 chun3
-戳 chuo1
-绰 chuo4 chao1
-疵 ci1 zi1 zhai4 ji4
-茨 ci2
-磁 ci2
-雌 ci2
-辞 ci2
-慈 ci2
-瓷 ci2
-词 ci2
-此 ci3
-刺 ci4 qi4 ci1
-赐 ci4
-次 ci4 zi1 ci2
-聪 cong1
-葱 cong1 chuang1
-囱 cong1 chuang1
-匆 cong1
-从 cong2 cong1
-丛 cong2
-凑 cou4
-粗 cu1 cu4
-醋 cu4 zuo4
-簇 cu4 chuo4 cou4
-促 cu4 chuo4
-蹿 cuan1
-篡 cuan4
-窜 cuan4
-摧 cui1 zui4 cuo4
-崔 cui1
-催 cui1
-脆 cui4 cui1
-瘁 cui4
-粹 cui4 sui4
-淬 cui4 zu2
-翠 cui4
-村 cun1
-存 cun2
-寸 cun4 cun3
-磋 cuo1
-撮 cuo1 zui4 zuan1 chua1 zuo3
-搓 cuo1 cuo3 chai1
-措 cuo4 ze2 ci4
-挫 cuo4 zuo4
-错 cuo4
-搭 da1 ta4
-达 da2 ti4 ta4
-答 da2 da1
-瘩 da0 da2 da1
-打 da3 da2
-大 da4 dai4 tai4 da3
-呆 dai1 bao3 ai2
-歹 dai3 e4 dai1
-傣 dai3
-戴 dai4
-带 dai4
-殆 dai4
-代 dai4
-贷 dai4
-袋 dai4
-待 dai4 dai1
-逮 dai3 dai4 di4
-怠 dai4 yi2
-耽 dan1
-担 dan1 dan3 jie1 dan4
-丹 dan1
-单 dan1 chan2 shan4
-郸 dan1
-掸 dan3 shan4
-胆 dan3 tan2 tan3 da2
-旦 dan4
-氮 dan4
-但 dan4 tan3 yan4
-惮 dan4
-淡 dan4 yan4 tan2
-诞 dan4
-弹 dan4 tan2 tan0
-蛋 dan4
-当 dang1 dang4
-挡 dang3 dang4
-党 dang3
-荡 dang4
-档 dang4
-刀 dao1 diao1
-捣 dao3
-蹈 dao3
-倒 dao4 dao3
-岛 dao3
-祷 dao3
-导 dao3
-到 dao4
-稻 dao4
-悼 dao4
-道 dao4 dao3
-盗 dao4
-德 de2
-得 de2 dei3 de0
-的 de0 di4 di2 di1
-蹬 deng1 deng4
-灯 deng1 ding1
-登 deng1 de2
-等 deng3
-瞪 deng4
-凳 deng4
-邓 deng4 shan1
-堤 di1 ti2 di3 shi2 wei2
-低 di1
-滴 di1
-迪 di2
-敌 di2 hua2
-笛 di2
-狄 di2 ti4
-涤 di2
-翟 di2 zhai2
-嫡 di2
-抵 di3 zhi3 qi2
-底 di3 de0
-地 de0 di4
-蒂 di4
-第 di4
-帝 di4
-弟 di4 ti4 tui2 di0
-递 di4
-缔 di4
-颠 dian1
-掂 dian1
-滇 dian1 tian2 zhen1
-碘 dian3
-点 dian3
-典 dian3 tian3
-靛 dian4
-垫 dian4
-电 dian4
-佃 dian4 tian2
-甸 dian1 dian4 tian2 sheng4 ying4
-店 dian4
-惦 dian4
-奠 dian4 ting2 ding4 zheng4 zun1
-淀 dian4
-殿 dian4
-碉 diao1
-叼 diao1
-雕 diao1
-凋 diao1
-刁 diao1
-掉 diao4 nuo2
-吊 diao4
-钓 diao4
-调 diao4 tiao2
-跌 die1 die2 tu2
-爹 die1
-碟 die2 she2
-蝶 die2 tie1
-迭 die2 yi4 da2
-谍 die2
-叠 die2
-丁 ding1 zheng1
-盯 ding1 cheng2
-叮 ding1
-钉 ding1 ding4
-顶 ding3
-鼎 ding3 zhen1
-锭 ding4
-定 ding4
-订 ding4
-丢 diu1
-东 dong1
-冬 dong1
-董 dong3 zhong3
-懂 dong3
-动 dong4
-栋 dong4
-侗 dong4 tong1 tong2 tong3
-恫 dong4 tong1
-冻 dong4
-洞 dong4 tong2
-兜 dou1
-抖 dou3
-斗 dou4 dou3 zhu3
-陡 dou3
-豆 dou4
-逗 dou4 zhu4 tou2 qi2
-痘 dou4
-都 dou1 du1
-督 du1
-毒 du2 dai4
-犊 du2
-独 du2
-读 du2 dou4
-堵 du3 zhe3 du1
-睹 du3
-赌 du3
-杜 du4 du3 tu2
-镀 du4
-肚 du4 du3
-度 du4 duo2 zhai2
-渡 du4
-妒 du4
-端 duan1
-短 duan3
-锻 duan4
-段 duan4
-断 duan4
-缎 duan4
-堆 dui1 zui1
-兑 dui4 rui4 duo2
-队 dui4
-对 dui4
-墩 dun1
-吨 dun1 tun2 tun3
-蹲 dun1 zun2 cun2 zun1 cun3 cuan2 qun3
-敦 dun1 dui1 tuan2 diao1 dun4 dao4 zhun3 tun1 dui4 tun2
-顿 dun4 du2
-囤 dun4 tun2
-钝 dun4
-盾 dun4 shun3 yun3
-遁 dun4 qun1 xun2
-掇 duo1 duo2 zhuo1
-哆 duo1 chi3 zha4 chi4 duo4 die3
-多 duo1
-夺 duo2
-垛 duo3 duo4
-躲 duo3
-朵 duo3
-跺 duo4
-舵 duo4
-剁 duo4
-惰 duo4 tuo2
-堕 duo4 hui1
-蛾 e2 yi3
-峨 e2
-鹅 e2
-俄 e2
-额 e2
-讹 e2
-娥 e2
-恶 e4 e3 wu1 wu4
-厄 e4 e3
-扼 e4
-遏 e4
-鄂 e4
-饿 e4
-恩 en1
-而 er2 neng2
-儿 er2 ren2 er0
-耳 er3 reng2
-尔 er3
-饵 er3
-洱 er3
-二 er4
-贰 er4
-发 fa1 fa4
-罚 fa2
-筏 fa2
-伐 fa2
-乏 fa2
-阀 fa2
-法 fa3
-珐 fa4
-藩 fan1 fan2
-帆 fan1 fan2 fan4
-番 fan1 fan2 bo1 po2 pan1 pan2 pan4 pi2
-翻 fan1
-樊 fan2 fan4
-矾 fan2
-钒 fan2
-繁 fan2 pan2 po2
-凡 fan2
-烦 fan2
-反 fan3 fan4
-返 fan3
-范 fan4
-贩 fan4
-犯 fan4
-饭 fan4
-泛 fan4 feng3 fa2
-坊 fang1 fang2 fang0
-芳 fang1
-方 fang1 fang2 fang3 pang2 wang3 feng1
-肪 fang2
-房 fang2 pang2
-防 fang2
-妨 fang2 fang1
-仿 fang3 pang2
-访 fang3
-纺 fang3
-放 fang4 fang3 fang1
-菲 fei1 fei3 fei4
-非 fei1 fei3
-啡 fei1 pei4 pai2 pei1 bai4
-飞 fei1
-肥 fei2 bi3
-匪 fei3 fei1 fen1
-诽 fei3
-吠 fei4
-肺 fei4 pei4
-废 fei4
-沸 fei4 fu2
-费 fei4
-芬 fen1
-酚 fen1
-吩 fen1 pen4
-氛 fen1
-分 fen1 fen4 fen2
-纷 fen1
-坟 fen2
-焚 fen2 fen4
-汾 fen2 pen2 fen1
-粉 fen3
-奋 fen4 kang3
-份 fen4 bin1
-忿 fen4
-愤 fen4
-粪 fen4
-丰 feng1
-封 feng1 bian3
-枫 feng1
-蜂 feng1
-峰 feng1
-锋 feng1
-风 feng1
-疯 feng1
-烽 feng1
-逢 feng2 peng2 pang2
-冯 feng2 ping2
-缝 feng4 feng2
-讽 feng3 feng4
-奉 feng4
-凤 feng4
-佛 fu2 bo2 bi4 fo2
-否 fou3 pi3
-夫 fu1 fu2
-敷 fu1
-肤 fu1
-孵 fu1
-扶 fu2 pu2
-拂 fu2 bi4 pi4 fei4
-辐 fu2
-幅 fu2 bi1
-氟 fu2
-符 fu2
-伏 fu2 fu4 fu3
-俘 fu2
-服 fu2 fu4 bi4 bo2 fu0
-浮 fu2
-涪 fu2 pou2
-福 fu2 fu4
-袱 fu2
-弗 fu2
-甫 fu3 fu1 pu3
-抚 fu3
-辅 fu3
-俯 fu3
-釜 fu3
-斧 fu3
-脯 pu2 fu3
-腑 fu3
-府 fu3
-腐 fu3 fu0
-赴 fu4
-副 fu4 pi4
-覆 fu4
-赋 fu4
-复 fu4
-傅 fu4 fu1
-付 fu4
-阜 fu4
-父 fu4 fu3 fu0
-腹 fu4 fu3
-负 fu4
-富 fu4
-讣 fu4
-附 fu4 bu4 fu1
-妇 fu4
-缚 fu4
-咐 fu4 fu2
-噶 ga2 ge2
-嘎 ga1 ga2 ga3
-该 gai1
-改 gai3
-概 gai4 gui4 jie2
-钙 gai4
-盖 gai4 ge3
-溉 gai4 xie4
-干 gan4 gan1 an4
-甘 gan1 han1
-杆 gan1 gan4 gan3
-柑 gan1 qian2
-竿 gan1 gan4 gan3
-肝 gan1
-赶 gan3 qian2
-感 gan3 han4
-秆 gan3
-敢 gan3
-赣 gan4
-冈 gang1
-刚 gang1
-钢 gang1 gang4
-缸 gang1
-肛 gang1
-纲 gang1
-岗 gang3 gang1
-港 gang3 hong4
-杠 gang1 gong1 gang4
-篙 gao1
-皋 gao1 hao2 gu1
-高 gao1 gao4
-膏 gao1 gao4
-羔 gao1
-糕 gao1
-搞 gao3 qiao1 kao4
-镐 gao3 hao4
-稿 gao3
-告 gao4 ju1 gu4
-哥 ge1
-歌 ge1
-搁 ge1 ge2
-戈 ge1
-鸽 ge1
-胳 ge1 ge2 ga1
-疙 ge1 yi4
-割 ge1
-革 ge2 ji2
-葛 ge2 ge3
-格 ge2 luo4 he4 ge1
-蛤 ha2 ge2 ha1 e2
-阁 ge2
-隔 ge2 rong3 ji1
-铬 ge4
-个 ge4 gan4 ge3
-各 ge4 ge3
-给 gei3 ji3
-根 gen1
-跟 gen1
-耕 geng1
-更 geng4 geng1
-庚 geng1
-羹 geng1 lang2
-埂 geng3
-耿 geng3
-梗 geng3
-工 gong1
-攻 gong1
-功 gong1
-恭 gong1
-龚 gong1
-供 gong1 gong4
-躬 gong1
-公 gong1
-宫 gong1
-弓 gong1
-巩 gong3
-汞 gong3
-拱 gong3 ju2
-贡 gong4
-共 gong4 gong1 gong3 hong2
-钩 gou1
-勾 gou1 gou4
-沟 gou1
-苟 gou3 gou1
-狗 gou3
-垢 gou4
-构 gou4
-购 gou4
-够 gou4
-辜 gu1
-菇 gu1
-咕 gu1 gu0
-箍 gu1
-估 gu1 gu4
-沽 gu1 gu3
-孤 gu1
-姑 gu1
-鼓 gu3
-古 gu3 gu4 ku1
-蛊 gu3
-骨 gu3 gu2 gu1
-谷 gu3 lu4 yu4
-股 gu3
-故 gu4
-顾 gu4
-固 gu4
-雇 gu4 hu4
-刮 gua1
-瓜 gua1
-剐 gua3
-寡 gua3
-挂 gua4
-褂 gua4
-乖 guai1
-拐 guai3
-怪 guai4
-棺 guan1 guan4
-关 guan1
-官 guan1
-冠 guan1 guan4
-观 guan1 guan4
-管 guan3
-馆 guan3
-罐 guan4
-惯 guan4
-灌 guan4 huan4
-贯 guan4
-光 guang1 guang4
-广 guang3 yan3 an1
-逛 guang4 kuang2
-瑰 gui1
-规 gui1
-圭 gui1
-硅 gui1 he4
-归 gui1
-龟 gui1 jun1 qiu1
-闺 gui1
-轨 gui3
-鬼 gui3
-诡 gui3
-癸 gui3
-桂 gui4
-柜 gui4 ju3
-跪 gui4
-贵 gui4
-刽 gui4
-辊 gun3
-滚 gun3
-棍 gun4 hun4 ao1 gun3
-锅 guo1
-郭 guo1 guo2
-国 guo2
-果 guo3 luo3 guan4
-裹 guo3
-过 guo4 guo1
-哈 ha1 ha4 he1 he2 ha3 ta4 sha4
-骸 hai2 gai1
-孩 hai2
-海 hai3
-氦 hai4
-亥 hai4 jie1
-害 hai4 he2
-骇 hai4
-酣 han1 han4
-憨 han1
-邯 han2 han4
-韩 han2
-含 han2 han4
-涵 han2 han4
-寒 han2
-函 han2
-喊 han3 kan4 jian1
-罕 han3 han4
-翰 han4
-撼 han4
-捍 han4 xian4 gan3
-旱 han4
-憾 han4 dan4
-悍 han4
-焊 han4
-汗 han4 han2 gan1
-汉 han4
-夯 hang1 ben4
-杭 hang2 kang4 kang1
-航 hang2
-壕 hao2
-嚎 hao2
-豪 hao2
-毫 hao2
-郝 hao3 shi4
-好 hao3 hao4
-耗 hao4 mao2 mao4
-号 hao4 hao2 xiao1
-浩 hao4 gao3 ge2
-呵 he1 ha1 a1 a0 ke1 huo1 a2 a4
-喝 he1 ye4 he4 kai4 he0
-荷 he2 he4 he1 he0
-菏 he2 ge1
-核 he2 gai1 kai4 hu2
-禾 he2
-和 he2 he4 huo4 huo2 hu2 huo0
-何 he2 he4
-合 he2 ge3
-盒 he2 an1
-貉 hao2 mo4 he2 ma4
-阂 he2
-河 he2
-涸 he2
-赫 he4 shi4
-褐 he4
-鹤 he4
-贺 he4
-嘿 hei1 mo4 mu4
-黑 hei1
-痕 hen2 gen4
-很 hen3
-狠 hen3 yan2 ken3 hang3
-恨 hen4
-哼 heng1 hng0
-亨 heng1 xiang3 peng1
-横 heng2 heng4 guang1 guang4 huang2 huang4
-衡 heng2
-恒 heng2
-轰 hong1
-哄 hong1 hong4 hong3
-烘 hong1
-虹 hong2 hong4 gong4 jiang4
-鸿 hong2
-洪 hong2
-宏 hong2
-弘 hong2
-红 hong2 gong1
-喉 hou2
-侯 hou2 hou4
-猴 hou2
-吼 hou3
-厚 hou4
-候 hou4 hou0
-后 hou4
-呼 hu1 xiao1 xu1 he4 xia4
-乎 hu1 hu0
-忽 hu1
-瑚 hu2
-壶 hu2
-葫 hu2
-胡 hu2
-蝴 hu2
-狐 hu2
-糊 hu2 hu1 hu4 hu0
-湖 hu2
-弧 hu2
-虎 hu3 hu4
-唬 hu3 xiao1 guo2 xia4 hao2 hu0
-护 hu4
-互 hu4
-沪 hu4
-户 hu4
-花 hua1
-哗 hua1 hua2
-华 hua2 hua4
-猾 hua2
-滑 hua2 gu3
-画 hua4
-划 hua4 guo4 guo3 hua2 huai0
-化 hua4 hua1 huo4
-话 hua4
-槐 huai2
-徊 huai2 hui2
-怀 huai2 fu4
-淮 huai2
-坏 huai4 pi1 pei2
-欢 huan1
-环 huan2
-桓 huan2
-还 hai2 fu2 huan2 hua2
-缓 huan3
-换 huan4
-患 huan4
-唤 huan4
-痪 huan4 tuan3
-豢 huan4
-焕 huan4
-涣 huan4 hui4
-宦 huan4
-幻 huan4
-荒 huang1 huang3 kang1 huang2
-慌 huang1 huang3 huang0
-黄 huang2
-磺 huang2 kuang4 gong3
-蝗 huang2
-簧 huang2
-皇 huang2 wang3
-凰 huang2
-惶 huang2
-煌 huang2
-晃 huang3 huang4
-幌 huang3
-恍 huang3 guang1
-谎 huang3 huang1
-灰 hui1
-挥 hui1
-辉 hui1
-徽 hui1
-恢 hui1
-蛔 hui2
-回 hui2
-毁 hui3 hui4
-悔 hui3
-慧 hui4
-卉 hui4
-惠 hui4
-晦 hui4
-贿 hui4
-秽 hui4
-会 hui4 kuai4
-烩 hui4
-汇 hui4
-讳 hui4
-诲 hui4
-绘 hui4
-荤 hun1 xun1
-昏 hun1 hun4
-婚 hun1
-魂 hun2
-浑 hun2
-混 hun4 gun3 hun2 kun1
-豁 huo1 huo4 hua2
-活 huo2 guo1
-伙 huo3 huo0
-火 huo3 huo1
-获 huo4
-或 huo4 yu4
-惑 huo4
-霍 huo4 he4 suo3
-货 huo4
-祸 huo4
-击 ji1
-圾 ji1 ji2 jie2
-基 ji1
-机 ji1 wei4
-畸 ji1 qi2
-稽 ji1 qi3
-积 ji1 zhi3
-箕 ji1
-肌 ji1 ji4
-饥 ji1
-迹 ji4 ji1
-激 ji1 jiao4 jiao1
-讥 ji1
-鸡 ji1
-姬 ji1 yi2
-绩 ji1 ji4
-缉 ji1 qi1
-吉 ji2
-极 ji2
-棘 ji2
-辑 ji2
-籍 ji2 jie4
-集 ji2
-及 ji2
-急 ji2
-疾 ji2
-汲 ji2 ji1
-即 ji2
-嫉 ji2
-级 ji2
-挤 ji3
-几 ji3 ji1
-脊 ji2 ji3
-己 ji3 qi3
-蓟 ji4
-技 ji4 qi2
-冀 ji4
-季 ji4
-伎 ji4 zhi4 qi2 qi4
-祭 ji4 zhai4
-剂 ji4
-悸 ji4
-济 ji4 ji3
-寄 ji4
-寂 ji4
-计 ji4
-记 ji4
-既 ji4 xi4
-忌 ji4
-际 ji4
-妓 ji4 ji1
-继 ji4
-纪 ji4 ji3
-嘉 jia1
-枷 jia1 jia4
-夹 jia1 ga1 jia2
-佳 jia1
-家 jia1 jia4 jia0 jie0 gu1
-加 jia1
-荚 jia2
-颊 jia2
-贾 jia3 gu3
-甲 jia3
-钾 jia3
-假 jia3 jia4 jie0 xia4 xia2 ge2
-稼 jia4
-价 jia4 jie4 jie0
-架 jia4
-驾 jia4
-嫁 jia4
-歼 jian1
-监 jian1 jian4
-坚 jian1
-尖 jian1
-笺 jian1
-间 jian1 jian4
-煎 jian1 jian4 jian3
-兼 jian1
-肩 jian1 xian2
-艰 jian1
-奸 jian1 gan1
-缄 jian1
-茧 jian3 chong2
-检 jian3
-柬 jian3
-碱 jian3 xian2
-硷 jian3
-拣 jian3
-捡 jian3
-简 jian3
-俭 jian3
-剪 jian3
-减 jian3
-荐 jian4
-槛 kan3 jian4
-鉴 jian4
-践 jian4
-贱 jian4
-见 jian4 xian4
-键 jian4
-箭 jian4
-件 jian4 mou2
-健 jian4
-舰 jian4
-剑 jian4
-饯 jian4
-渐 jian4 jian1
-溅 jian4 jian1
-涧 jian4
-建 jian4
-僵 jiang1
-姜 jiang1
-将 jiang1 jiang4 qiang1
-浆 jiang1 jiang4
-江 jiang1
-疆 jiang1 jiang4
-蒋 jiang3
-桨 jiang3
-奖 jiang3
-讲 jiang3
-匠 jiang4
-酱 jiang4
-降 jiang4 xiang2 xiang4
-蕉 jiao1 qiao2 qiao1
-椒 jiao1
-礁 jiao1
-焦 jiao1 qiao2
-胶 jiao1 xiao2
-交 jiao1
-郊 jiao1
-浇 jiao1
-骄 jiao1
-娇 jiao1
-嚼 jue2 jiao2 jiao4
-搅 jiao3
-铰 jiao3
-矫 jiao3 jiao2
-侥 jiao3 yao2
-脚 jiao3 jue2
-狡 jiao3 xiao4
-角 jiao3 jue2 lu4 gu3
-饺 jiao3
-缴 jiao3 zhuo2
-绞 jiao3
-剿 jiao3 chao1
-教 jiao4 jiao1
-酵 jiao4
-轿 jiao4
-较 jiao4
-叫 jiao4
-窖 jiao4 zao4
-揭 jie1 qi4 he2
-接 jie1 xie2 sha4 cha1
-皆 jie1
-秸 jie1 ji2
-街 jie1
-阶 jie1
-截 jie2
-劫 jie2
-节 jie2 jie1
-桔 ju2 jie2 xie2
-杰 jie2
-捷 jie2 qie4 cha1
-睫 jie2 she4
-竭 jie2
-洁 jie2 ji2
-结 jie2 jie1 jie0
-解 jie3 jie4 xie4
-姐 jie3 ju4 xu4 zu1
-戒 jie4
-藉 ji2 jie4
-芥 jie4 gai4
-界 jie4
-借 jie4
-介 jie4 ge4
-疥 jie4
-诫 jie4
-届 jie4
-巾 jin1
-筋 jin1 qian2
-斤 jin1
-金 jin1 jin4
-今 jin1
-津 jin1
-襟 jin1
-紧 jin3 jin1
-锦 jin3
-仅 jin3 fu4 nu2 jin4
-谨 jin3
-进 jin4 jin3
-靳 jin4
-晋 jin4
-禁 jin4 jin1
-近 jin4
-烬 jin4
-浸 jin4 qin1
-尽 jin3 jin4
-劲 jin4 jing4
-荆 jing1
-兢 jing1
-茎 jing1
-睛 jing1 jing3
-晶 jing1
-鲸 jing1
-京 jing1
-惊 jing1 liang2
-精 jing1 qing2 jing4
-粳 jing1
-经 jing1 jing4
-井 jing3 jing4
-警 jing3
-景 jing3 ying3
-颈 jing3 geng3
-静 jing4
-境 jing4
-敬 jing4
-镜 jing4
-径 jing4
-痉 jing4
-靖 jing4
-竟 jing4
-竞 jing4
-净 jing4 cheng1
-炯 jiong3
-窘 jiong3
-揪 jiu1
-究 jiu1 jiu4
-纠 jiu1
-玖 jiu3
-韭 jiu3
-久 jiu3
-灸 jiu3
-九 jiu3 jiu1
-酒 jiu3
-厩 jiu4
-救 jiu4 jiu1
-旧 jiu4
-臼 jiu4
-舅 jiu4
-咎 jiu4 gao1
-就 jiu4
-疚 jiu4
-鞠 ju1 qu1 qiong1
-拘 ju1 gou1 ju3 ju2
-狙 ju1
-疽 ju1 ju3
-居 ju1 ji1
-驹 ju1
-菊 ju2
-局 ju2
-咀 ju3 zui3
-矩 ju3 ju0
-举 ju3
-沮 ju3 ju1 ju4 jian1 zu3
-聚 ju4
-拒 ju4 ju3
-据 ju4 ju1
-巨 ju4 qu2
-具 ju4
-距 ju4
-踞 ju4
-锯 ju4 ju1
-俱 ju4 ju1
-句 ju4 gou1 gou4 qu2
-惧 ju4
-炬 ju4
-剧 ju4
-捐 juan1 yuan2
-鹃 juan1
-娟 juan1
-倦 juan4
-眷 juan4
-卷 juan3 juan4 quan2 quan1 gun3 jun4
-绢 juan4
-撅 jue1 jue4 jue2 gui4
-攫 jue2
-抉 jue2
-掘 jue2 ku1
-倔 jue2 jue4
-爵 jue2
-觉 jue2 jiao4
-决 jue2
-诀 jue2
-绝 jue2
-均 jun1 yun4
-菌 jun1 jun4
-钧 jun1
-军 jun1
-君 jun1
-峻 jun4
-俊 jun4 shun4 dun1
-竣 jun4
-浚 jun4 xun4 cun2
-郡 jun4
-骏 jun4
-喀 ka1 ke4 ke0
-咖 ka1 jia1 ga1
-卡 ka3 qia3
-咯 ge1 luo4 ka3 ka1 lo0
-开 kai1
-揩 kai1 jia2
-楷 kai3 jie4 jie1
-凯 kai3
-慨 kai3
-刊 kan1
-堪 kan1 chen3
-勘 kan1
-坎 kan3 kan4
-砍 kan3
-看 kan4 kan1
-康 kang1 kang4
-慷 kang1
-糠 kang1
-扛 kang2 gang1
-抗 kang4 gang1
-亢 kang4 gang1 geng1
-炕 kang4 hang1
-考 kao3
-拷 kao3
-烤 kao3
-靠 kao4
-坷 ke3 ke1 jiong1
-苛 ke1 he1
-柯 ke1
-棵 ke1 kuan3 ke3
-磕 ke1 ke3
-颗 ke1
-科 ke1 ke4
-壳 ke2 qiao4
-咳 hai1 hai2 ke2 gai1
-可 ke3 ge1 ke4
-渴 ke3 jie2 kai4 he2
-克 ke4
-刻 ke4 kei1
-客 ke4 qia4
-课 ke4
-肯 ken3
-啃 ken3
-垦 ken3 yin2
-恳 ken3
-坑 keng1 kang4
-吭 keng1 hang2 hang4
-空 kong1 kong3 kong4
-恐 kong3
-孔 kong3
-控 kong4 kong1 qiang1
-抠 kou1
-口 kou3
-扣 kou4
-寇 kou4
-枯 ku1 gu1
-哭 ku1
-窟 ku1
-苦 ku3 gu3 hu4
-酷 ku4
-库 ku4
-裤 ku4
-夸 kua1 kua4 kua3
-垮 kua3
-挎 kua4 ku1 kou1
-跨 kua4 ku4 kua1 kua3
-胯 kua4 kua3
-块 kuai4 yue2
-筷 kuai4
-侩 kuai4
-快 kuai4
-宽 kuan1
-款 kuan3 xin1
-匡 kuang1 wang1
-筐 kuang1
-狂 kuang2 jue2
-框 kuang1 kuang4 kuang2
-矿 kuang4
-眶 kuang4
-旷 kuang4
-况 kuang4
-亏 kui1 yu2
-盔 kui1
-岿 kui1
-窥 kui1
-葵 kui2
-奎 kui2 kui3
-魁 kui2 kui3 kuai4
-傀 gui1 kuai4 kui3
-馈 kui4
-愧 kui4
-溃 kui4 hui4
-坤 kun1
-昆 kun1 hun2 kun4
-捆 kun3 hun2
-困 kun4
-括 kuo4 gua1
-扩 kuo4
-廓 kuo4
-阔 kuo4
-垃 la1 la0
-拉 la1 la2 la3 la4 la0
-喇 la3 la2 la1 la0
-蜡 la4 qu4 zha4 ji2
-腊 la4 xi1
-辣 la4
-啦 la0 la1
-莱 lai2
-来 lai2
-赖 lai4
-蓝 lan2 la0
-婪 lan2 lan3
-栏 lan2
-拦 lan2
-篮 lan2
-阑 lan2
-兰 lan2
-澜 lan2
-谰 lan2
-揽 lan3
-览 lan3
-懒 lan3
-缆 lan3
-烂 lan4
-滥 lan4
-琅 lang2 lang4
-榔 lang2 lang3
-狼 lang2 lang3 lang4 hang3
-廊 lang2
-郎 lang2 lang4
-朗 lang3
-浪 lang4 lang2
-捞 lao1
-劳 lao2
-牢 lao2 lao4 lou2
-老 lao3
-佬 lao3 liao2
-姥 lao3 mu3 lao0
-酪 lao4 luo4 lu4
-烙 lao4 luo4
-涝 lao4
-勒 lei1 le4 lei0
-乐 le4 yue4
-雷 lei2 lei4
-镭 lei2
-蕾 lei3
-磊 lei3
-累 lei4 lei3 lei2 lv4 lie4
-儡 lei3 lei2 lei4
-垒 lei3
-擂 lei2 lei4 lei1
-肋 le1 lei4 jin1
-类 lei4
-泪 lei4
-棱 leng2 leng4 leng1 ling2 cheng1
-楞 leng2 leng4
-冷 leng3 ling2 ling3
-厘 li2 chan2
-梨 li2
-犁 li2
-黎 li2
-篱 li2
-狸 li2
-离 li2 chi1
-漓 li2
-理 li3
-李 li3
-里 li3 li0
-鲤 li3
-礼 li3
-莉 li4 li2 chi2
-荔 li4
-吏 li4
-栗 li4 lie4
-丽 li4 li2
-厉 li4
-励 li4
-砾 li4
-历 li4
-利 li4
-傈 li4
-例 li4 lie4
-俐 li4
-痢 li4
-立 li4 wei4
-粒 li4
-沥 li4
-隶 li4 dai4 yi4 di4
-力 li4
-璃 li2 li0
-哩 li1 li4 li0 li3 mai2 ying1
-俩 lia3 liang3
-联 lian2
-莲 lian2
-连 lian2
-镰 lian2
-廉 lian2
-怜 lian2 ling2 ling3
-涟 lian2
-帘 lian2 chen2
-敛 lian3
-脸 lian3
-链 lian4
-恋 lian4
-炼 lian4
-练 lian4
-粮 liang2
-凉 liang2 liang4
-梁 liang2
-粱 liang2
-良 liang2 liang3
-两 liang3
-辆 liang4
-量 liang4 liang2 liang0
-晾 liang4
-亮 liang4 liang2
-谅 liang4
-撩 liao1 liao2 liao3 lao4 liao4
-聊 liao2 liu2
-僚 liao2 liao3 lao3
-疗 liao2
-燎 liao2 liao3 liao4
-寥 liao2
-辽 liao2
-潦 lao3 lao4 lao2 liao2 liao3
-了 le0 liao3 liao4
-撂 liao4
-镣 liao4
-廖 liao4 liao2
-料 liao4 liao2
-列 lie4 li4
-裂 lie4 lie3
-烈 lie4
-劣 lie4
-猎 lie4 xi1 que4
-琳 lin2
-林 lin2
-磷 lin2 lin4 lin3 ling2
-霖 lin2
-临 lin2
-邻 lin2
-鳞 lin2
-淋 lin2 lin4
-凛 lin3
-赁 lin4
-吝 lin4
-拎 lin1 ling1
-玲 ling2
-菱 ling2
-零 ling2 lian2
-龄 ling2
-铃 ling2
-伶 ling2
-羚 ling2
-凌 ling2 ling4
-灵 ling2
-陵 ling2
-岭 ling3 ling2
-领 ling3
-另 ling4
-令 ling4 ling2 lian2 ling3
-溜 liu1 liu4 liu2
-琉 liu2
-榴 liu2
-硫 liu2 chu4
-馏 liu2 liu4
-留 liu2 liu4 liu3
-刘 liu2
-瘤 liu2
-流 liu2
-柳 liu3
-六 liu4 lu4
-龙 long2
-聋 long2
-咙 long2
-笼 long2 long3
-窿 long2
-隆 long2 long1
-垄 long3
-拢 long3
-陇 long3
-楼 lou2
-娄 lou2
-搂 lou3 lou1
-篓 lou3
-漏 lou4 lou2
-陋 lou4
-芦 lu2 hu4 lu3 lu0
-卢 lu2
-颅 lu2
-庐 lu2
-炉 lu2
-掳 lu3
-卤 lu3 xi1
-虏 lu3
-鲁 lu3
-麓 lu4
-碌 lu4 luo4 liu4
-露 lu4 lou4
-路 lu4 luo4
-赂 lu4
-鹿 lu4 lv2
-潞 lu4
-禄 lu4
-录 lu4
-陆 lu4 liu4
-戮 lu4
-驴 lv2
-吕 lv3
-铝 lv3
-侣 lv3
-旅 lv3
-履 lv3
-屡 lv3
-缕 lv3
-虑 lv4 bi4
-氯 lv4
-律 lv4
-率 lv4 shuai4 lve4
-滤 lv4
-绿 lv4 lu4
-峦 luan2
-挛 luan2
-孪 luan2
-滦 luan2
-卵 luan3 kun1
-乱 luan4
-掠 lve4 lve3
-略 lve4
-抡 lun1 lun2
-轮 lun2
-伦 lun2
-仑 lun2
-沦 lun2
-纶 lun2 guan1
-论 lun4 lun2
-萝 luo2
-螺 luo2
-罗 luo2
-逻 luo2
-锣 luo2
-箩 luo2
-骡 luo2
-裸 luo3
-落 luo4 la4 lao4 luo1
-洛 luo4
-骆 luo4
-络 luo4 lao4
-妈 ma1
-麻 ma2 ma1
-玛 ma3
-码 ma3
-蚂 ma3 ma1 ma4
-马 ma3
-骂 ma4
-嘛 ma0 ma2
-吗 ma0 ma2 ma3
-埋 mai2 man2
-买 mai3
-麦 mai4
-卖 mai4
-迈 mai4
-脉 mai4 mo4
-瞒 man2
-馒 man2
-蛮 man2
-满 man3
-蔓 man4 wan4 man2
-曼 man4
-慢 man4 man2
-漫 man4
-谩 man2 man4
-芒 mang2 huang1 huang3 wang2
-茫 mang2 huang3
-盲 mang2
-氓 mang2 meng2
-忙 mang2
-莽 mang3 mang2
-猫 mao1 miao2 mao2
-茅 mao2
-锚 mao2
-毛 mao2 mao4
-矛 mao2
-铆 mao3
-卯 mao3
-茂 mao4
-冒 mao4 mo4
-帽 mao4
-貌 mao4 mo4
-贸 mao4
-么 me0 yao1 mo2 ma0
-玫 mei2
-枚 mei2
-梅 mei2
-酶 mei2
-霉 mei2
-煤 mei2
-没 mei2 mo4 me0
-眉 mei2
-媒 mei2 mei4
-镁 mei3
-每 mei3
-美 mei3
-昧 mei4 wen3 mo4
-寐 mei4
-妹 mei4
-媚 mei4
-门 men2
-闷 men4 men1
-们 men0
-萌 meng2 ming2
-蒙 meng2 meng3 meng1
-檬 meng2
-盟 meng2 meng4 ming2
-锰 meng3
-猛 meng3
-梦 meng4
-孟 meng4
-眯 mi1 mi3 mi4 mi2
-醚 mi2
-靡 mi2 mi3 ma2
-糜 mi2 mei2
-迷 mi2 mi4 mi3
-谜 mi2 mei4
-弥 mi2
-米 mi3
-秘 mi4 bi4 bie2
-觅 mi4
-泌 mi4 bi4
-蜜 mi4
-密 mi4
-幂 mi4
-棉 mian2
-眠 mian2 mian3 min3
-绵 mian2
-冕 mian3
-免 mian3 wen4 wan3
-勉 mian3
-娩 mian3 wan3 wen4
-缅 mian3
-面 mian4
-苗 miao2
-描 miao2 mao4
-瞄 miao2
-藐 miao3 mo4
-秒 miao3
-渺 miao3
-庙 miao4
-妙 miao4 miao3
-蔑 mie4
-灭 mie4
-民 min2
-抿 min3
-皿 min3 ming3
-敏 min3
-悯 min3
-闽 min3
-明 ming2 meng4
-螟 ming2
-鸣 ming2
-铭 ming2
-名 ming2 ming4
-命 ming4
-谬 miu4
-摸 mo1 mo2
-摹 mo2 mo1
-蘑 mo2
-模 mo2 mu2
-膜 mo2
-磨 mo2 mo4 mo0
-摩 mo2 mi2 ma1
-魔 mo2
-抹 mo3 mo4 ma1
-末 mo4 me0
-莫 mo4 mu4
-墨 mo4 mei4
-默 mo4
-沫 mo4
-漠 mo4
-寞 mo4
-陌 mo4
-谋 mou2
-牟 mou2 mao4 mu4
-某 mou3 mei2
-拇 mu3
-牡 mu3
-亩 mu3
-姆 mu3
-母 mu3 mu2 wu3 wu2
-墓 mu4
-暮 mu4
-幕 mu4 man4
-募 mu4 bo2
-慕 mu4
-木 mu4
-目 mu4
-睦 mu4
-牧 mu4
-穆 mu4
-拿 na2
-哪 na3 nuo2 na0 nai3 na4 nie4 ne2 nei3
-呐 na4 ne4 na0 nuo4 ne0
-钠 na4
-那 na4 nuo2 nuo4 nei4 na3 nei3 ne2 na1 nai3 ne4
-娜 na4 nuo2
-纳 na4
-氖 nai3
-乃 nai3 ai3
-奶 nai3
-耐 nai4 neng2
-奈 nai4
-南 nan2 na1
-男 nan2
-难 nan2 nan4
-囊 nang2 nang1
-挠 nao2
-脑 nao3
-恼 nao3
-闹 nao4
-淖 nao4 zhao4 zhuo1 chuo4
-呢 ne0 ni2 ni3 ni1
-馁 nei3
-内 nei4 na4 rui4
-嫩 nen4
-能 neng2 tai2 nai2 nai4 xiong2
-妮 ni1 ni2
-霓 ni2
-倪 ni2 ni4 nie4
-泥 ni2 ni4 ni3 nie4 ning4
-尼 ni2 ni3
-拟 ni3
-你 ni3
-匿 ni4 te4
-腻 ni4
-逆 ni4
-溺 ni4 ruo4 niao4
-蔫 nian1 yan1 yan4
-拈 nian1 nian3 dian1
-年 nian2 ning4
-碾 nian3
-撵 nian3
-捻 nian3 nie1 nian1
-念 nian4
-娘 niang2
-酿 niang4 niang2
-鸟 niao3 diao3
-尿 niao4 sui1
-捏 nie1
-聂 nie4
-孽 nie4
-啮 nie4
-镊 nie4
-镍 nie4
-涅 nie4
-您 nin2
-柠 ning2 chu3 zhu4
-狞 ning2
-凝 ning2
-宁 ning2 zhu4 ning4
-拧 ning2 ning3 ning4
-泞 ning4 zhu4
-牛 niu2
-扭 niu3 chou3 zhou3 zhou4
-钮 niu3
-纽 niu3
-脓 nong2
-浓 nong2
-农 nong2
-弄 nong4 long4
-奴 nu2
-努 nu3
-怒 nu4
-女 nv3 nv4 ru3
-暖 nuan3 xuan1
-虐 nve4
-疟 nve4 yao4
-挪 nuo2
-懦 nuo4
-糯 nuo4
-诺 nuo4
-哦 o2 e2 o4
-欧 ou1
-鸥 ou1
-殴 ou1
-藕 ou3
-呕 ou3 ou4
-偶 ou3
-沤 ou1 ou4
-啪 pa1
-趴 pa1
-爬 pa2
-帕 pa4 mo4
-怕 pa4 bo2
-琶 pa2
-拍 pai1 bo2
-排 pai2 bai4 pai3
-牌 pai2
-徘 pai2
-湃 pai4 ba2
-派 pai4 mai4 bai4 pa1
-攀 pan1
-潘 pan1 pan4 bo1 pan2 fan1
-盘 pan2
-磐 pan2
-盼 pan4 fen2
-畔 pan4
-判 pan4
-叛 pan4
-乓 pang1
-庞 pang2
-旁 pang2 peng1 beng1 bang4
-耪 pang3
-胖 pang4 pan4 pan2
-抛 pao1
-咆 pao2
-刨 pao2 bao4
-炮 pao4 pao2 bao1
-袍 pao2 bao4
-跑 pao3 pao2 bo2
-泡 pao4 pao1 pao2
-呸 pei1
-胚 pei1
-培 pei2 pou3 pi1
-裴 pei2 fei2
-赔 pei2
-陪 pei2
-配 pei4
-佩 pei4
-沛 pei4
-喷 pen1 pen4
-盆 pen2
-砰 peng1 ping1 peng4
-抨 peng1 beng1
-烹 peng1
-澎 peng1 peng2
-彭 peng2 pang2 bang1 peng1
-蓬 peng2 peng4
-棚 peng2
-硼 peng2 peng1
-篷 peng2
-膨 peng2 peng4
-朋 peng2
-鹏 peng2
-捧 peng3 feng4 peng2
-碰 peng4
-坯 pi1 huai4
-砒 pi1
-霹 pi1
-批 pi1 pi2
-披 pi1
-劈 pi1 pi3
-琵 pi2
-毗 pi2
-啤 pi2
-脾 pi2 pai2 bi4 pi4
-疲 pi2
-皮 pi2
-匹 pi3
-痞 pi3
-僻 pi4
-屁 pi4
-譬 pi4
-篇 pian1
-偏 pian1
-片 pian4 pian1 pan4
-骗 pian4
-飘 piao1
-漂 piao4 piao1 piao3 biao1
-瓢 piao2
-票 piao4 piao1
-撇 pie1 bie1 pie3
-瞥 pie1 bi4
-拼 pin1 bing4
-频 pin2
-贫 pin2
-品 pin3
-聘 pin4 ping4
-乒 ping1
-坪 ping2
-苹 ping2 peng1
-萍 ping2
-平 ping2 pian2 bing4 beng1
-凭 ping2
-瓶 ping2
-评 ping2
-屏 ping2 bing3 bing4 bing1
-坡 po1
-泼 po1
-颇 po3 po1
-婆 po2 po0
-破 po4
-魄 po4 bo2 tuo4
-迫 po4 pai3
-粕 po4
-剖 pou1 po3
-扑 pu1 pi4
-铺 pu4 pu1
-仆 pu1 pu2
-莆 pu2 fu3
-葡 pu2 bei4
-菩 pu2 bei4 bo2
-蒲 pu2 bo2
-埔 pu3 bu4
-朴 pu3 po4 pu1 po1 piao2
-圃 pu3
-普 pu3
-浦 pu3
-谱 pu3
-曝 pu4 bao4
-瀑 pu4 bao4 bo2
-期 qi1 ji1
-欺 qi1
-栖 qi1 xi1
-戚 qi1 cu4
-妻 qi1 qi4
-七 qi1 qi2
-凄 qi1
-漆 qi1 qie4
-柒 qi1
-沏 qi1 qie4
-其 qi2 ji1 ji4
-棋 qi2 ji1
-奇 qi2 ji1 ai3 yi3
-歧 qi2
-畦 qi2
-崎 qi2 qi3 yi1
-脐 qi2
-齐 qi2 ji4
-旗 qi2
-祈 qi2 gui3
-祁 qi2 zhi3
-骑 qi2
-起 qi3
-岂 qi3
-乞 qi3 qi4
-企 qi3
-启 qi3
-契 qi4 xie4 qie4 jie2
-砌 qi4 qie4
-器 qi4
-气 qi4 qi3
-迄 qi4
-弃 qi4
-汽 qi4 gai4 yi3
-泣 qi4 li4 se4 qi3
-讫 qi4
-掐 qia1
-恰 qia4
-洽 qia4 he2
-牵 qian1
-扦 qian1
-钎 qian1
-铅 qian1 yan2
-千 qian1
-迁 qian1
-签 qian1
-仟 qian1
-谦 qian1
-乾 qian2 gan1
-黔 qian2
-钱 qian2
-钳 qian2
-前 qian2 jian3
-潜 qian2
-遣 qian3 qian4
-浅 qian3 jian1
-谴 qian3
-堑 qian4
-嵌 qian4 han3 kan4
-欠 qian4
-歉 qian4
-枪 qiang1
-呛 qiang1 qiang4
-腔 qiang1 kong4
-羌 qiang1
-墙 qiang2
-蔷 qiang2
-强 qiang2 qiang3 jiang4
-抢 qiang3 qiang1
-橇 qiao1
-锹 qiao1
-敲 qiao1
-悄 qiao1 qiao3 qiao4
-桥 qiao2
-瞧 qiao2
-乔 qiao2
-侨 qiao2
-巧 qiao3
-鞘 qiao4 shao1
-撬 qiao4
-翘 qiao4 qiao2
-峭 qiao4
-俏 qiao4 xiao4 xiao1
-窍 qiao4
-切 qie4 qie1 qi4
-茄 jia1 qie2
-且 qie3 ju1 cu2
-怯 qie4
-窃 qie4
-钦 qin1
-侵 qin1 qin3
-亲 qin1 qing4
-秦 qin2
-琴 qin2
-勤 qin2 qi2
-芹 qin2
-擒 qin2
-禽 qin2
-寝 qin3
-沁 qin4
-青 qing1 jing1
-轻 qing1
-氢 qing1
-倾 qing1
-卿 qing1
-清 qing1 qing4
-擎 qing2
-晴 qing2
-氰 qing2
-情 qing2
-顷 qing3
-请 qing3
-庆 qing4
-琼 qiong2
-穷 qiong2
-秋 qiu1
-丘 qiu1
-邱 qiu1
-球 qiu2
-求 qiu2
-囚 qiu2
-酋 qiu2
-泅 qiu2 you1
-趋 qu1
-区 qu1 ou1
-蛆 qu1 ju1
-曲 qu1 qu3
-躯 qu1
-屈 qu1 jue2 que4 ju2
-驱 qu1
-渠 qu2 ju4
-取 qu3 qu1
-娶 qu3 ju1 shu1
-龋 qu3
-趣 qu4 cu4 qu1 cou3 zou1
-去 qu4 qu1
-圈 quan1 juan4 juan1 quan2 juan3
-颧 quan2
-权 quan2
-醛 quan2 chuo4
-泉 quan2
-全 quan2
-痊 quan2
-拳 quan2
-犬 quan3
-券 quan4 xuan4
-劝 quan4
-缺 que1 kui3
-炔 gui4 xue4 que1
-瘸 que2
-却 que4
-鹊 que4
-榷 que4
-确 que4
-雀 que4 qiao1 qiao3 que2
-裙 qun2
-群 qun2
-然 ran2
-燃 ran2
-冉 ran3 nan2 dan1
-染 ran3
-瓤 rang2
-壤 rang3
-攘 rang3 rang4 ning2 xiang3
-嚷 rang3 rang1 rang0
-让 rang4
-饶 rao2
-扰 rao3 you4
-绕 rao4 rao3
-惹 re3 ruo4
-热 re4
-壬 ren2
-仁 ren2
-人 ren2
-忍 ren3 ren4
-韧 ren4
-任 ren4 ren2 lin4
-认 ren4
-刃 ren4
-妊 ren4 ren2
-纫 ren4
-扔 reng1 reng4
-仍 reng2
-日 ri4
-戎 rong2 reng1
-茸 rong1 rong2 rong3
-蓉 rong2
-荣 rong2
-融 rong2
-熔 rong2
-溶 rong2
-容 rong2 yong3
-绒 rong2
-冗 rong3
-揉 rou2
-柔 rou2
-肉 rou4 ru4
-茹 ru2
-蠕 ru2
-儒 ru2
-孺 ru2
-如 ru2
-辱 ru3
-乳 ru3
-汝 ru3
-入 ru4
-褥 ru4 nu4
-软 ruan3
-阮 ruan3 yuan2
-蕊 rui3 juan3
-瑞 rui4
-锐 rui4
-闰 run4
-润 run4
-若 ruo4 re2 re4 re3
-弱 ruo4
-撒 sa1 sa3
-洒 sa3 xi3 xian3 sen3 cui3 xun4
-萨 sa4
-腮 sai1
-鳃 sai1
-塞 sai1 se4 sai4
-赛 sai4
-三 san1
-叁 san1
-伞 san3
-散 san4 san3 san1
-桑 sang1
-嗓 sang3
-丧 sang4 sang1
-搔 sao1 sao4
-骚 sao1
-扫 sao3 sao4
-嫂 sao3
-瑟 se4
-色 se4 shai3
-涩 se4
-森 sen1
-僧 seng1 ceng2
-莎 sha1 suo1 sui1
-砂 sha1
-杀 sha1
-刹 sha1 cha4
-沙 sha1 sha4 suo1
-纱 sha1
-傻 sha3
-啥 sha2 sha4
-煞 sha1 sha4
-筛 shai1
-晒 shai4
-珊 shan1
-苫 shan1 shan4 tian1 chan1
-杉 shan1 sha1
-山 shan1
-删 shan1
-煽 shan1
-衫 shan1
-闪 shan3
-陕 shan3
-擅 shan4
-赡 shan4
-膳 shan4
-善 shan4
-汕 shan4 shuan4
-扇 shan4 shan1
-缮 shan4
-墒 shang1
-伤 shang1
-商 shang1
-赏 shang3
-晌 shang3
-上 shang4 shang3
-尚 shang4 chang2
-裳 shang0 chang2 shang1
-梢 shao1 shao4 xiao1 sao4
-捎 shao1 shao3 xiao1 qiao4 shao4
-稍 shao1 shao4
-烧 shao1
-芍 shao2 xiao4 que4 di4
-勺 shao2 shuo4 zhuo2 di4
-韶 shao2
-少 shao3 shao4
-哨 shao4 sao1 xiao1 xiao4 sao4
-邵 shao4
-绍 shao4
-奢 she1
-赊 she1
-蛇 she2 yi2 tuo2 chi2
-舌 she2 gua1
-舍 she3 she4 shi4
-赦 she4 ce4
-摄 she4
-射 she4 ye4 yi4
-慑 she4
-涉 she4 die2
-社 she4
-设 she4
-砷 shen1
-申 shen1
-呻 shen1
-伸 shen1
-身 shen1 juan1
-深 shen1
-娠 shen1
-绅 shen1
-神 shen2 shen1
-沈 shen3 chen2 tan2
-审 shen3
-婶 shen3
-甚 shen2 shen4
-肾 shen4
-慎 shen4 zhen4
-渗 shen4
-声 sheng1 qing4 sheng0
-生 sheng1
-甥 sheng1
-牲 sheng1
-升 sheng1
-绳 sheng2
-省 sheng3 xing3 xian3
-盛 sheng4 cheng2
-剩 sheng4
-胜 sheng4 xing1 qing4 sheng1
-圣 sheng4 ku1
-师 shi1
-失 shi1 yi4
-狮 shi1
-施 shi1 yi4 shi3
-湿 shi1
-诗 shi1
-尸 shi1
-虱 shi1
-十 shi2
-石 shi2 dan4
-拾 shi2 she4 jie4
-时 shi2
-什 shen2 shi2
-食 shi2 si4 yi4
-蚀 shi2
-实 shi2 shi0
-识 shi2 shi4 zhi4 shi0
-史 shi3
-矢 shi3
-使 shi3
-屎 shi3 xi1
-驶 shi3
-始 shi3
-式 shi4 te4
-示 shi4 qi2 zhi4 shi2
-士 shi4
-世 shi4
-柿 shi4
-事 shi4 zi4
-拭 shi4
-誓 shi4
-逝 shi4
-势 shi4
-是 shi4 ti2
-嗜 shi4
-噬 shi4
-适 shi4 kuo4
-仕 shi4
-侍 shi4
-释 shi4
-饰 shi4
-氏 shi4 zhi1 jing1
-市 shi4 fu2
-恃 shi4 zhi4
-室 shi4
-视 shi4
-试 shi4
-收 shou1
-手 shou3
-首 shou3
-守 shou3 shou4
-寿 shou4
-授 shou4
-售 shou4 shu2
-受 shou4 dao4
-瘦 shou4
-兽 shou4
-蔬 shu1 shu3
-枢 shu1
-梳 shu1
-殊 shu1
-抒 shu1
-输 shu1
-叔 shu1
-舒 shu1 yu4
-淑 shu1 chu4
-疏 shu1
-书 shu1
-赎 shu2
-孰 shu2
-熟 shu2 shou2
-薯 shu3
-暑 shu3
-曙 shu3
-署 shu3
-蜀 shu3
-黍 shu3
-鼠 shu3
-属 shu3 zhu3
-术 shu4 shu2 zhu2
-述 shu4
-树 shu4
-束 shu4
-戍 shu4
-竖 shu4
-墅 shu4 ye3
-庶 shu4 zhu4 zhe1
-数 shu4 shu3 shuo4
-漱 shu4
-恕 shu4
-刷 shua1 shua4
-耍 shua3
-摔 shuai1
-衰 shuai1 suo1 cui1
-甩 shuai3
-帅 shuai4
-栓 shuan1 shuan4 quan2
-拴 shuan1 quan2
-霜 shuang1
-双 shuang1
-爽 shuang3 shuang1
-谁 shei2 shui2
-水 shui3
-睡 shui4
-税 shui4 tuo1 tui4 tuan4
-吮 shun3
-瞬 shun4
-顺 shun4
-舜 shun4
-说 shuo1 shui4 yue4
-硕 shuo4
-朔 shuo4
-烁 shuo4
-斯 si1 shi3
-撕 si1 xi1
-嘶 si1
-思 si1 sai1
-私 si1
-司 si1 ci2 si4
-丝 si1
-死 si3
-肆 si4 ti4
-寺 si4 shi4
-嗣 si4
-四 si4
-伺 ci4 si4
-似 shi4 si4
-饲 si4
-巳 si4 yi3
-松 song1
-耸 song3
-怂 song3
-颂 song4
-送 song4
-宋 song4
-讼 song4
-诵 song4
-搜 sou1 xiao1 sou4 shao3
-艘 sou1
-擞 sou3 sou4
-嗽 sou4 shuo4 shu4
-苏 su1
-酥 su1
-俗 su2
-素 su4
-速 su4
-粟 su4
-僳 su4
-塑 su4
-溯 su4 shuo4
-宿 su4 xiu4 xiu3 qi1
-诉 su4
-肃 su4
-酸 suan1
-蒜 suan4
-算 suan4
-虽 sui1
-隋 sui2 duo4 tuo3 tuo1
-随 sui2
-绥 sui2
-髓 sui3
-碎 sui4
-岁 sui4
-穗 sui4
-遂 sui4 sui2
-隧 sui4 zhui4
-祟 sui4
-孙 sun1
-损 sun3
-笋 sun3
-蓑 suo1 sui1
-梭 suo1 xun4
-唆 suo1 shua4
-缩 suo1 su4
-琐 suo3
-索 suo3
-锁 suo3
-所 suo3
-塌 ta1 da1
-他 ta1 tuo2
-它 ta1 tuo2 yi2
-她 ta1 jie3 chi2
-塔 ta3 da1 da0
-獭 ta3
-挞 ta4
-蹋 ta4
-踏 ta4 ta1
-胎 tai1
-苔 tai2 tai1
-抬 tai2 chi1
-台 tai2 yi2 si4 tai1
-泰 tai4
-酞 tai4
-太 tai4 ta1
-态 tai4
-汰 tai4
-坍 tan1
-摊 tan1
-贪 tan1
-瘫 tan1
-滩 tan1
-坛 tan2
-檀 tan2 shan4
-痰 tan2
-潭 tan2 xun2 yin3 dan4
-谭 tan2
-谈 tan2
-坦 tan3
-毯 tan3
-袒 tan3 zhan4
-碳 tan4
-探 tan4 xian2
-叹 tan4 yi3 you4
-炭 tan4
-汤 tang1 shang1
-塘 tang2
-搪 tang2
-堂 tang2
-棠 tang2
-膛 tang2 tang1
-唐 tang2
-糖 tang2
-倘 tang3 chang2
-躺 tang3 tang4
-淌 tang3 chang4 chang3
-趟 tang4 zheng1 zheng4 cheng2 tang1
-烫 tang4
-掏 tao1 tao2
-涛 tao1
-滔 tao1
-绦 tao1
-萄 tao2
-桃 tao2 tiao1 zhao4
-逃 tao2
-淘 tao2
-陶 tao2 yao2 dao4
-讨 tao3
-套 tao4 tao3
-特 te4
-藤 teng2
-腾 teng2
-疼 teng2
-誊 teng2
-梯 ti1 ti2
-剔 ti1 ti4
-踢 ti1 die2
-锑 ti1
-提 ti2 chi2 shi2 di3 di1
-题 ti2
-蹄 ti2 di4
-啼 ti2
-体 ti3 ben4 cui4 ti1
-替 ti4
-嚏 ti4
-惕 ti4
-涕 ti4 ti1
-剃 ti4
-屉 ti4
-天 tian1
-添 tian1 tian4
-填 tian2 tian3 chen2 zhen4
-田 tian2
-甜 tian2
-恬 tian2
-舔 tian3 tan1
-腆 tian3
-挑 tiao1 tiao3 tao2 diao4 tiao2 tiao0
-条 tiao2
-迢 tiao2
-眺 tiao4
-跳 tiao4 diao4 tao2
-贴 tie1
-铁 tie3
-帖 tie1 tie4 tie3
-厅 ting1
-听 ting1 yin3 yi2
-烃 ting1
-汀 ting1 ting4 ding4
-廷 ting2
-停 ting2
-亭 ting2
-庭 ting2
-挺 ting3 ting2
-艇 ting3
-通 tong1 tong4
-桐 tong2 tong1 dong4
-酮 tong2 dong4 chong2
-瞳 tong2
-同 tong2 tong4
-铜 tong2
-彤 tong2
-童 tong2 zhong1
-桶 tong3
-捅 tong3
-筒 tong3 dong4 tong2
-统 tong3
-痛 tong4
-偷 tou1
-投 tou2 dou4
-头 tou2 tou0
-透 tou4 shu1
-凸 tu1
-秃 tu1
-突 tu1
-图 tu2
-徒 tu2
-途 tu2
-涂 tu2 chu2 ye2
-屠 tu2
-土 tu3 du4 cha3 tu2
-吐 tu3 tu4
-兔 tu4 tu2 chan1
-湍 tuan1 zhuan1
-团 tuan2 qiu2
-推 tui1
-颓 tui2
-腿 tui3
-蜕 tui4 yue4
-褪 tui4 tun4
-退 tui4
-吞 tun1 tian1
-屯 tun2 zhun1
-臀 tun2
-拖 tuo1 chi3
-托 tuo1
-脱 tuo1 tui4
-鸵 tuo2
-陀 tuo2 duo4
-驮 tuo2 duo4
-驼 tuo2
-椭 tuo3
-妥 tuo3
-拓 ta4 zhi2 tuo4
-唾 tuo4
-挖 wa1
-哇 wa0 wa1 gui1 hua2 wa2
-蛙 wa1 jue2
-洼 wa1 gui1
-娃 wa2 wa1 gui4
-瓦 wa3 wa4
-袜 wa4 mo4
-歪 wai1 wai3
-外 wai4
-豌 wan1
-弯 wan1
-湾 wan1
-玩 wan2
-顽 wan2
-丸 wan2
-烷 wan2
-完 wan2 kuan1
-碗 wan3
-挽 wan3
-晚 wan3
-皖 wan3 huan4
-惋 wan3
-宛 wan3 yuan1 yun3 yu4
-婉 wan3
-万 wan4 mo4
-腕 wan4
-汪 wang1 wang3 hong2
-王 wang2 wang4 yu4
-亡 wang2 wu2
-枉 wang3 kuang2
-网 wang3
-往 wang3 wang4
-旺 wang4
-望 wang4
-忘 wang4 wang2
-妄 wang4 wang2
-威 wei1
-巍 wei1
-微 wei1
-危 wei1
-韦 wei2
-违 wei2
-桅 wei2 gui3
-围 wei2
-唯 wei2 wei3
-惟 wei2 wei3
-为 wei4 wei2
-潍 wei2
-维 wei2
-苇 wei3
-萎 wei1 wei4 wei3
-委 wei3 wei1 wei4
-伟 wei3
-伪 wei3
-尾 wei3 yi3
-纬 wei3
-未 wei4
-蔚 wei4 yu4
-味 wei4 mei4
-畏 wei4 wei1 wei3
-胃 wei4
-喂 wei4
-魏 wei4 wei2 wei1
-位 wei4 li4
-渭 wei4
-谓 wei4
-尉 wei4 yu4 yun4
-慰 wei4
-卫 wei4
-瘟 wen1 wo4 yun1
-温 wen1 yun4
-蚊 wen2
-文 wen2
-闻 wen2
-纹 wen2 wen4
-吻 wen3
-稳 wen3
-紊 wen3 wen4
-问 wen4
-嗡 weng1 weng3
-翁 weng1 weng3
-瓮 weng4
-挝 wo1 zhua1
-蜗 wo1
-涡 wo1 guo1
-窝 wo1
-我 wo3
-斡 wo4 guan3
-卧 wo4
-握 wo4 ou4
-沃 wo4
-巫 wu1
-呜 wu1
-钨 wu1
-乌 wu1 wu4
-污 wu1
-诬 wu1
-屋 wu1
-无 wu2 mo2
-芜 wu2
-梧 wu2 wu4 yu3
-吾 wu2 yu2 ya2
-吴 wu2 tun1
-毋 wu2 mou2
-武 wu3
-五 wu3
-捂 wu3 wu2
-午 wu3
-舞 wu3
-伍 wu3
-侮 wu3
-坞 wu4
-戊 wu4
-雾 wu4
-晤 wu4
-物 wu4
-勿 wu4 mo4
-务 wu4
-悟 wu4
-误 wu4
-昔 xi1 cuo4
-熙 xi1 yi2
-析 xi1 si1
-西 xi1
-硒 xi1
-矽 xi4 xi1
-晰 xi1
-嘻 xi1
-吸 xi1
-锡 xi1
-牺 xi1
-稀 xi1
-息 xi1
-希 xi1
-悉 xi1
-膝 xi1
-夕 xi1 yi4
-惜 xi1
-熄 xi1
-烯 xi1
-溪 xi1 qi1
-汐 xi1
-犀 xi1
-檄 xi2
-袭 xi2
-席 xi2
-习 xi2
-媳 xi2
-喜 xi3 xi1 chi4
-铣 xi3 xian3
-洗 xi3 xian3
-系 xi4 ji4
-隙 xi4
-戏 xi4 hu1
-细 xi4
-瞎 xia1
-虾 xia1 ha2
-匣 xia2
-霞 xia2
-辖 xia2
-暇 xia2 xia4 jia3
-峡 xia2
-侠 xia2
-狭 xia2
-下 xia4
-厦 sha4 xia4
-夏 xia4 jia3
-吓 xia4 ha4 he4
-掀 xian1 hen2
-锨 xian1
-先 xian1
-仙 xian1 xian3
-鲜 xian1 xian3
-纤 xian1 qian4
-咸 xian2 jian3 jian1
-贤 xian2
-衔 xian2
-舷 xian2
-闲 xian2
-涎 xian2 yan4 dian4
-弦 xian2
-嫌 xian2
-显 xian3
-险 xian3
-现 xian4
-献 xian4
-县 xian4
-腺 xian4
-馅 xian4
-羡 xian4 yan2 yi2
-宪 xian4 xiong4
-陷 xian4
-限 xian4 wen3
-线 xian4
-相 xiang1 xiang4
-厢 xiang1
-镶 xiang1
-香 xiang1
-箱 xiang1
-襄 xiang1
-湘 xiang1
-乡 xiang1
-翔 xiang2
-祥 xiang2
-详 xiang2
-想 xiang3
-响 xiang3
-享 xiang3
-项 xiang4
-巷 xiang4 hang4
-橡 xiang4
-像 xiang4
-向 xiang4
-象 xiang4
-萧 xiao1
-硝 xiao1 qiao4
-霄 xiao1 xiao4
-削 xue1 qiao4 xiao1 shao4
-哮 xiao1 xiao4 xue1
-嚣 xiao1 ao2
-销 xiao1
-消 xiao1
-宵 xiao1
-淆 xiao2
-晓 xiao3
-小 xiao3
-孝 xiao4
-校 xiao4 jiao4 jiao3 qiao1
-肖 xiao4 xiao1
-啸 xiao4
-笑 xiao4
-效 xiao4
-楔 xie1 xie4
-些 xie1 suo4 suo1
-歇 xie1 ya4
-蝎 xie1 he2
-鞋 xie2 wa1
-协 xie2
-挟 xie2 jia1
-携 xie2
-邪 xie2 ya2 ye2 xu2 she2
-斜 xie2 xia2 cha2 ye2
-胁 xie2
-谐 xie2
-写 xie3 xie4
-械 xie4
-卸 xie4
-蟹 xie4
-懈 xie4
-泄 xie4 yi4
-泻 xie4
-谢 xie4
-屑 xie4
-薪 xin1
-芯 xin1 xin4
-锌 xin1
-欣 xin1
-辛 xin1
-新 xin1
-忻 xin1
-心 xin1
-信 xin4 shen1
-衅 xin4
-星 xing1
-腥 xing1
-猩 xing1
-惺 xing1
-兴 xing4 xing1
-刑 xing2
-型 xing2
-形 xing2
-邢 xing2 geng3
-行 xing2 hang2 xing4 hang4 heng2
-醒 xing3 cheng2 jing1
-幸 xing4 nie4
-杏 xing4
-性 xing4
-姓 xing4 sheng1
-兄 xiong1 kuang4
-凶 xiong1
-胸 xiong1
-匈 xiong1
-汹 xiong1
-雄 xiong2
-熊 xiong2
-休 xiu1 xu4
-修 xiu1
-羞 xiu1
-朽 xiu3
-嗅 xiu4
-锈 xiu4
-秀 xiu4
-袖 xiu4
-绣 xiu4
-墟 xu1
-戌 xu1 qu0
-需 xu1 nuo4 ru2 ruan3
-虚 xu1
-嘘 xu1 shi1
-须 xu1
-徐 xu2
-许 xu3 hu3
-蓄 xu4 chu2
-酗 xu4
-叙 xu4
-旭 xu4
-序 xu4
-畜 chu4 xu4
-恤 xu4
-絮 xu4 chu4 nv4 na4
-婿 xu4
-绪 xu4
-续 xu4
-轩 xuan1
-喧 xuan1 xuan3
-宣 xuan1
-悬 xuan2
-旋 xuan2 xuan4
-玄 xuan2 xuan4
-选 xuan3
-癣 xuan3
-眩 xuan4 huan4 juan4
-绚 xuan4
-靴 xue1
-薛 xue1
-学 xue2
-穴 xue2 jue2
-雪 xue3
-血 xue4 xie3
-勋 xun1
-熏 xun1 xun4
-循 xun2
-旬 xun2 jun1
-询 xun2
-寻 xun2 xin2
-驯 xun2
-巡 xun2 yan2 shun4
-殉 xun4
-汛 xun4
-训 xun4
-讯 xun4
-逊 xun4
-迅 xun4
-压 ya1 ya4
-押 ya1 xia2 jia3
-鸦 ya1
-鸭 ya1
-呀 ya0 xia1 ya1
-丫 ya1
-芽 ya2
-牙 ya2 ya4
-蚜 ya2
-崖 ya2
-衙 ya2 yu2 yu4
-涯 ya2
-雅 ya3 ya1 ya2
-哑 ya3 ya1
-亚 ya4
-讶 ya4
-焉 yan1 yi2
-咽 yan4 yan1 ye4 yuan1
-阉 yan1
-烟 yan1 yin1
-淹 yan1 yan3
-盐 yan2
-严 yan2
-研 yan2 yan4 xing2
-蜒 yan2 yan4 dan4
-岩 yan2
-延 yan2
-言 yan2 yan4 yin2
-颜 yan2
-阎 yan2
-炎 yan2 yan4 tan2
-沿 yan2 yan3 yan4
-奄 yan3 yan1
-掩 yan3 yan4
-眼 yan3 wen3
-衍 yan3 yan2
-演 yan3 yan4
-艳 yan4
-堰 yan4
-燕 yan4 yan1
-厌 yan4
-砚 yan4
-雁 yan4
-唁 yan4
-彦 yan4 pan2
-焰 yan4
-宴 yan4
-谚 yan4
-验 yan4
-殃 yang1
-央 yang1 ying1
-鸯 yang1
-秧 yang1
-杨 yang2
-扬 yang2
-佯 yang2
-疡 yang2
-羊 yang2
-洋 yang2 xiang2 yang3
-阳 yang2
-氧 yang3
-仰 yang3 ang2
-痒 yang3 yang2
-养 yang3
-样 yang4 yang2
-漾 yang4
-邀 yao1
-腰 yao1
-妖 yao1 jiao3
-瑶 yao2
-摇 yao2
-尧 yao2
-遥 yao2
-窑 yao2
-谣 yao2
-姚 yao2 tiao4 tao2 yao4
-咬 yao3 jiao1 yao1 jiao3
-舀 yao3
-药 yao4
-要 yao4 yao1 yao3
-耀 yao4
-椰 ye1
-噎 ye1 yi4 sha4
-耶 ye2 xie2 ye1
-爷 ye2
-野 ye3 shu4
-冶 ye3
-也 ye3 yi2
-页 ye4
-掖 ye1 ye4
-业 ye4
-叶 ye4 xie2
-曳 ye4
-腋 ye4
-夜 ye4
-液 ye4 shi4
-一 yi1 yi2 yi4
-壹 yi1 yin1
-医 yi1 yi4
-揖 yi1 ji2
-铱 yi1
-依 yi1 yi3
-伊 yi1
-衣 yi1 yi4
-颐 yi2
-夷 yi2
-遗 yi2 wei4
-移 yi2 chi3 yi4
-仪 yi2
-胰 yi2
-疑 yi2 ning2
-沂 yi2 yin2
-宜 yi2
-姨 yi2
-彝 yi2
-椅 yi3 yi1
-蚁 yi3
-倚 yi3 ji1 yi1
-已 yi3 si4
-乙 yi3 yi4 jue2
-矣 yi3 xian2
-以 yi3 si4
-艺 yi4
-抑 yi4
-易 yi4
-邑 yi4 e4
-屹 yi4 ge1
-亿 yi4
-役 yi4
-臆 yi4 yi3
-逸 yi4
-肄 yi4 si4
-疫 yi4
-亦 yi4
-裔 yi4
-意 yi4 yi1
-毅 yi4
-忆 yi4
-义 yi4
-益 yi4
-溢 yi4
-诣 yi4
-议 yi4
-谊 yi4
-译 yi4
-异 yi4 yi2
-翼 yi4
-翌 yi4
-绎 yi4
-茵 yin1
-荫 yin1 yin4
-因 yin1
-殷 yin1 yin3 yan1
-音 yin1
-阴 yin1
-姻 yin1
-吟 yin2 yin3 jin4
-银 yin2
-淫 yin2 yan4 yao2
-寅 yin2
-饮 yin3 yin4
-尹 yin3 yun2
-引 yin3
-隐 yin3
-印 yin4 yi4
-英 ying1 yang1
-樱 ying1
-婴 ying1
-鹰 ying1
-应 ying1 ying4
-缨 ying1
-莹 ying2
-萤 ying2
-营 ying2
-荧 ying2
-蝇 ying2
-迎 ying2 ying4
-赢 ying2
-盈 ying2
-影 ying3
-颖 ying3
-硬 ying4 geng3
-映 ying4 yang3
-哟 yo1 yo0
-拥 yong1
-佣 yong1 yong4
-臃 yong1
-痈 yong1
-庸 yong1 yong2
-雍 yong1
-踊 yong3
-蛹 yong3
-咏 yong3
-泳 yong3
-涌 yong3 chong1
-永 yong3
-恿 yong3 tong1
-勇 yong3
-用 yong4
-幽 you1
-优 you1 you2
-悠 you1
-忧 you1 you4
-尤 you2
-由 you2 yao1
-邮 you2
-铀 you2
-犹 you2 you4
-油 you2 you4
-游 you2 liu2
-酉 you3
-有 you3 you4 wei3
-友 you3
-右 you4
-佑 you4
-釉 you4
-诱 you4
-又 you4
-幼 you4 yao4
-迂 yu1
-淤 yu1
-于 yu2 wei2 yu1 xu1
-盂 yu2
-榆 yu2
-虞 yu2
-愚 yu2
-舆 yu2
-余 yu2 tu2 xu2 yu4
-俞 yu2 shu4
-逾 yu2 dou4
-鱼 yu2
-愉 yu2 tou1 yu3
-渝 yu2 yu1
-渔 yu2
-隅 yu2
-予 yu3 yu2 zhu4
-娱 yu2
-雨 yu3 yu4
-与 yu3 yu2 yu4
-屿 yu3
-禹 yu3
-宇 yu3
-语 yu3 yu4
-羽 yu3 hu4
-玉 yu4
-域 yu4
-芋 yu4 yu2 xu1 yu3
-郁 yu4
-吁 xu1 yu4 yu1
-遇 yu4 yong2 ou3
-喻 yu4 yu2
-峪 yu4
-御 yu4 ya4
-愈 yu4
-欲 yu4
-狱 yu4
-育 yu4 zhou4 yo1
-誉 yu4
-浴 yu4
-寓 yu4
-裕 yu4
-预 yu4
-豫 yu4 xie4 shu1
-驭 yu4
-鸳 yuan1
-渊 yuan1
-冤 yuan1
-元 yuan2
-垣 yuan2
-袁 yuan2
-原 yuan2
-援 yuan2 huan4
-辕 yuan2
-园 yuan2 wan2
-员 yuan2 yun2 yun4
-圆 yuan2
-猿 yuan2
-源 yuan2
-缘 yuan2
-远 yuan3
-苑 yuan4 yuan1 yu4 yun4
-愿 yuan4
-怨 yuan4 yun4
-院 yuan4
-曰 yue1
-约 yue1 yao1
-越 yue4 huo2
-跃 yue4 yue2
-钥 yao4 yue4
-岳 yue4
-粤 yue4
-月 yue4 ru4
-悦 yue4
-阅 yue4
-耘 yun2
-云 yun2
-郧 yun2
-匀 yun2 jun1 yun4
-陨 yun3
-允 yun3 yuan2
-运 yun4 yun3
-蕴 yun4
-酝 yun4
-晕 yun1 yun4
-韵 yun4
-孕 yun4
-匝 za1
-砸 za2
-杂 za2 duo3
-栽 zai1 zai4
-哉 zai1
-灾 zai1
-宰 zai3
-载 zai4 zai3
-再 zai4
-在 zai4
-咱 zan2 za2 za3 zan0
-攒 zan3 cuan2
-暂 zan4
-赞 zan4
-赃 zang1
-脏 zang4 zang1
-葬 zang4
-遭 zao1
-糟 zao1
-凿 zao2 zuo4
-藻 zao3
-枣 zao3
-早 zao3
-澡 zao3 cao1
-蚤 zao3 zhao3
-躁 zao4
-噪 zao4
-造 zao4 cao4 cao1
-皂 zao4
-灶 zao4
-燥 zao4 sao4
-责 ze2
-择 ze2 zhai2
-则 ze2
-泽 ze2
-贼 zei2
-怎 zen3
-增 zeng1 zeng4 ceng2
-憎 zeng1
-曾 ceng2 zeng1
-赠 zeng4
-扎 zha1 zha2 zha3 za1
-喳 zha1 zha0 cha1
-渣 zha1
-札 zha2 ya4
-轧 ya4 ga2 zha2
-铡 zha2
-闸 zha2
-眨 zha3
-栅 zha4 shan1 ce4
-榨 zha4
-咋 za3 ze2 zha4 zha1 zha2
-乍 zha4 zuo4
-炸 zha4 zha2
-诈 zha4
-摘 zhai1
-斋 zhai1
-宅 zhai2 che4 du4
-窄 zhai3
-债 zhai4
-寨 zhai4 se4 qian1
-瞻 zhan1
-毡 zhan1
-詹 zhan1 dan4
-粘 zhan1 nian2
-沾 zhan1 tian1 dian4 chan1
-盏 zhan3
-斩 zhan3
-辗 nian3 zhan3
-崭 zhan3
-展 zhan3 zhan1
-蘸 zhan4
-栈 zhan4
-占 zhan4 zhan1 tie1
-战 zhan4
-站 zhan4 zhan1
-湛 zhan4 chen2 dan1 tan2 jin4 yin3 chen3 yin2 shen4
-绽 zhan4
-樟 zhang1
-章 zhang1 zhang4
-彰 zhang1
-漳 zhang1
-张 zhang1
-掌 zhang3
-涨 zhang3 zhang4
-杖 zhang4
-丈 zhang4
-帐 zhang4
-账 zhang4
-仗 zhang4
-胀 zhang4
-瘴 zhang4
-障 zhang4 zhang1
-招 zhao1 qiao2 shao2
-昭 zhao1 zhao4
-找 zhao3 hua2
-沼 zhao3
-赵 zhao4
-照 zhao4
-罩 zhao4
-兆 zhao4
-肇 zhao4
-召 zhao4 shao4
-遮 zhe1
-折 zhe2 she2 ti2 zhe1
-哲 zhe2
-蛰 zhe2
-辙 zhe2
-者 zhe3
-锗 zhe3
-蔗 zhe4
-这 zhe4 zhei4
-浙 zhe4
-珍 zhen1
-斟 zhen1
-真 zhen1
-甄 zhen1 zhen4 juan4
-砧 zhen1
-臻 zhen1
-贞 zhen1
-针 zhen1
-侦 zhen1
-枕 zhen3 chen2
-疹 zhen3 chen4
-诊 zhen3
-震 zhen4 shen1
-振 zhen4 zhen1 zhen3
-镇 zhen4
-阵 zhen4
-蒸 zheng1
-挣 zheng1 zheng4
-睁 zheng1
-征 zheng1
-狰 zheng1
-争 zheng1
-怔 zheng1 zheng4
-整 zheng3
-拯 zheng3
-正 zheng4 zheng1
-政 zheng4 zheng1
-帧 zheng4
-症 zheng4 zheng1
-郑 zheng4
-证 zheng4
-芝 zhi1
-枝 zhi1 qi2
-支 zhi1 zhi4 qi2
-吱 zhi1 zi1 qi4
-蜘 zhi1
-知 zhi1 zhi4
-肢 zhi1 shi4
-脂 zhi1 zhi3
-汁 zhi1 xie2 shi2
-之 zhi1 zhu1 zhi4
-织 zhi1
-职 zhi2
-直 zhi2
-植 zhi2
-殖 zhi2 shi4 shi0
-执 zhi2
-值 zhi2
-侄 zhi2
-址 zhi3
-指 zhi3 zhi1 zhi2
-止 zhi3
-趾 zhi3
-只 zhi3 zhi1
-旨 zhi3
-纸 zhi3
-志 zhi4
-挚 zhi4
-掷 zhi4 zhi1
-至 zhi4 die2
-致 zhi4 zhui4
-置 zhi4
-帜 zhi4
-峙 zhi4 shi4
-制 zhi4
-智 zhi4 zhi1
-秩 zhi4
-稚 zhi4
-质 zhi4
-炙 zhi4
-痔 zhi4
-滞 zhi4
-治 zhi4 chi2
-窒 zhi4 die2
-中 zhong1 zhong4
-盅 zhong1 chong1
-忠 zhong1
-钟 zhong1
-衷 zhong1 zhong4
-终 zhong1
-种 zhong3 chong2 zhong4
-肿 zhong3
-重 zhong4 chong2 tong2
-仲 zhong4
-众 zhong4 yin2
-舟 zhou1
-周 zhou1
-州 zhou1
-洲 zhou1
-诌 zhou1
-粥 zhou1 yu4
-轴 zhou2 zhou4
-肘 zhou3
-帚 zhou3
-咒 zhou4
-皱 zhou4
-宙 zhou4
-昼 zhou4
-骤 zhou4
-珠 zhu1
-株 zhu1
-蛛 zhu1
-朱 zhu1 shu1
-猪 zhu1
-诸 zhu1
-诛 zhu1
-逐 zhu2 di2 zhou4 tun2
-竹 zhu2
-烛 zhu2 chong2
-煮 zhu3
-拄 zhu3
-瞩 zhu3
-嘱 zhu3
-主 zhu3 zhu4
-著 zhu4 zhe0 chu2 zhuo2 zhao1 zhao2
-柱 zhu4 zhu3
-助 zhu4 chu2
-蛀 zhu4
-贮 zhu4
-铸 zhu4
-筑 zhu4 zhu2
-住 zhu4
-注 zhu4 zhou4
-祝 zhu4 zhou4 chu4
-驻 zhu4
-抓 zhua1
-爪 zhao3 zhua3
-拽 zhuai1 ye4 zhuai4
-专 zhuan1
-砖 zhuan1
-转 zhuan3 zhuai3 zhuan4
-撰 zhuan4 xuan3 suan4
-赚 zhuan4 zuan4
-篆 zhuan4
-桩 zhuang1
-庄 zhuang1 peng2
-装 zhuang1
-妆 zhuang1
-撞 zhuang4
-壮 zhuang4
-状 zhuang4
-椎 chui2 zhui1
-锥 zhui1
-追 zhui1 dui1 tui1
-赘 zhui4
-坠 zhui4
-缀 zhui4
-谆 zhun1
-准 zhun3
-捉 zhuo1
-拙 zhuo1
-卓 zhuo2 zhuo1
-桌 zhuo1
-琢 zuo2 zhuo2
-茁 zhuo2 zhu2
-酌 zhuo2
-啄 zhuo2 zhou4
-着 zhe0 zhuo2 zhao1 zhao2
-灼 zhuo2
-浊 zhuo2
-兹 zi1 ci2
-咨 zi1
-资 zi1
-姿 zi1 zi4
-滋 zi1 ci2 xuan2
-淄 zi1
-孜 zi1
-紫 zi3
-仔 zai3 zi3 zi1
-籽 zi3
-滓 zi3
-子 zi0 zi3 zi1
-自 zi4
-渍 zi4
-字 zi4
-鬃 zong1
-棕 zong1
-踪 zong1
-宗 zong1
-综 zong1 zeng4
-总 zong3
-纵 zong4
-邹 zou1
-走 zou3
-奏 zou4 cou4
-揍 zou4 cou4
-租 zu1 ju1
-足 zu2 ju4
-卒 zu2 cu4 cui4
-族 zu2 sou3 cou4 zou4
-祖 zu3 jie1
-诅 zu3
-阻 zu3 zhu4
-组 zu3
-钻 zuan1 zuan4
-纂 zuan3
-嘴 zui3
-醉 zui4
-最 zui4 cuo1
-罪 zui4
-尊 zun1
-遵 zun1
-昨 zuo2
-左 zuo3
-佐 zuo3
-柞 zha4 zuo4 ze2
-做 zuo4
-作 zuo4 zuo1 zuo2
-坐 zuo4
-座 zuo4
-亍 chu4
-丌 ji1 qi2
-兀 wu4 wu1
-丐 gai4
-廿 nian4
-卅 sa4
-丕 pi1
-亘 gen4 xuan1 geng4
-丞 cheng2 sheng4 zheng1 zheng3
-鬲 ge2 li4 e4
-孬 nao1
-噩 e4
-丨 gun3
-禺 yu2 yu4
-丿 pie3 yi4
-匕 bi3 pin4
-乇 tuo1 zhe2
-夭 yao1 wo4 wai1
-爻 yao2 xiao4
-卮 zhi1
-氐 di1 di3 zhi1
-囟 xin4
-胤 yin4
-馗 kui2 qiu2
-毓 yu4
-睾 gao1 hao4
-鼗 tao2
-丶 zhu3
-亟 ji2 qi4
-鼐 nai4
-乜 mie1 nie4
-乩 ji1
-亓 qi2
-芈 mi3
-孛 bei4 bo2
-啬 se4
-嘏 gu3 jia3
-仄 ze4
-厍 she4
-厝 cuo4 ji2
-厣 yan3
-厥 jue2
-厮 si1
-靥 ye4
-赝 yan4
-匚 fang1 fang4
-叵 po3
-匦 gui3
-匮 kui4
-匾 bian3
-赜 ze2
-卦 gua4
-卣 you3
-刂 dao1
-刈 yi4
-刎 wen3
-刭 jing3
-刳 ku1 kou1
-刿 gui4
-剀 kai3
-剌 la2 la4
-剞 ji1
-剡 shan4 yan3
-剜 wan1
-蒯 kuai3 kuai4
-剽 piao1 piao4 piao2 biao3 biao1
-劂 jue2
-劁 qiao1 qiao2
-劐 huo1 huo4 hua2
-劓 yi4
-冂 jiong1 jiong3
-罔 wang3 wang2
-亻 ren2
-仃 ding1 ding3
-仉 zhang3
-仂 le4 li4
-仨 sa1
-仡 ge1 yi4 wu4
-仫 mu4
-仞 ren4
-伛 yu3
-仳 pi3 pi2 bi4
-伢 ya2
-佤 wa3
-仵 wu3
-伥 chang1
-伧 cang1 chen0
-伉 kang4 gang1 kang3
-伫 zhu4
-佞 ning4
-佧 ka3
-攸 you1
-佚 yi4 die2
-佝 gou1 kou4 ju1
-佟 tong2
-佗 tuo2 tuo1 tuo4 yi2
-伲 ni4 ni3
-伽 ga1 jia1 qie2
-佶 ji2
-佴 er4 nai4
-侑 you4
-侉 kua3 hua2 e4 wu2
-侃 kan3
-侏 zhu1 zhou1
-佾 yi4
-佻 tiao1 tiao2 tiao4 diao3 yao2 dao4 zhao4
-侪 chai2
-佼 jiao3 jiao1 xiao2
-侬 nong2
-侔 mou2 mao2
-俦 chou2
-俨 yan3
-俪 li4
-俅 qiu2
-俚 li3 li4
-俣 yu3
-俜 ping1
-俑 yong3
-俟 qi2 si4
-俸 feng4 beng3
-倩 qian4 qing4
-偌 ruo4 re4
-俳 pai2
-倬 zhuo1
-倏 shu1
-倮 luo3
-倭 wo1 wei1 wo3
-俾 bi3 bi4 bei1 pi4
-倜 ti4 diao4 zhou1
-倌 guan1
-倥 kong1 kong3
-倨 ju4
-偾 fen4
-偃 yan3
-偕 xie2 jie1
-偈 ji4 jie2 qi4
-偎 wei1
-偬 zong3 cong1
-偻 lou2 lv3
-傥 tang3
-傧 bin1
-傩 nuo2
-傺 chi4
-僖 xi1
-儆 jing3
-僭 jian4 zen4
-僬 jiao1 jiao4 jiao3
-僦 jiu4
-僮 tong2 zhuang4 chong4
-儇 xuan1 xuan2
-儋 dan1 dan4 shan4
-仝 tong2
-氽 tun3 qiu2
-佘 she2
-佥 qian1
-俎 zu3
-龠 yue4
-汆 cuan1
-籴 di2 za2
-兮 xi1
-巽 xun4 zhuan4
-黉 hong2
-馘 guo2 xu4
-冁 chan3
-夔 kui2
-勹 bao1
-匍 pu2
-訇 hong1 jun4 heng1
-匐 fu2
-凫 fu2
-夙 su4
-兕 si4
-亠 tou2
-兖 yan3
-亳 bo2
-衮 gun3
-袤 mao4 mou2
-亵 xie4
-脔 luan2 ji1
-裒 pou2 bao1
-禀 bing3
-嬴 ying2
-蠃 luo3 luo2 guo3
-羸 lei2 lian2
-冫 bing1
-冱 hu4
-冽 lie4
-冼 xian3 sheng3
-凇 song1
-冖 mi4
-冢 zhong3
-冥 ming2 mian2 mian4
-讠 yan2
-讦 jie2
-讧 hong4
-讪 shan4
-讴 ou1
-讵 ju4
-讷 ne4
-诂 gu3
-诃 he1
-诋 di3
-诏 zhao4
-诎 qu1
-诒 yi2
-诓 kuang1
-诔 lei3
-诖 gua4
-诘 ji2 jie2
-诙 hui1
-诜 shen1
-诟 gou4
-诠 quan2
-诤 zheng1
-诨 hun4
-诩 xu3
-诮 qiao4
-诰 gao4
-诳 kuang2
-诶 ei2
-诹 zou1
-诼 zhuo2
-诿 wei3
-谀 yu2
-谂 shen3
-谄 chan3
-谇 sui4
-谌 chen2
-谏 jian4
-谑 xue4
-谒 ye4
-谔 e4
-谕 yu4
-谖 xuan1
-谙 an1
-谛 di4
-谘 zi1
-谝 pian2 pian3
-谟 mo2
-谠 dang3
-谡 su4
-谥 shi4
-谧 mi4
-谪 zhe2
-谫 jian3
-谮 zen4
-谯 qiao2 qiao4
-谲 jue2
-谳 yan4
-谵 zhan1
-谶 chen4
-卩 jie2
-卺 jin3
-阝 fu4
-阢 wu4 wei2
-阡 qian1
-阱 jing3
-阪 ban3
-阽 dian4 yan2
-阼 zuo4
-陂 bei1 pi2 bi4 po1 po2
-陉 xing2
-陔 gai1
-陟 zhi4 de2
-陧 nie4
-陬 zou1 zhe2
-陲 chui2
-陴 pi2 bi4
-隈 wei1
-隍 huang2
-隗 kui2 wei3 gui1
-隰 xi2 xie4
-邗 han2
-邛 qiong2
-邝 kuang4
-邙 mang2
-邬 wu1
-邡 fang1 fang4
-邴 bing3
-邳 pi1
-邶 bei4
-邺 ye4 qiu1
-邸 di3
-邰 tai2
-郏 jia2
-郅 zhi4 ji2
-邾 zhu1
-郐 kuai4
-郄 qie4 xi4
-郇 huan2 xun2
-郓 yun4
-郦 li4
-郢 ying3 cheng2
-郜 gao4
-郗 xi1 chi1
-郛 fu2
-郫 pi2
-郯 tan2
-郾 yan3 yan1
-鄄 juan4
-鄢 yan1
-鄞 yin2
-鄣 zhang1 zhang4
-鄱 po2 pi2 pan2
-鄯 shan4
-鄹 zou1 ju4
-酃 ling2
-酆 feng1
-刍 chu2
-奂 huan4
-劢 mai4
-劬 qu2
-劭 shao4
-劾 he2 kai4
-哿 ge3
-勐 meng3
-勖 xu4 mao4
-勰 xie2
-叟 sou3 sou1 xiao1
-燮 xie4
-矍 jue2
-廴 yin3 yin4
-凵 qian3 kan3
-凼 dang4
-鬯 chang4
-厶 si1 mou3
-弁 bian4 pan2
-畚 ben3
-巯 qiu2
-坌 ben4
-垩 e4 sheng4
-垡 fa2
-塾 shu2
-墼 ji1
-壅 yong1 weng4
-壑 he4 huo4
-圩 wei2 yu2 xu1
-圬 wu1
-圪 ge1 yi4
-圳 zhen4 quan3 chou2 huai2
-圹 kuang4
-圮 pi3
-圯 yi2
-坜 li4
-圻 qi2 yin2
-坂 ban3
-坩 gan1
-垅 long3
-坫 dian4 zhen1
-垆 lu2
-坼 che4
-坻 chi2 di3
-坨 tuo2 yi2
-坭 ni2
-坶 mu3 mu4 mei2
-坳 ao4 ao1 you3
-垭 ya1
-垤 die2
-垌 dong4 tong3 tong2
-垲 kai3
-埏 shan1 yan2
-垧 shang3 jiong1
-垴 nao3
-垓 gai1
-垠 yin2 ken4
-埕 cheng2
-埘 shi2
-埚 guo1
-埙 xun1
-埒 lie4
-垸 yuan4 huan2
-埴 zhi2
-埯 an3 yan3
-埸 yi4
-埤 pi2 bi4 pi4 bei1
-埝 nian4 dian4 nie4
-堋 peng2 beng4 peng1 ping1
-堍 tu4
-埽 sao4 sao3
-埭 dai4
-堀 ku1
-堞 die2
-堙 yin1
-塄 leng2
-堠 hou4
-塥 ge2
-塬 yuan2
-墁 man4
-墉 yong1
-墚 liang2
-墀 chi2
-馨 xin1
-鼙 pi2
-懿 yi4 yi1
-艹 cao3
-艽 jiao1 qiu2
-艿 nai3 reng2 reng4
-芏 du4
-芊 qian1 qian4
-芨 ji1
-芄 wan2
-芎 qiong1 xiong1
-芑 qi3
-芗 xiang1
-芙 fu2
-芫 yan2 yuan2
-芸 yun2 yun4
-芾 fei4 fu2
-芰 ji4
-苈 li4
-苊 e4
-苣 ju4 qu3
-芘 pi2 bi4
-芷 zhi3
-芮 rui4 ruo4
-苋 xian4
-苌 chang2
-苁 cong1
-芩 qin2 yin2
-芴 wu4 hu1
-芡 qian4
-芪 qi2 chi2
-芟 shan1 wei3
-苄 bian4
-苎 zhu4
-芤 kou1
-苡 yi3
-茉 mo4
-苷 gan1
-苤 pie3 pi1
-茏 long2
-茇 ba2 pei4 fei4
-苜 mu4
-苴 ju1 cha2 zha3 zu1 jie1 bao1 xie2
-苒 ran3
-苘 qing3
-茌 chi2
-苻 fu2 pu2
-苓 ling2 lian2
-茑 niao3
-茚 yin4
-茆 mao2 mao3
-茔 ying2
-茕 qiong2
-苠 min2
-苕 shao2 tiao2
-茜 qian4 xi1
-荑 ti2 yi2
-荛 rao2
-荜 bi4
-茈 ci2 zi3 ci3 chai2
-莒 ju3
-茼 tong2
-茴 hui2
-茱 zhu1
-莛 ting2 ting3
-荞 qiao2
-茯 fu2
-荏 ren3
-荇 xing4
-荃 quan2 chuo4
-荟 hui4
-荀 xun2
-茗 ming2
-荠 ji4 qi2
-茭 jiao1 xiao4 qiao4
-茺 chong1
-茳 jiang1
-荦 luo4
-荥 xing2 ying2
-荨 xun2 qian2
-茛 gen4 jian4
-荩 jin4
-荬 mai3
-荪 sun1
-荭 hong2
-荮 zhou4
-莰 kan3
-荸 bi2
-莳 shi2 shi4
-莴 wo1
-莠 you3 xiu4
-莪 e2
-莓 mei2
-莜 you2 diao4 di2
-莅 li4
-荼 tu2 cha2 ye2 shu1
-莶 xian1
-莩 fu2 piao3
-荽 sui1 wei3
-莸 you2
-荻 di2
-莘 shen1 xin1
-莞 guan3 guan1 wan3
-莨 lang4 lang2 liang2
-莺 ying1
-莼 chun2
-菁 jing1
-萁 qi2 ji1
-菥 xi1 si1
-菘 song1
-堇 jin3 qin2 jin4
-萘 nai4
-萋 qi1
-菝 ba2
-菽 shu1 jiao1
-菖 chang1
-萜 tie1
-萸 yu2
-萑 huan2 zhui1
-萆 bi4 pi4 bei1 ba2
-菔 fu2
-菟 tu2 tu4
-萏 dan4
-萃 cui4
-菸 yan1 yu1 yu4
-菹 ju1 zu1 ju4
-菪 dang4
-菅 jian1 guan1
-菀 wan3 yu4 yun4
-萦 ying2
-菰 gu1
-菡 han4
-葜 qia1
-葑 feng1 feng4
-葚 ren4 shen4
-葙 xiang1
-葳 wei1
-蒇 chan3
-蒈 kai3
-葺 qi4
-蒉 kui4
-葸 xi3
-萼 e4
-葆 bao3 bao1
-葩 pa1
-葶 ting2 ding3
-蒌 lou2
-蒎 pai4
-萱 xuan1
-葭 jia1 xia2
-蓁 zhen1 qin2
-蓍 shi1
-蓐 ru4
-蓦 mo4
-蒽 en1
-蓓 bei4
-蓊 weng3
-蒿 hao1 gao3
-蒺 ji2
-蓠 li2
-蒡 bang4 pang2
-蒹 jian1
-蒴 shuo4
-蒗 lang4
-蓥 ying2
-蓣 yu4
-蔌 su4
-甍 meng2
-蔸 dou1
-蓰 xi3
-蔹 lian3
-蔟 cu4 cou4 chuo4
-蔺 lin4
-蕖 qu2
-蔻 kou4
-蓿 xu0 su4
-蓼 liao3 lu4 lao3 liu3
-蕙 hui4
-蕈 xun4 tan2
-蕨 jue2
-蕤 rui2
-蕞 zui4 jue2 zhuo2
-蕺 ji2 qie4
-瞢 meng2 mang2 meng4
-蕃 fan1 fan2 pi2 bo1
-蕲 qi2
-蕻 hong2 hong4
-薤 xie4
-薨 hong1
-薇 wei1
-薏 yi4
-蕹 weng4 yong1
-薮 sou3
-薜 bi4 bo4 bo2 bai4 pi4
-薅 hao1
-薹 tai2
-薷 ru2
-薰 xun1
-藓 xian3
-藁 gao3
-藜 li2
-藿 huo4 he2
-蘧 qu2 ju4
-蘅 heng2
-蘩 fan2
-蘖 nie4 bo4
-蘼 mi2
-廾 gong3
-弈 yi4
-夼 kuang3
-奁 lian2
-耷 da1 zhe2
-奕 yi4
-奚 xi1
-奘 zang4 zhuang3
-匏 pao2
-尢 you2 wang1
-尥 liao4 niao3
-尬 ga4
-尴 gan1
-扌 shou0
-扪 men2
-抟 tuan2
-抻 chen1 shen1
-拊 fu3 fu1 bu3
-拚 pan4 bian4 fen4 fan1 pin1
-拗 ao3 ao4 niu4 yu4
-拮 jie2 jia2
-挢 jiao3
-拶 za1 zan3
-挹 yi4
-捋 lv3 luo1
-捃 jun4
-掭 tian4
-揶 ye2
-捱 ai2 ai1
-捺 na4
-掎 ji3 yi3
-掴 guai1 guo2
-捭 bai3 ba1 bi3
-掬 ju1
-掊 pou2 pou3 fu4 pei2
-捩 lie4 li4
-掮 qian2
-掼 guan4
-揲 die2 she2 ye4
-揸 zha1
-揠 ya4
-揿 qin4
-揄 yu2 chou1 you2 shu1 yao2
-揞 an3 yan4 ye4
-揎 xuan1
-摒 bing3 bing4
-揆 kui2
-掾 yuan4 chuan2
-摅 shu1
-摁 en4
-搋 chuai1 chi3 yi2
-搛 jian1 lian2
-搠 shuo4
-搌 zhan3
-搦 nuo4
-搡 sang3
-摞 luo4
-撄 ying1
-摭 zhi2
-撖 han4 qian3
-摺 zhe2 la1 xie2
-撷 xie2
-撸 lu1
-撙 zun3
-撺 cuan1
-擀 gan3
-擐 huan4 juan3 xuan1
-擗 pi3 bo4
-擤 xing3
-擢 zhuo2
-攉 huo1 huo4 que4
-攥 zuan4
-攮 nang3
-弋 yi4
-忒 te4 tui1 tei1
-甙 dai4
-弑 shi4
-卟 bu3 ji1
-叱 chi4 hua4 e2
-叽 ji1 jiao4
-叩 kou4
-叨 dao1 tao1 dao2
-叻 le4 li4
-吒 zha1 zha4
-吖 ya1 a1
-吆 yao1
-呋 fu1
-呒 wu3 m2
-呓 yi4
-呔 dai1 tai3
-呖 li4
-呃 e4 ai4 e0
-吡 bi3 bi4 pi3
-呗 bei0 bai4
-呙 guo1
-吣 qin4
-吲 yin3 shen3
-咂 za1
-咔 ka1 nong4 ka3
-呷 ga1 xia1 jia3
-呱 gu1 gua1 gua3
-呤 ling4 ling2
-咚 dong1
-咛 ning2
-咄 duo1
-呶 nao2 na2 nu3
-呦 you1
-咝 si1
-哐 kuang1 qiang1
-咭 ji1 xi1 qia4
-哂 shen3
-咴 hui1 hai2
-哒 da2
-咧 lie3 lie4 lie1 lie2 lie0
-咦 yi2 xi1
-哓 xiao1
-哔 bi4
-呲 ci1 ci2 zi1
-咣 guang1 gong1
-哕 hui4 yue3
-咻 xiu1 xu3 xiao1 xu4
-咿 yi1
-哌 pai4 gu1
-哙 kuai4
-哚 duo3
-哜 ji4
-咩 mie1 mie0
-咪 mi1 mie1 mai3 mi3
-咤 zha4 zha1
-哝 nong2
-哏 gen2 hen3 n4
-哞 mou1
-唛 ma4
-哧 chi1 xia4 he4
-唠 lao2 lao4
-哽 geng3 ying3 ying4 ng2 n2
-唔 wu2 wu4 ng2 m2 n2
-哳 zha1
-唢 suo3
-唣 zao4
-唏 xi1 xie4
-唑 zuo4 shi4
-唧 ji1 jie2
-唪 feng3 beng3
-啧 ze2
-喏 nuo4 re3
-喵 miao1
-啉 lin2 lan2 len4
-啭 zhuan4
-啁 zhao1 dao1 zhou1 tiao2 diao4
-啕 tao2
-唿 hu1
-啐 cui4 zu2 za2 e4 chuai4
-唼 sha4 qie4
-唷 yo1 yu4
-啖 dan4
-啵 bo1 bo0
-啶 ding4
-啷 lang1
-唳 li4
-唰 shua1
-啜 chuai4 chuo4 zhuo2
-喋 die2 zha2 qie4
-嗒 da1 ta4 da0
-喃 nan2 nan3
-喱 li2
-喹 kui2
-喈 jie1 xie4
-喁 yong2 yu2
-喟 kui4 huai4
-啾 jiu1
-嗖 sou1 su4 sou4
-喑 yin1 yin3 yin4
-啻 chi4 di4
-嗟 jie1 jie4 jue1
-喽 lou2 lou0
-喾 ku4
-喔 o1 wo1 wu1 o0 o4
-喙 hui4 zhou4
-嗪 qin2
-嗷 ao2
-嗉 su4
-嘟 du1
-嗑 ke1 ke4 he2 xia2
-嗫 nie4
-嗬 he1
-嗔 chen1 tian2
-嗦 suo0 suo1
-嗝 ge2
-嗄 a2 sha4 a0 xia4
-嗯 n2 ng2 ng3 n3 ng4 n4
-嗥 hao2
-嗲 die1 dia3
-嗳 ai1 ai3 ai4
-嗌 ai4 yi4 wo4
-嗍 suo1 shuo4
-嗨 hai1 hei1
-嗵 tong1
-嗤 chi1
-辔 pei4
-嘞 lei0 le1
-嘈 cao2
-嘌 piao4 piao1
-嘁 qi1 zu2 za1
-嘤 ying1
-嘣 beng1
-嗾 sou3
-嘀 di2 zhe2 di1
-嘧 mi4
-嘭 peng1
-噘 jue1
-嘹 liao2 liao4
-噗 pu1
-嘬 chuai4 zuo1
-噍 jiao4 jiao1 jiu1
-噢 o1 yu3 yu4 ao4
-噙 qin2
-噜 lu1
-噌 ceng1 cheng1
-噔 deng1
-嚆 hao1
-噤 jin4
-噱 jue2 xue2
-噫 yi1 ai3 yi4
-噻 sai1
-噼 pi1
-嚅 ru2
-嚓 ca1 cha1
-嚯 huo4 xue4
-囔 nang1 nang0
-囗 wei2 guo2
-囝 jian3 nan1 yue4
-囡 nan1 nie4
-囵 lun2
-囫 hu2
-囹 ling2
-囿 you4
-圄 yu3
-圊 qing1
-圉 yu3
-圜 huan2 yuan2
-帏 wei2
-帙 zhi4
-帔 pei4 pi1
-帑 tang3 nu2
-帱 chou2 dao4
-帻 ze2
-帼 guo2
-帷 wei2
-幄 wo4
-幔 man4
-幛 zhang4
-幞 fu2
-幡 fan1
-岌 ji2
-屺 qi3
-岍 qian1
-岐 qi2
-岖 qu1
-岈 ya2 xia1
-岘 xian4
-岙 ao4
-岑 cen2
-岚 lan2
-岜 ba1
-岵 hu4
-岢 ke3
-岽 dong1
-岬 jia3 jia2
-岫 xiu4
-岱 dai4
-岣 gou3
-峁 mao3
-岷 min2
-峄 yi4
-峒 dong4 tong2
-峤 jiao4 qiao2
-峋 xun2
-峥 zheng1
-崂 lao2
-崃 lai2
-崧 song1
-崦 yan1
-崮 gu4
-崤 xiao2 yao2
-崞 guo1
-崆 kong1
-崛 jue2 yu4
-嵘 rong2
-崾 yao3
-崴 wai3 wei1 wei3
-崽 zai3
-嵬 wei2 wei3
-嵛 yu2
-嵯 cuo2 ci1
-嵝 lou3
-嵫 zi1
-嵋 mei2
-嵊 sheng4 cheng2
-嵩 song1
-嵴 ji3
-嶂 zhang4
-嶙 lin2 lin3
-嶝 deng4
-豳 bin1 ban1
-嶷 yi2 ni4
-巅 dian1
-彳 chi4 fu2
-彷 pang2 fang3 fang2
-徂 cu2
-徇 xun4
-徉 yang2
-後 hou4
-徕 lai2 lai4
-徙 xi3 si1
-徜 chang2
-徨 huang2
-徭 yao2
-徵 zheng1 zhi3 cheng2
-徼 jiao3 jiao4 jiao1 yao1
-衢 qu2
-彡 shan1 xian3
-犭 quan3
-犰 qiu2
-犴 an4 an2 jian4 han1
-犷 guang3
-犸 ma4
-狃 niu3 nv4
-狁 yun3
-狎 xia2
-狍 pao2
-狒 fei4
-狨 rong2
-狯 kuai4
-狩 shou4
-狲 sun1
-狴 bi4
-狷 juan4
-猁 li4
-狳 yu2
-猃 xian3
-狺 yin2
-狻 suan1 xun4 jun4
-猗 yi1 yi3 ji4 e1 wei1
-猓 guo3 luo3
-猡 luo2
-猊 ni2
-猞 she1
-猝 cu4
-猕 mi2
-猢 hu2
-猹 cha2
-猥 wei3 wei4
-猬 wei4
-猸 mei2
-猱 nao2
-獐 zhang1
-獍 jing4
-獗 jue2
-獠 liao2 lao3
-獬 xie4 ha3 jie3
-獯 xun1
-獾 huan1 quan2
-舛 chuan3
-夥 huo3
-飧 sun1
-夤 yin2
-夂 zhi3 zhong1
-饣 shi2
-饧 tang2 xing2
-饨 tun2
-饩 xi4
-饪 ren4
-饫 yu4
-饬 chi4
-饴 yi2
-饷 xiang3
-饽 bo1
-馀 yu2
-馄 hun2
-馇 cha1
-馊 sou1
-馍 mo2
-馐 xiu1
-馑 jin3
-馓 san3
-馔 zhuan4
-馕 nang2 nang3
-庀 pi3
-庑 wu3
-庋 gui3 gui4
-庖 pao2
-庥 xiu1
-庠 xiang2
-庹 tuo3
-庵 an1 yan3 e4
-庾 yu3 yu2
-庳 bi4 pi2
-赓 geng1
-廒 ao2
-廑 jin3 qin2
-廛 chan2
-廨 xie4
-廪 lin3
-膺 ying1
-忄 xin0
-忉 dao1
-忖 cun3
-忏 chan4 qian3 qian1
-怃 wu3
-忮 zhi4 qi2
-怄 ou4
-忡 chong1
-忤 wu3 wu4
-忾 kai4 qi4
-怅 chang4
-怆 chuang4
-忪 song1 zhong1
-忭 bian4
-忸 niu3
-怙 hu4 tie1
-怵 chu4 xu4
-怦 peng1
-怛 da2 dan4
-怏 yang4 yang1
-怍 zuo4 zha4
-怩 ni2
-怫 fu2 fei4 bei4
-怊 chao1
-怿 yi4
-怡 yi2
-恸 tong4
-恹 yan1
-恻 ce4
-恺 kai3
-恂 xun2 shun4
-恪 ke4
-恽 yun4
-悖 bei4 bei3
-悚 song3
-悭 qian1
-悝 kui1 li3
-悃 kun3
-悒 yi4
-悌 ti4
-悛 quan1 xun2
-惬 qie4
-悻 xing4
-悱 fei3
-惝 chang3 tang3
-惘 wang3
-惆 chou2 qiu1 dao1
-惚 hu1
-悴 cui4
-愠 yun4 yun3 wen3
-愦 kui4
-愕 e4
-愣 leng4
-惴 zhui4 chuan3 gua4
-愀 qiao3 qiu4
-愎 bi4
-愫 su4
-慊 qian4 xian2 qian3 qie4
-慵 yong1
-憬 jing3
-憔 qiao2
-憧 chong1 zhuang4
-憷 chu4 chu3
-懔 lin3 lan3
-懵 meng3 meng4
-忝 tian3
-隳 hui1
-闩 shuan1
-闫 yan2
-闱 wei2
-闳 hong2
-闵 min3
-闶 kang1 kang4
-闼 ta4
-闾 lv2
-阃 kun3
-阄 jiu1
-阆 lang2 lang4
-阈 yu4
-阊 chang1
-阋 xi4
-阌 wen2
-阍 hun1
-阏 e4 yan1
-阒 qu4
-阕 que4
-阖 he2
-阗 tian2
-阙 que1 que4
-阚 han3 kan4
-丬 qiang2
-爿 pan2 qiang2
-戕 qiang1 zang1
-氵 shui0
-汔 qi4
-汜 si4
-汊 cha4
-沣 feng1
-沅 yuan2
-沐 mu4
-沔 mian3
-沌 dun4 tun2 chun2 zhuan4
-汨 mi4
-汩 gu3 yu4 hu2
-汴 bian4
-汶 wen4 wen2 min2 men2
-沆 hang4 hang2 kang4
-沩 wei2
-泐 le4
-泔 gan1 han4
-沭 shu4
-泷 long2 shuang1
-泸 lu2
-泱 yang1
-泗 si4
-沲 tuo2
-泠 ling2 ling3
-泖 mao3 liu3
-泺 luo4 po1
-泫 xuan4 xuan2 juan1
-泮 pan4
-沱 tuo2 duo4 chi2
-泓 hong2
-泯 min3 mian4
-泾 jing1
-洹 huan2
-洧 wei3
-洌 lie4
-浃 jia1
-浈 zhen1
-洇 yin1 yan1 ye1
-洄 hui2 hui4
-洙 zhu1
-洎 ji4
-洫 xu4 yi4
-浍 hui4 kuai4
-洮 tao2 yao2 dao4
-洵 xun2 xuan4
-洚 jiang4 hong2
-浏 liu2
-浒 hu3 xu3
-浔 xun2
-洳 ru4 ru2
-涑 su4 sou1 shu4
-浯 wu2
-涞 lai2
-涠 wei2
-浞 zhuo2
-涓 juan1 yuan4 xuan4
-涔 cen2 qian2 zan4
-浜 bang1 bin1
-浠 xi1
-浼 mei3
-浣 huan4
-渚 zhu3
-淇 qi2
-淅 xi1
-淞 song1
-渎 du2
-涿 zhuo1 zhuo2
-淠 pi4 pei4
-渑 mian3 sheng2
-淦 gan4 han2
-淝 fei2
-淙 cong2 shuang4
-渖 shen3
-涫 guan4
-渌 lu4
-涮 shuan4 shua1
-渫 xie4 die2 zha2 yi4 qie4
-湮 yan1 yin1
-湎 mian3
-湫 jiao3 jiu4 jiu1 qiu1 jiao1
-溲 sou1 sou3 shao1
-湟 huang2 kuang4
-溆 xu4
-湓 pen2 pen4
-湔 jian1 zan4 zhan3 qian2 jian4
-渲 xuan4
-渥 wo4 ou4 wu1
-湄 mei2
-滟 yan4
-溱 qin2 zhen1
-溘 ke4 kai4
-滠 she4
-漭 mang3
-滢 ying2
-溥 pu3 fu1 bu4 bo2 po4
-溧 li4
-溽 ru4 ru2
-溻 ta1
-溷 hun4 hun2
-滗 bi4
-溴 xiu4 chou4
-滏 fu3
-溏 tang2
-滂 pang1 peng1
-溟 ming2 ming3 mi4
-潢 huang2 huang4 guang1
-潆 ying2
-潇 xiao1
-漤 lan3
-漕 cao2 cao4
-滹 hu1 hu3
-漯 luo4 ta4 lei3
-漶 huan4
-潋 lian4
-潴 zhu1
-漪 yi1
-漉 lu4
-漩 xuan2
-澉 gan3 han4
-澍 shu4 zhu4
-澌 si1
-潸 shan1
-潲 shao4
-潼 tong2 chong1 zhong1
-潺 chan2
-濑 lai4
-濉 sui1
-澧 li3
-澹 dan4 dan1 shan4 tan2
-澶 chan2 dan4 zhan1
-濂 lian2 xian3
-濡 ru2 ruan3 er2 nuan2 nuo4
-濮 pu2
-濞 bi4 pi4
-濠 hao2
-濯 zhuo2 shuo4 zhao4
-瀚 han4
-瀣 xie4
-瀛 ying2
-瀹 yue4 yao4
-瀵 fen4
-灏 hao4
-灞 ba4
-宀 mian2
-宄 gui3
-宕 dang4
-宓 mi4 fu2
-宥 you4
-宸 chen2
-甯 ning2 ning4
-骞 qian1
-搴 qian1
-寤 wu4
-寮 liao2
-褰 qian1
-寰 huan2 xian4
-蹇 jian3
-謇 jian3
-辶 chuo4
-迓 ya4
-迕 wu4 wu3
-迥 jiong3
-迮 ze2 zuo4
-迤 yi2 yi3 tuo2
-迩 er3
-迦 jia1 xie4
-迳 jing4
-迨 dai4
-逅 hou4
-逄 pang2 feng2
-逋 bu1
-逦 li3
-逑 qiu2
-逍 xiao1
-逖 ti4
-逡 qun1 xun4 suo1
-逵 kui2 kui3
-逶 wei1
-逭 huan4
-逯 lu4 dai4
-遄 chuan2
-遑 huang2
-遒 qiu2 qiu1
-遐 xia2
-遨 ao2
-遘 gou4
-遢 ta4 ta1
-遛 liu2 liu4
-暹 xian1
-遴 lin2 lin4
-遽 ju4 qu2
-邂 xie4
-邈 miao3 miao2
-邃 sui4
-邋 la1 lie4
-彐 ji4
-彗 hui4 sui4
-彖 tuan4 shi3
-彘 zhi4
-尻 kao1
-咫 zhi3
-屐 ji1
-屙 e1
-孱 can4 chan2 jian1 zhan4
-屣 xi3
-屦 ju4
-羼 chan4
-弪 jing4
-弩 nu3
-弭 mi3
-艴 fu2 bo2 pei4
-弼 bi4
-鬻 yu4 zhou1 ju1
-屮 che4 cao3
-妁 shuo4 yue1
-妃 fei1 pei4
-妍 yan2
-妩 wu3
-妪 yu4
-妣 bi3
-妗 jin4 xian1
-姊 zi3
-妫 gui1
-妞 niu1 hao4
-妤 yu2
-姒 si4
-妲 da2
-妯 zhou2 chou1
-姗 shan1
-妾 qie4
-娅 ya4
-娆 rao2 rao3
-姝 shu1
-娈 luan2
-姣 jiao1 jiao3 xiao2
-姘 pin1 pin2
-姹 cha4
-娌 li3 li0
-娉 ping1 pin4
-娲 wa1
-娴 xian2
-娑 suo1 suo3 suo4
-娣 di4
-娓 wei3
-婀 e1 e3
-婧 jing4
-婊 biao3
-婕 jie2 qie4
-娼 chang1
-婢 bi4
-婵 chan2
-胬 nu3 nv3
-媪 ao3 yun3 wo4
-媛 yuan4 yuan2
-婷 ting2
-婺 wu4 mou2 mu4
-媾 gou4
-嫫 mo2
-媲 pi4 bi1 pi2
-嫒 ai4
-嫔 pin2
-媸 chi1
-嫠 li2
-嫣 yan1
-嫱 qiang2
-嫖 piao2 piao4 biao1
-嫦 chang2
-嫘 lei2
-嫜 zhang1
-嬉 xi1 xi3
-嬗 shan4 chan2
-嬖 bi4
-嬲 niao3
-嬷 ma1
-孀 shuang1
-尕 ga3
-尜 ga2
-孚 fu2
-孥 nu2
-孳 zi1
-孑 jie2
-孓 jue2
-孢 bao1
-驵 zang3
-驷 si4
-驸 fu4
-驺 zou1
-驿 yi4
-驽 nu2
-骀 dai4 tai2
-骁 xiao1
-骅 hua2
-骈 pian2
-骊 li2
-骐 qi2
-骒 ke4
-骓 zhui1
-骖 can1
-骘 zhi4
-骛 wu4
-骜 ao4
-骝 liu2
-骟 shan4
-骠 biao1 piao4
-骢 cong1
-骣 chan3
-骥 ji4
-骧 xiang1
-纟 si1
-纡 yu1
-纣 zhou4
-纥 ge1 he2
-纨 wan2
-纩 kuang4
-纭 yun2
-纰 pi1
-纾 shu1
-绀 gan4
-绁 xie4
-绂 fu2
-绉 zhou4
-绋 fu2
-绌 chu4
-绐 dai4
-绔 ku4
-绗 hang2
-绛 jiang4
-绠 geng3
-绡 xiao1
-绨 ti2 ti4
-绫 ling2
-绮 qi3
-绯 fei1
-绱 shang4
-绲 gun3
-缍 duo3
-绶 shou4
-绺 liu3
-绻 quan3
-绾 wan3
-缁 zi1
-缂 ke4
-缃 xiang1
-缇 ti2
-缈 miao3
-缋 hui4
-缌 si1
-缏 bian4 pian2
-缑 gou1
-缒 zhui4
-缗 min2
-缙 jin4
-缜 zhen3
-缛 ru4
-缟 gao3
-缡 li2
-缢 yi4
-缣 jian1
-缤 bin1
-缥 piao1 piao3
-缦 man4
-缧 lei2
-缪 mou2 miao4 miu4
-缫 sao1
-缬 xie2
-缭 liao2
-缯 zeng1 zeng4
-缰 jiang1
-缱 qian3
-缲 qiao1 sao1
-缳 huan2
-缵 zuan3
-幺 yao1 mi4
-畿 ji1
-巛 chuan1 shun4
-甾 zai1 zi1
-邕 yong1 yong3
-玎 ding1
-玑 ji1
-玮 wei3
-玢 bin1 fen1
-玟 wen2 min2
-珏 jue2
-珂 ke1
-珑 long2
-玷 dian4 dian1
-玳 dai4
-珀 po4
-珉 min2
-珈 jia1
-珥 er3
-珙 gong3
-顼 xu1
-琊 ya2
-珩 hang2 heng2
-珧 yao2
-珞 luo4 li4
-玺 xi3
-珲 hui1 hun2
-琏 lian3
-琪 qi2
-瑛 ying1
-琦 qi2
-琥 hu3
-琨 kun1
-琰 yan3
-琮 cong2
-琬 wan3
-琛 chen1
-琚 ju1
-瑁 mao4
-瑜 yu2
-瑗 yuan4 huan2
-瑕 xia2
-瑙 nao3
-瑷 ai4
-瑭 tang2
-瑾 jin3 jin4
-璜 huang2
-璎 ying1
-璀 cui3
-璁 cong1
-璇 xuan2
-璋 zhang1
-璞 pu2
-璨 can4
-璩 qu2
-璐 lu4
-璧 bi4
-瓒 zan4
-璺 wen4
-韪 wei3
-韫 yun4
-韬 tao1
-杌 wu4 wo4
-杓 biao1 shao2 shuo2 di2 zhuo2
-杞 qi3
-杈 cha1 cha4
-杩 ma4
-枥 li4
-枇 pi2 bi3 bi4 pi1
-杪 miao3
-杳 yao3
-枘 rui4 nen4
-枧 jian3
-杵 chu3
-枨 cheng2
-枞 cong1 zong1
-枭 xiao1
-枋 fang1 fang3 bing3
-杷 pa2 ba4
-杼 zhu4 shu4
-柰 nai4
-栉 zhi4
-柘 zhe4
-栊 long2
-柩 jiu4
-枰 ping2
-栌 lu2
-柙 xia2 jia3
-枵 xiao1
-柚 you4 you2 zhou2
-枳 zhi3 zhi1
-柝 tuo4
-栀 zhi1
-柃 ling2
-枸 gou3 ju3 gou1 qu2
-柢 di3 di4 chi2
-栎 li4 yue4
-柁 duo4 tuo2 tuo3
-柽 cheng1 jue2
-栲 kao3
-栳 lao3
-桠 ya1
-桡 rao2
-桎 zhi4
-桢 zhen1
-桄 guang1 guang4
-桤 qi1
-梃 ting3 ting4
-栝 gua1 tian3 kuo4
-桕 jiu4
-桦 hua4
-桁 heng2 hang2 hang4
-桧 gui4 hui4
-桀 jie2
-栾 luan2
-桊 juan4 quan1
-桉 an1 an4
-栩 xu3 yu3
-梵 fan4
-梏 gu4 jue2
-桴 fu2
-桷 jue2
-梓 zi3
-桫 suo1
-棂 ling2
-楮 chu3 zhu1
-棼 fen2 fen4 fen1
-椟 du2
-椠 qian4
-棹 zhao4 zhuo1
-椤 luo2
-棰 chui2 duo3
-椋 liang2
-椁 guo3
-楗 jian4 jian3
-棣 di4 ti4 dai4
-椐 ju1
-楱 zou4 cou1
-椹 shen4 zhen1
-楠 nan2
-楂 zha1 cha2
-楝 lian4
-榄 lan3
-楫 ji2
-榀 pin3
-榘 ju3
-楸 qiu1
-椴 duan4
-槌 chui2 zhui4 dui1
-榇 chen4
-榈 lv2
-槎 cha2
-榉 ju3
-楦 xuan4
-楣 mei2 mei3
-楹 ying2
-榛 zhen1
-榧 fei3
-榻 ta4
-榫 sun3
-榭 xie4
-槔 gao1
-榱 cui1
-槁 gao3 kao4 gao1
-槊 shuo4
-槟 bin1 bing1
-榕 rong2
-槠 zhu1
-榍 xie4
-槿 jin3 qin2
-樯 qiang2
-槭 qi1 zu2 se4
-樗 chu1
-樘 tang2 cheng1
-橥 zhu1
-槲 hu2
-橄 gan3
-樾 yue4
-檠 qing2 jing4
-橐 tuo2 du4 luo4
-橛 jue2
-樵 qiao2
-檎 qin2
-橹 lu3
-樽 zun1
-樨 xi1
-橘 ju2
-橼 yuan2
-檑 lei2 lei4
-檐 yan2 dan1
-檩 lin3
-檗 bo4 bi4
-檫 cha2 sa4
-猷 you2
-獒 ao2
-殁 mo4 wen3
-殂 cu2
-殇 shang1
-殄 tian3
-殒 yun3
-殓 lian4
-殍 piao3 bi4
-殚 dan1
-殛 ji2
-殡 bin4
-殪 yi4
-轫 ren4
-轭 e4
-轱 gu1
-轲 ke1 ke3
-轳 lu2
-轵 zhi3
-轶 yi4
-轸 zhen3
-轷 hu1
-轹 li4
-轺 yao2
-轼 shi4
-轾 zhi4
-辁 quan2
-辂 lu4
-辄 zhe2
-辇 nian3
-辋 wang3
-辍 chuo4
-辎 zi1
-辏 cou4
-辘 lu4
-辚 lin2
-軎 wei4
-戋 jian1
-戗 qiang1 qiang4
-戛 jia2
-戟 ji3
-戢 ji2
-戡 kan1 zhen3
-戥 deng3
-戤 gai4
-戬 jian3
-臧 zang1 cang2 zang4
-瓯 ou1
-瓴 ling2
-瓿 bu4 pou3
-甏 beng4
-甑 zeng4
-甓 pi4
-攴 pu1
-旮 ga1 xu4
-旯 la2
-旰 gan4 han4
-昊 hao4
-昙 tan2 yu4
-杲 gao3
-昃 ze4
-昕 xin1 xuan1
-昀 yun2
-炅 jiong3 gui4
-曷 he2 e4 he4
-昝 zan3
-昴 mao3
-昱 yu4
-昶 chang3
-昵 ni4 ni3 zhi4
-耆 qi2 zhi3 shi4
-晟 cheng2 sheng4 jing1
-晔 ye4
-晁 chao2 zhao1 chao4
-晏 yan4
-晖 hui1
-晡 bu1
-晗 han2
-晷 gui3
-暄 xuan1
-暌 kui2
-暧 ai4 nuan3
-暝 ming2
-暾 tun1
-曛 xun1
-曜 yao4
-曦 xi1
-曩 nang3
-贲 ben1 bi4
-贳 shi4
-贶 kuang4
-贻 yi2
-贽 zhi4
-赀 zi1
-赅 gai1
-赆 jin4
-赈 zhen4
-赉 lai4
-赇 qiu2
-赍 ji1
-赕 dan3
-赙 fu4
-觇 chan1
-觊 ji4
-觋 xi2
-觌 di2
-觎 yu2
-觏 gou4
-觐 jin4
-觑 qu4 qu1
-牮 jian4
-犟 jiang4
-牝 pin4
-牦 mao2
-牯 gu3
-牾 wu3 wu2
-牿 gu4
-犄 ji1 yi1
-犋 ju4
-犍 jian1 qian2 jian3
-犏 pian1
-犒 kao4
-挈 qie4 qi4 jia2 qia4 shi4
-挲 sa1 suo1 sha1
-掰 bai1
-搿 ge2
-擘 bai1 bo4
-耄 mao4
-毪 mu2
-毳 cui4 qiao1 xia1
-毽 jian4
-毵 san1
-毹 shu1 yu2
-氅 chang3
-氇 lu0
-氆 pu3
-氍 qu2
-氕 pie1
-氘 dao1
-氙 xian1
-氚 chuan1
-氡 dong1
-氩 ya4
-氤 yin1 yan2
-氪 ke4
-氲 yun1 yun2
-攵 pu1
-敕 chi4 sou1
-敫 jiao3 qiao1 jiao4
-牍 du2
-牒 die2
-牖 you3
-爰 yuan2
-虢 guo2
-刖 yue4
-肟 wo4
-肜 rong2 chen1
-肓 huang1
-肼 jing3
-朊 ruan3 wan3
-肽 tai4
-肱 gong1
-肫 zhun1 chun2 tun2 zhuo1
-肭 na4 nu4
-肴 yao2
-肷 qian3 xu4
-胧 long2
-胨 dong4
-胩 ka3
-胪 lu2
-胛 jia3
-胂 shen4 shen1 chen1
-胄 zhou4
-胙 zuo4
-胍 gua1 gu1 hu4
-胗 zhen1 zhen3 zhun1
-朐 qu2 xu1 xu4 chun3
-胝 zhi1 chi1 di4
-胫 jing4
-胱 guang1
-胴 dong4
-胭 yan1
-脍 kuai4
-脎 sa4
-胲 hai3 gai1 gai3
-胼 pian2
-朕 zhen4
-脒 mi3
-豚 tun2 dun1 dun4
-脶 luo2
-脞 cuo3 qie1
-脬 pao1
-脘 wan3 huan4
-脲 niao4
-腈 jing1
-腌 yan1 a1 ang1
-腓 fei2
-腴 yu2
-腙 zong1
-腚 ding4
-腱 jian4 qian2
-腠 cou4
-腩 nan3
-腼 mian3
-腽 wa4
-腭 e4
-腧 shu4 yu2
-塍 cheng2
-媵 ying4 sheng4
-膈 ge2
-膂 lv3
-膑 bin4
-滕 teng2
-膣 zhi4
-膪 chuai4 zha4 zhai4
-臌 gu3
-朦 meng2 mang3
-臊 sao1 sao4
-膻 shan1 dan4
-臁 lian2
-膦 lin4 lian3
-欤 yu2
-欷 xi1
-欹 yi1
-歃 sha4 xia2
-歆 xin1
-歙 she4 xi1 xie2
-飑 biao1
-飒 sa4
-飓 ju4
-飕 sou1
-飙 biao1
-飚 biao1
-殳 shu1
-彀 gou4 kou1
-毂 gu3 gu1
-觳 hu2 que4 jue2
-斐 fei3
-齑 ji1
-斓 lan2
-於 yu2 wu1 yu1
-旆 pei4
-旄 mao2 mao4 wu4
-旃 zhan1
-旌 jing1
-旎 ni3
-旒 liu2
-旖 yi3
-炀 yang2
-炜 wei3
-炖 dun4 tun2
-炝 qiang4
-炻 shi2
-烀 hu1
-炷 zhu4
-炫 xuan4
-炱 tai2
-烨 ye4
-烊 yang2 yang4
-焐 wu4
-焓 han2
-焖 men4
-焯 chao1 zhuo1 zhuo2 chuo4
-焱 yan4 yi4
-煳 hu2
-煜 yu4
-煨 wei1 yu4
-煅 duan4
-煲 bao1
-煊 xuan1
-煸 bian1
-煺 tui4
-熘 liu1
-熳 man4
-熵 shang1
-熨 yun4 yu4 wei4
-熠 yi4
-燠 yu4 ao4
-燔 fan2 fen2
-燧 sui4
-燹 xian3 bing4
-爝 jue2 jiao4
-爨 cuan4
-灬 biao1 huo3
-焘 dao4 tao1
-煦 xu4 xiu1
-熹 xi1
-戾 li4
-戽 hu4
-扃 jiong1 jiong3
-扈 hu4
-扉 fei1
-礻 shi4
-祀 si4
-祆 xian1
-祉 zhi3
-祛 qu1
-祜 hu4
-祓 fu2 fei4
-祚 zuo4
-祢 mi2 ni3
-祗 zhi1
-祠 ci2 si4
-祯 zhen1
-祧 tiao1
-祺 qi2
-禅 chan2 shan4
-禊 xi4
-禚 zhuo2
-禧 xi3 xi1
-禳 rang2
-忑 te4 dao3
-忐 tan3 keng3
-怼 dui4
-恝 jia2 qi4
-恚 hui4
-恧 nv4
-恁 nen4 ren4 nin2
-恙 yang4
-恣 zi4
-悫 que4
-愆 qian1
-愍 min3 fen1
-慝 te4 ni4
-憩 qi4
-憝 dui4
-懋 mao4
-懑 men4
-戆 gang4 zhuang4
-肀 yu4
-聿 yu4
-沓 da2 ta4
-泶 xue2
-淼 miao3
-矶 ji1
-矸 gan1 gan4 gan3 han4
-砀 dang4
-砉 huo4 xu1 hua1
-砗 che1
-砘 dun4
-砑 ya4
-斫 zhuo2 chuo4
-砭 bian1
-砜 feng1
-砝 fa2 jie2 ge2 fa3
-砹 ai4
-砺 li4
-砻 long2
-砟 zha3 zha4 zuo2
-砼 tong2
-砥 di3 zhi3
-砬 la2 li4 la1
-砣 tuo2
-砩 fu2 fei4
-硎 xing2 keng1
-硭 mang2
-硖 xia2
-硗 qiao1
-砦 zhai4
-硐 dong4 tong2 liu2
-硇 nao2
-硌 ge4 luo4 li4
-硪 wo4 e2 yi3
-碛 qi4
-碓 dui4 dui1
-碚 bei4
-碇 ding4
-碜 chen3
-碡 du2 zhou2
-碣 jie2 ke3 ya4
-碲 di4
-碹 xuan4
-碥 bian3
-磔 zhe2
-磙 gun3
-磉 sang3
-磬 qing4 qing3
-磲 qu2
-礅 dun1
-磴 deng4 deng1
-礓 jiang1
-礤 ca3
-礞 meng2
-礴 bo2
-龛 kan1
-黹 zhi3 xian4
-黻 fu2
-黼 fu3
-盱 xu1
-眄 mian3 mian4
-眍 kou1
-盹 dun3 zhun1
-眇 miao3 miao4
-眈 dan1 chen3
-眚 sheng3
-眢 yuan1
-眙 yi2 chi4
-眭 sui1 hui1 xie2 wei4
-眦 zi4
-眵 chi1
-眸 mou2
-睐 lai4
-睑 jian3
-睇 di4 ti1 ti2
-睃 suo1 jun4 juan1
-睚 ya2
-睨 ni4
-睢 sui1 hui1 wei3
-睥 pi4
-睿 rui4
-瞍 sou3
-睽 kui2 kui4 ji4
-瞀 mao4 wu2
-瞌 ke1
-瞑 ming2 meng2 mian2
-瞟 piao3 piao4 piao1
-瞠 cheng1 zheng4
-瞰 kan4
-瞵 lin2 lin4 lian2
-瞽 gu3
-町 ting1 ting3 zheng4 tian3 ding1
-畀 bi4
-畎 quan3
-畋 tian2
-畈 fan4
-畛 zhen3
-畲 she1
-畹 wan3 yuan3
-疃 tuan3
-罘 fu2
-罡 gang1
-罟 gu3
-詈 li4
-罨 yan3
-罴 pi2
-罱 lan3 nan3
-罹 li2
-羁 ji1
-罾 zeng1
-盍 he2 ke3
-盥 guan4
-蠲 juan1
-钅 jin1
-钆 ga2
-钇 yi3
-钋 po1
-钊 zhao1
-钌 liao3 liao4
-钍 tu3
-钏 chuan4
-钐 shan1 shan4
-钔 men2
-钗 chai1
-钕 nv3
-钚 bu4
-钛 tai4
-钜 ju4
-钣 ban3
-钤 qian2
-钫 fang1
-钪 kang4
-钭 tou3 dou3
-钬 huo3
-钯 ba3 pa2
-钰 yu4
-钲 zheng1
-钴 gu3
-钶 ke1
-钷 po3
-钸 bu1
-钹 bo2
-钺 yue4
-钼 mu4
-钽 tan3
-钿 dian4 tian2
-铄 shuo4
-铈 shi4
-铉 xuan4
-铊 ta1 tuo2
-铋 bi4
-铌 ni2
-铍 pi1 pi2
-铎 duo2
-铐 kao4
-铑 lao3
-铒 er3
-铕 you3
-铖 cheng2
-铗 jia2
-铙 nao2
-铘 ye2
-铛 dang1 cheng1
-铞 diao4
-铟 yin1
-铠 kai3
-铢 zhu1
-铤 ding4 ting3
-铥 diu1
-铧 hua2
-铨 quan2
-铪 ha1
-铩 sha1
-铫 diao4 yao2
-铮 zheng1 zheng4
-铯 se4
-铳 chong4
-铴 tang1
-铵 an3
-铷 ru2
-铹 lao2
-铼 lai2
-铽 te4
-铿 keng1
-锃 zeng4
-锂 li3
-锆 gao4
-锇 e2
-锉 cuo4
-锊 lve4
-锍 liu3
-锎 kai1
-锏 jian3 jian4
-锒 lang2
-锓 qin3
-锔 ju1 ju2
-锕 a1
-锖 qiang1
-锘 nuo4
-锛 ben1
-锝 de2
-锞 ke4
-锟 kun1
-锢 gu4
-锪 huo1
-锫 pei2
-锩 juan3
-锬 tan2 xian1
-锱 zi1
-锲 qie4
-锴 kai3
-锶 si1
-锷 e4
-锸 cha1
-锼 sou1
-锾 huan2
-锿 ai1
-镂 lou4
-锵 qiang1
-镄 fei4
-镅 mei2
-镆 mo4
-镉 ge2
-镌 juan1
-镎 na2
-镏 liu2 liu4
-镒 yi4
-镓 jia1
-镔 bin1
-镖 biao1
-镗 tang1 tang2
-镘 man4
-镙 luo2
-镛 yong1
-镞 zu2
-镟 xuan4
-镝 di1 di2
-镡 chan2 tan2 xin2
-镢 jue2
-镤 pu2
-镥 lu3
-镦 dui4 dun1
-镧 lan2
-镨 pu3
-镩 cuan1
-镪 qiang1 qiang3
-镫 deng4
-镬 huo4
-镯 zhuo2
-镱 yi4
-镲 cha3
-镳 biao1
-锺 zhong1
-矧 shen3
-矬 cuo2
-雉 zhi4 kai3 yi3 si4
-秕 bi3
-秭 zi3
-秣 mo4
-秫 shu2
-稆 lv3
-嵇 ji1 xi2
-稃 fu1
-稂 lang2
-稞 ke1 hua4
-稔 ren3
-稹 zhen3 zhen1 bian1
-稷 ji4 ze4
-穑 se4
-黏 nian2
-馥 fu4 bi4
-穰 rang2 rang3 reng2
-皈 gui1
-皎 jiao3
-皓 hao4 hui1
-皙 xi1
-皤 po2 pan2
-瓞 die2
-瓠 hu4 hu2 huo4 gu1
-甬 yong3 dong4
-鸠 jiu1
-鸢 yuan1
-鸨 bao3
-鸩 zhen4
-鸪 gu1
-鸫 dong1
-鸬 lu2
-鸲 qu2
-鸱 chi1
-鸶 si1
-鸸 er2
-鸷 zhi4
-鸹 gua1
-鸺 xiu1
-鸾 luan2
-鹁 bo2
-鹂 li2
-鹄 gu3 hu2
-鹆 yu4
-鹇 xian2
-鹈 ti2
-鹉 wu3
-鹋 miao2
-鹌 an1
-鹎 bei1
-鹑 chun2
-鹕 hu2
-鹗 e4
-鹚 ci2
-鹛 mei2
-鹜 wu4
-鹞 yao4
-鹣 jian1
-鹦 ying1
-鹧 zhe4
-鹨 liu4
-鹩 liao2
-鹪 jiao1
-鹫 jiu4
-鹬 yu4
-鹱 hu4
-鹭 lu4
-鹳 guan4
-疒 ne4
-疔 ding1 ne4
-疖 jie1
-疠 li4
-疝 shan4
-疬 li4
-疣 you2 you4
-疳 gan1
-疴 ke1 e1 qia4
-疸 dan3 da0
-痄 zha4
-疱 pao4
-疰 zhu4
-痃 xuan2
-痂 jia1
-痖 ya3
-痍 yi2
-痣 zhi4
-痨 lao2
-痦 wu4 pi1
-痤 cuo2
-痫 xian2
-痧 sha1
-瘃 zhu2
-痱 fei4 fei2 fei3
-痼 gu4
-痿 wei3
-瘐 yu3 yu4
-瘀 yu1
-瘅 dan1 dan4
-瘌 la4
-瘗 yi4
-瘊 hou2
-瘥 chai4 cuo2
-瘘 lou4
-瘕 jia3 xia1
-瘙 sao4
-瘛 chi4
-瘼 mo4
-瘢 ban1
-瘠 ji2
-癀 huang2
-瘭 biao1
-瘰 luo3
-瘿 ying3
-瘵 zhai4 ji4
-癃 long2
-瘾 yin3
-瘳 chou1 lu4
-癍 ban1
-癞 lai4
-癔 yi4
-癜 dian4
-癖 pi3
-癫 dian1
-癯 qu2
-翊 yi4
-竦 song3
-穸 xi1
-穹 qiong2 qiong1 kong1
-窀 zhun1 tun2
-窆 bian3
-窈 yao3 yao4
-窕 tiao3 tiao1
-窦 dou4
-窠 ke1
-窬 yu2 dou1
-窨 xun1 yin4 yin1
-窭 ju4
-窳 yu3 yu2
-衤 yi1
-衩 cha3 cha4
-衲 na4
-衽 ren4
-衿 jin1 qin4
-袂 mei4 yi4
-袢 pan4 fan2
-裆 dang1
-袷 jia2 jia1 jie2 qia1
-袼 ge1 luo4
-裉 ken4
-裢 lian2 shao1
-裎 cheng2 cheng3
-裣 lian3
-裥 jian3
-裱 biao3
-褚 chu3 zhe3 zhu3
-裼 ti4 xi1
-裨 bi4 pi2
-裾 ju1 ju4
-裰 duo1
-褡 da1
-褙 bei4
-褓 bao3
-褛 lv3
-褊 bian3 pian2
-褴 lan2
-褫 chi3
-褶 zhe3 die2 xi2
-襁 qiang3
-襦 ru2
-襻 pan4
-疋 pi3 shu1 ya3
-胥 xu1 xu3
-皲 jun1
-皴 cun1
-矜 jin1 qin2 guan1
-耒 lei3
-耔 zi3
-耖 chao4
-耜 si4
-耠 huo1
-耢 lao4
-耥 tang1 tang3
-耦 ou3
-耧 lou2
-耩 jiang3
-耨 nou4
-耱 mo4
-耋 die2
-耵 ding1
-聃 dan1
-聆 ling2
-聍 ning2
-聒 gua1 guo1
-聩 kui4
-聱 ao2 you2
-覃 tan2 yan3 qin2
-顸 han1
-颀 qi2
-颃 hang2
-颉 jie2 xie2
-颌 he2 ge2
-颍 ying3
-颏 ke1 ke2
-颔 han4
-颚 e4
-颛 zhuan1
-颞 nie4
-颟 man1
-颡 sang3
-颢 hao4
-颥 ru2
-颦 pin2
-虍 hu1
-虔 qian2
-虬 qiu2
-虮 ji3 ji1
-虿 chai4
-虺 hui1 hui3
-虼 ge4
-虻 meng2
-蚨 fu2
-蚍 pi2
-蚋 rui4
-蚬 xian3
-蚝 hao2 ci4
-蚧 jie4
-蚣 gong1 zhong1
-蚪 dou3
-蚓 yin3
-蚩 chi1
-蚶 han1 han2
-蛄 gu1 gu3
-蚵 he2 ke4
-蛎 li4
-蚰 you2 zhu2
-蚺 ran2 tian4
-蚱 zha4
-蚯 qiu1
-蛉 ling2
-蛏 cheng1
-蚴 you4 you3 niu4
-蛩 qiong2 gong3
-蛱 jia2
-蛲 nao2
-蛭 zhi4
-蛳 si1
-蛐 qu1
-蜓 ting2 dian4
-蛞 kuo4 she2
-蛴 qi2
-蛟 jiao1
-蛘 yang2 yang3
-蛑 mou2 mao2
-蜃 shen4
-蜇 zhe1 zhe2
-蛸 shao1 xiao1
-蜈 wu2
-蜊 li2
-蜍 chu2 yu2
-蜉 fu2
-蜣 qiang1
-蜻 qing1 jing1
-蜞 qi2
-蜥 xi1
-蜮 yu4 guo1
-蜚 fei1 fei3 pei4 bei4
-蜾 guo3 luo3
-蝈 guo1
-蜴 yi4 xi2
-蜱 pi2 miao2
-蜩 tiao2 diao4
-蜷 quan2 juan3
-蜿 wan1 wan3
-螂 lang2
-蜢 meng3 meng4
-蝽 chun1
-蝾 rong2
-蝻 nan3
-蝠 fu2
-蝰 kui2
-蝌 ke1
-蝮 fu4
-螋 sou1
-蝓 yu2
-蝣 you2
-蝼 lou2
-蝤 qiu2 jiu1 you2
-蝙 bian1 pian2
-蝥 mao2 wu2 wu4
-螓 qin2
-螯 ao2
-螨 man3
-蟒 mang3 meng3
-蟆 ma2 mo4
-螈 yuan2
-螅 xi1 ci4
-螭 chi1
-螗 tang2
-螃 pang2 bang3
-螫 shi4
-蟥 huang2
-螬 cao2
-螵 piao1
-螳 tang2
-蟋 xi1
-蟓 xiang4
-螽 zhong1
-蟑 zhang1
-蟀 shuai4
-蟊 mao2 meng2
-蟛 peng2
-蟪 hui4
-蟠 pan2 fan2
-蟮 shan4
-蠖 huo4 yue4
-蠓 meng3
-蟾 chan2
-蠊 lian2
-蠛 mie4
-蠡 li2 li3 luo3 luo2 li4
-蠹 du4
-蠼 qu2 jue2
-缶 fou3
-罂 ying1
-罄 qing4
-罅 xia4
-舐 shi4
-竺 zhu2 du3
-竽 yu2
-笈 ji2
-笃 du3
-笄 ji1
-笕 jian3
-笊 zhao4
-笫 zi3
-笏 hu4 wen3 wu4
-筇 qiong2
-笸 po3
-笪 da2
-笙 sheng1
-笮 ze2 zha4 zuo2
-笱 gou3
-笠 li4
-笥 si4
-笤 tiao2 shao4
-笳 jia1
-笾 bian1
-笞 chi1
-筘 kou4
-筚 bi4
-筅 xian3
-筵 yan2
-筌 quan2
-筝 zheng1
-筠 yun2 jun1
-筮 shi4
-筻 gang4
-筢 pa2
-筲 shao1
-筱 xiao3
-箐 qing4 jing1 qiang1
-箦 ze2
-箧 qie4
-箸 zhu4 zhuo2
-箬 ruo4 na4
-箝 qian2
-箨 tuo4
-箅 bi4
-箪 dan1
-箜 kong1
-箢 yuan1 wan3
-箫 xiao1
-箴 zhen1 jian3
-篑 kui4
-篁 huang2
-篌 hou2
-篝 gou1
-篚 fei3
-篥 li4
-篦 bi4 pi2
-篪 chi2
-簌 su4
-篾 mie4
-篼 dou1
-簏 lu4
-簖 duan4
-簋 gui3
-簟 dian4
-簪 zan1 zan3
-簦 deng1
-簸 bo3 bo4
-籁 lai4
-籀 zhou4
-臾 yu2 yu3 yong3 kui4
-舁 yu2
-舂 chong1 chuang1 zhong1
-舄 xi4 que4 tuo1
-臬 nie4
-衄 nv4
-舡 chuan2 xiang1
-舢 shan1
-舣 yi3
-舭 bi3
-舯 zhong1
-舨 ban3
-舫 fang3
-舸 ge3
-舻 lu2
-舳 zhu2 zhou3
-舴 ze2
-舾 xi1
-艄 shao1 shao4
-艉 wei3
-艋 meng3
-艏 shou3
-艚 cao2
-艟 chong1 zhuang4 tong2
-艨 meng2
-衾 qin1
-袅 niao3
-袈 jia1
-裘 qiu2
-裟 sha1
-襞 bi4
-羝 di1
-羟 qiang3
-羧 suo1 zui1
-羯 jie2
-羰 tang1
-羲 xi1
-籼 xian1
-敉 mi3
-粑 ba1
-粝 li4
-粜 tiao4
-粞 xi1
-粢 zi1 ci2 ji4
-粲 can4
-粼 lin2 lin3
-粽 zong4
-糁 san3 shen1
-糇 hou2
-糌 zan1
-糍 ci2
-糈 xu3
-糅 rou2
-糗 qiu3
-糨 jiang4 jiang1
-艮 gen3 gen4 hen2
-暨 ji4 jie4
-羿 yi4
-翎 ling2
-翕 xi1
-翥 zhu4
-翡 fei3
-翦 jian3
-翩 pian1
-翮 he2 li4
-翳 yi4
-糸 mi4 si1
-絷 zhi2
-綦 qi2 qi4
-綮 qi3 qing4 qing3
-繇 yao2 you2 zhou4
-纛 dao4 du2
-麸 fu1
-麴 qu1
-赳 jiu1 jiu4
-趄 ju1 qie4
-趔 lie4
-趑 zi1 ci4
-趱 zan3
-赧 nan3
-赭 zhe3
-豇 jiang1
-豉 shi4 chi3
-酊 ding1 ding3
-酐 gan1 hang4
-酎 zhou4
-酏 yi3 yi2
-酤 gu1
-酢 cu4 zuo4
-酡 tuo2 duo4
-酰 xian1
-酩 ming3
-酯 zhi3
-酽 yan4
-酾 shai1 shi1
-酲 cheng2
-酴 tu2
-酹 lei4
-醌 kun1
-醅 pei1
-醐 hu2
-醍 ti2 ti3
-醑 xu3
-醢 hai3
-醣 tang2
-醪 lao2
-醭 bu2
-醮 jiao4 qiao2 zhan4
-醯 xi1
-醵 ju4
-醴 li3
-醺 xun1
-豕 shi3
-鹾 cuo2
-趸 dun3
-跫 qiong2 qiang1 qiong1
-踅 xue2 chi4
-蹙 cu4
-蹩 bie2
-趵 bao4 bo1 zhuo2 chuo4 pao2
-趿 ta1 sa4 qi4
-趼 jian3 yan4 yan2 jian1
-趺 fu1
-跄 qiang1 qiang4
-跖 zhi2
-跗 fu1 fu4
-跚 shan1
-跞 li4 luo4
-跎 tuo2
-跏 jia1
-跛 bo3 bi4 po1
-跆 tai2
-跬 kui3 xie4
-跷 qiao1
-跸 bi4
-跣 xian3 xian1 sun3
-跹 xian1
-跻 ji1
-跤 jiao1 qiao1
-踉 liang2 lang2 liang4 lang4
-跽 ji4
-踔 chuo1 diao4 zhuo1 tiao4 chuo4
-踝 huai2
-踟 chi2
-踬 zhi4
-踮 dian3
-踣 bo2 pou4
-踯 zhi2
-踺 jian4
-蹀 die2
-踹 chuai4 shuan4 duan4 chuan3
-踵 zhong3 zhong4
-踽 ju3
-踱 duo2 chuo4 duo4
-蹉 cuo1
-蹁 pian2
-蹂 rou2 rou3
-蹑 nie4
-蹒 pan2 man2
-蹊 qi1 xi1
-蹰 chu2
-蹶 jue2 gui4 jue3
-蹼 pu3
-蹯 fan2
-蹴 cu4 zu2 jiu0
-躅 zhu2 zhuo2
-躏 lin4
-躔 chan2 zhan4
-躐 lie4
-躜 zuan1
-躞 xie4
-豸 zhi4
-貂 diao1
-貊 mo4 ma2
-貅 xiu1
-貘 mo4
-貔 pi2
-斛 hu2
-觖 jue2 kui4 gui4
-觞 shang1
-觚 gu1
-觜 zi1 zui3
-觥 gong1
-觫 su4
-觯 zhi4
-訾 zi1 zi3
-謦 qing4 qing3
-靓 jing4 liang4
-雩 yu2 yu4 xu1
-雳 li4
-雯 wen2
-霆 ting2
-霁 ji4
-霈 pei4
-霏 fei1
-霎 sha4
-霪 yin2
-霭 ai3
-霰 san3 xian4
-霾 mai2 li2
-龀 chen4
-龃 ju3
-龅 bao1
-龆 tiao2
-龇 zi1
-龈 ken3 yin2
-龉 yu3
-龊 chuo4
-龌 wo4
-黾 mian3 min3
-鼋 yuan2
-鼍 tuo2
-隹 zhui1 cui1 wei2
-隼 sun3
-隽 juan4 jun4
-雎 ju1
-雒 luo4
-瞿 qu2 ju4 ji2
-雠 chou2
-銎 qiong2 qiong1
-銮 luan2
-鋈 wu4
-錾 zan4
-鍪 mou2
-鏊 ao4
-鎏 liu2
-鐾 bei4
-鑫 xin1 xun4
-鱿 you2
-鲂 fang2
-鲅 ba4 bo1
-鲆 ping2
-鲇 nian2
-鲈 lu2
-稣 su1
-鲋 fu4
-鲎 hou4
-鲐 tai2
-鲑 gui1 xie2
-鲒 jie2
-鲔 wei3
-鲕 er2
-鲚 ji4
-鲛 jiao1
-鲞 xiang3
-鲟 xun2
-鲠 geng3
-鲡 li2
-鲢 lian2
-鲣 jian1
-鲥 shi2
-鲦 tiao2
-鲧 gun3
-鲨 sha1
-鲩 huan4
-鲫 ji4
-鲭 qing1 zheng1
-鲮 ling2
-鲰 zou1
-鲱 fei1
-鲲 kun1
-鲳 chang1
-鲴 gu4
-鲵 ni2
-鲶 nian2
-鲷 diao1
-鲺 shi1
-鲻 zi1
-鲼 fen4
-鲽 die2
-鳄 e4
-鳅 qiu1
-鳆 fu4
-鳇 huang2
-鳊 bian1
-鳋 sao1
-鳌 ao2
-鳍 qi2
-鳎 ta3
-鳏 guan1
-鳐 yao2
-鳓 le4
-鳔 biao4
-鳕 xue3
-鳗 man2
-鳘 min3
-鳙 yong1
-鳜 gui4
-鳝 shan4
-鳟 zun1
-鳢 li3
-靼 da2
-鞅 yang1 yang3 yang4
-鞑 da2
-鞒 qiao2
-鞔 man2 men4
-鞯 jian1
-鞫 ju1 qu1
-鞣 rou2
-鞲 gou1
-鞴 bei4 fu2 bu4 bai4
-骱 jie4 jia2 xie4
-骰 tou2 gu3
-骷 ku1
-鹘 gu3 hu2
-骶 di3
-骺 hou2
-骼 ge2
-髁 ke1 kua4
-髀 bi4
-髅 lou2
-髂 qia4 ge2
-髋 kuan1
-髌 bin4
-髑 du2
-魅 mei4
-魃 ba2
-魇 yan3
-魉 liang3
-魈 xiao1
-魍 wang3
-魑 chi1
-飨 xiang3
-餍 yan4
-餮 tie4
-饕 tao1
-饔 yong1
-髟 biao1 piao4 shan1
-髡 kun1
-髦 mao2
-髯 ran2
-髫 tiao2
-髻 ji4 jie2
-髭 zi1
-髹 xiu1
-鬈 quan2
-鬏 jiu1
-鬓 bin4
-鬟 huan2
-鬣 lie4
-麽 mo2 ma2 ma0 me0
-麾 hui1
-縻 mi2
-麂 ji3
-麇 jun1 qun2
-麈 zhu3
-麋 mi2
-麒 qi2
-鏖 ao2 biao1
-麝 she4
-麟 lin2
-黛 dai4
-黜 chu4
-黝 you3 yi1
-黠 xia2
-黟 yi1
-黢 qu1
-黩 du2
-黧 li2 lai2
-黥 qing2
-黪 can3
-黯 an4 an1
-鼢 fen2
-鼬 you4
-鼯 wu2
-鼹 yan3
-鼷 xi1
-鼽 qiu2
-鼾 han1
-齄 zha1
-' 
-a 
-ab 
-ability 
-able 
-ably 
-about 
-ac 
-acious 
-ad 
-ade 
-ag 
-age 
-ah 
-ak 
-al 
-ally 
-am 
-an 
-ance 
-and 
-ang 
-ans 
-ant 
-ap 
-ar 
-ard 
-aries 
-artagnan 
-ary 
-as 
-ash 
-at 
-ate 
-ated 
-ath 
-ating 
-ation 
-ative 
-ator 
-atory 
-au 
-av 
-avi 
-aw 
-b 
-ba 
-bbe 
-be 
-ber 
-bi 
-ble 
-bo 
-board 
-borough 
-bra 
-bu 
-burg 
-burn 
-bury 
-by 
-c 
-ca 
-camp 
-can 
-cast 
-ce 
-cent 
-ch 
-che 
-ched 
-chi 
-ci 
-cing 
-ck 
-clock 
-close 
-co 
-comb 
-con 
-ctor 
-cular 
-cum 
-cus 
-cy 
-d 
-da 
-day 
-dding 
-ddle 
-de 
-den 
-der 
-di 
-do 
-dolph 
-dy 
-e 
-ea 
-ed 
-el 
-ella 
-em 
-ement 
-en 
-ence 
-encies 
-ened 
-ens 
-ent 
-eous 
-er 
-ers 
-es 
-est 
-et 
-eth 
-ette 
-ev 
-ever 
-ex 
-ey 
-f 
-fa 
-fall 
-fe 
-fer 
-ff 
-fi 
-ficiency 
-field 
-fold 
-foot 
-for 
-ford 
-form 
-ful 
-g 
-ga 
-gan 
-gar 
-gate 
-ge 
-ged 
-gen 
-ger 
-gg 
-gi 
-ging 
-gn 
-go 
-gra 
-gu 
-gue 
-h 
-ha 
-ham 
-han 
-har 
-he 
-head 
-hen 
-her 
-hi 
-hin 
-ho 
-hold 
-hood 
-house 
-hu 
-hurst 
-hy 
-i 
-ia 
-ial 
-ian 
-ians 
-ib 
-ible 
-ic 
-ical 
-ick 
-id 
-ie 
-ied 
-ient 
-ier 
-ies 
-if 
-ification 
-ified 
-ig 
-ight 
-ign 
-il 
-ile 
-ility 
-ily 
-im 
-in 
-ina 
-ine 
-iness 
-ing 
-io 
-ion 
-ions 
-ious 
-ip 
-ir 
-is 
-ise 
-ised 
-ish 
-ism 
-ison 
-ist 
-ists 
-it 
-itch 
-ite 
-ities 
-ition 
-itude 
-ity 
-ium 
-ius 
-ive 
-ize 
-ized 
-izing 
-j 
-ja 
-ji 
-jo 
-ju 
-k 
-ka 
-ke 
-keep 
-ker 
-ki 
-kin 
-ko 
-ky 
-l 
-la 
-lac 
-lan 
-land 
-lar 
-ld 
-le 
-led 
-leigh 
-ler 
-les 
-less 
-let 
-ley 
-lf 
-li 
-lie 
-light 
-like 
-lin 
-line 
-liness 
-ling 
-ll 
-lo 
-lock 
-lon 
-low 
-lt 
-lus 
-ly 
-m 
-ma 
-man 
-me 
-men 
-ment 
-ments 
-mer 
-mi 
-midst 
-minated 
-mmed 
-mo 
-mond 
-mont 
-more 
-most 
-mouth 
-my 
-n 
-na 
-nce 
-ncy 
-nd 
-ne 
-ned 
-ner 
-ness 
-ney 
-ng 
-ni 
-ning 
-nny 
-no 
-nt 
-ny 
-o 
-oc 
-od 
-of 
-ograph 
-ol 
-ological 
-ologist 
-ology 
-om 
-ometer 
-on 
-one 
-oo 
-ook 
-oon 
-op 
-or 
-ord 
-ors 
-ory 
-os 
-ose 
-ot 
-ou 
-our 
-ous 
-ov 
-ow 
-p 
-pa 
-pe 
-ped 
-pen 
-per 
-pha 
-piece 
-ple 
-po 
-port 
-pose 
-pp 
-pping 
-ps 
-q 
-qua 
-que 
-qui 
-r 
-ra 
-ran 
-rate 
-re 
-red 
-ress 
-ri 
-ric 
-ridge 
-rie 
-ries 
-right 
-rin 
-ring 
-ris 
-rk 
-rn 
-ro 
-roach 
-ron 
-rous 
-roving 
-row 
-rs 
-rt 
-ru 
-ry 
-s 
-sail 
-se 
-sh 
-ship 
-shire 
-side 
-some 
-son 
-st 
-stead 
-ster 
-stone 
-t 
-ta 
-tan 
-te 
-ted 
-ten 
-ter 
-terior 
-tes 
-th 
-the 
-ther 
-ti 
-tic 
-ties 
-time 
-tin 
-ting 
-tion 
-to 
-ton 
-tra 
-tri 
-tro 
-tte 
-ttered 
-ttle 
-tu 
-tur 
-ture 
-ty 
-u 
-ub 
-uc 
-uch 
-ud 
-ude 
-ue 
-uff 
-ug 
-ugh 
-ul 
-ulation 
-um 
-un 
-und 
-uous 
-up 
-ur 
-ure 
-us 
-use 
-ut 
-ux 
-v 
-va 
-val 
-ve 
-ver 
-vie 
-ville 
-vis 
-vo 
-vocation 
-w 
-wa 
-war 
-ward 
-way 
-we 
-well 
-wi 
-wick 
-win 
-wn 
-wood 
-work 
-worth 
-x 
-y 
-z 
-za 
-ze 
-zi 
-zzle 
-▁ 
-▁a 
-▁ab 
-▁abandon 
-▁ability 
-▁able 
-▁abode 
-▁about 
-▁above 
-▁abraham 
-▁abroad 
-▁absence 
-▁absent 
-▁absolute 
-▁absolutely 
-▁absorb 
-▁abstract 
-▁absurd 
-▁abundance 
-▁abundant 
-▁accent 
-▁accept 
-▁accepted 
-▁access 
-▁accident 
-▁accompanied 
-▁accompany 
-▁accomplish 
-▁accord 
-▁according 
-▁accordingly 
-▁account 
-▁accumulat 
-▁accurate 
-▁accuse 
-▁accustomed 
-▁achieve 
-▁acknowledg 
-▁acquaintance 
-▁acquainted 
-▁acquired 
-▁across 
-▁act 
-▁action 
-▁active 
-▁activity 
-▁actual 
-▁actually 
-▁acute 
-▁adam 
-▁adapt 
-▁add 
-▁added 
-▁addition 
-▁address 
-▁addressed 
-▁adhere 
-▁adjust 
-▁administer 
-▁administration 
-▁admirable 
-▁admiral 
-▁admiration 
-▁admire 
-▁admiring 
-▁admit 
-▁admitted 
-▁adopt 
-▁adorn 
-▁advance 
-▁advanced 
-▁advancing 
-▁advantage 
-▁adventure 
-▁advertise 
-▁advice 
-▁advise 
-▁affair 
-▁affairs 
-▁affect 
-▁affected 
-▁affection 
-▁affectionate 
-▁affirm 
-▁afflict 
-▁afford 
-▁afraid 
-▁africa 
-▁after 
-▁afternoon 
-▁afterward 
-▁afterwards 
-▁again 
-▁against 
-▁age 
-▁agent 
-▁agitated 
-▁agitation 
-▁ago 
-▁agony 
-▁agree 
-▁agreeable 
-▁agreed 
-▁ah 
-▁ahead 
-▁aid 
-▁air 
-▁al 
-▁aladdin 
-▁alarm 
-▁alas 
-▁albert 
-▁alexander 
-▁alice 
-▁alive 
-▁all 
-▁allow 
-▁allowed 
-▁almost 
-▁alone 
-▁along 
-▁aloud 
-▁already 
-▁also 
-▁altar 
-▁alter 
-▁although 
-▁altogether 
-▁always 
-▁alyosha 
-▁am 
-▁amazed 
-▁amazement 
-▁amazing 
-▁ambassador 
-▁ambition 
-▁amelia 
-▁america 
-▁american 
-▁amiable 
-▁amid 
-▁among 
-▁amount 
-▁amusement 
-▁an 
-▁anchor 
-▁ancient 
-▁and 
-▁andrew 
-▁angel 
-▁anger 
-▁angle 
-▁angrily 
-▁angry 
-▁anguish 
-▁animal 
-▁animals 
-▁anna 
-▁anne 
-▁annie 
-▁announc 
-▁announced 
-▁another 
-▁answer 
-▁answered 
-▁anthea 
-▁anti 
-▁anticipate 
-▁anxiety 
-▁anxious 
-▁any 
-▁anybody 
-▁anyhow 
-▁anyone 
-▁anything 
-▁anywhere 
-▁apart 
-▁apartment 
-▁apparatus 
-▁apparent 
-▁apparently 
-▁appeal 
-▁appear 
-▁appearance 
-▁appeared 
-▁appetite 
-▁apple 
-▁application 
-▁applied 
-▁apply 
-▁appointed 
-▁appointment 
-▁appreciate 
-▁apprehend 
-▁apprehension 
-▁approach 
-▁approached 
-▁approaching 
-▁appropriate 
-▁approve 
-▁april 
-▁apron 
-▁apt 
-▁ar 
-▁arab 
-▁aramis 
-▁arch 
-▁architect 
-▁ardent 
-▁are 
-▁argue 
-▁argument 
-▁arise 
-▁aristocrat 
-▁arm 
-▁arms 
-▁army 
-▁arose 
-▁around 
-▁arranged 
-▁arrangement 
-▁array 
-▁arrest 
-▁arrival 
-▁arrive 
-▁arrived 
-▁arriving 
-▁arrow 
-▁art 
-▁arthur 
-▁article 
-▁artificial 
-▁artist 
-▁as 
-▁ascend 
-▁ascertain 
-▁ashamed 
-▁ashes 
-▁ashore 
-▁aside 
-▁ask 
-▁asked 
-▁asking 
-▁asleep 
-▁aspect 
-▁assassin 
-▁assault 
-▁assembled 
-▁assembly 
-▁assert 
-▁assist 
-▁assistance 
-▁assistant 
-▁associate 
-▁association 
-▁assume 
-▁assumed 
-▁assurance 
-▁assure 
-▁assured 
-▁astonished 
-▁astonishment 
-▁at 
-▁atlantic 
-▁atmosphere 
-▁attached 
-▁attack 
-▁attain 
-▁attempt 
-▁attend 
-▁attendant 
-▁attention 
-▁attentive 
-▁attitude 
-▁attorney 
-▁attract 
-▁attribute 
-▁audience 
-▁august 
-▁aunt 
-▁author 
-▁authorities 
-▁authority 
-▁autumn 
-▁avail 
-▁avenue 
-▁average 
-▁avoid 
-▁await 
-▁awake 
-▁awakened 
-▁aware 
-▁away 
-▁awful 
-▁awhile 
-▁awkward 
-▁awoke 
-▁axe 
-▁b 
-▁ba 
-▁baby 
-▁bachelor 
-▁back 
-▁background 
-▁backward 
-▁bad 
-▁bade 
-▁bag 
-▁bake 
-▁bal 
-▁balance 
-▁ball 
-▁balloon 
-▁ban 
-▁band 
-▁bank 
-▁bar 
-▁barbar 
-▁bare 
-▁bargain 
-▁bark 
-▁baron 
-▁barrel 
-▁barricade 
-▁barrier 
-▁base 
-▁basin 
-▁basket 
-▁bath 
-▁batter 
-▁battle 
-▁bay 
-▁be 
-▁beach 
-▁bear 
-▁beard 
-▁bearing 
-▁beast 
-▁beat 
-▁beaten 
-▁beautiful 
-▁beauty 
-▁became 
-▁because 
-▁become 
-▁becoming 
-▁bed 
-▁bedroom 
-▁been 
-▁before 
-▁beg 
-▁began 
-▁beggar 
-▁begged 
-▁begin 
-▁beginning 
-▁begun 
-▁behalf 
-▁behave 
-▁behaviour 
-▁beheld 
-▁behind 
-▁behold 
-▁being 
-▁belief 
-▁believe 
-▁believed 
-▁believing 
-▁bell 
-▁belong 
-▁beloved 
-▁below 
-▁bench 
-▁bending 
-▁beneath 
-▁benefit 
-▁bent 
-▁bernard 
-▁beside 
-▁besides 
-▁best 
-▁bestow 
-▁betray 
-▁better 
-▁between 
-▁bewildered 
-▁beyond 
-▁bi 
-▁bible 
-▁bid 
-▁bidding 
-▁big 
-▁bill 
-▁billy 
-▁bind 
-▁bird 
-▁birds 
-▁birth 
-▁bishop 
-▁bit 
-▁bitter 
-▁bla 
-▁black 
-▁blade 
-▁blame 
-▁blank 
-▁blanket 
-▁blaze 
-▁bless 
-▁blew 
-▁blind 
-▁bliss 
-▁block 
-▁blood 
-▁bloom 
-▁blossom 
-▁blow 
-▁blu 
-▁blue 
-▁blush 
-▁bo 
-▁board 
-▁boast 
-▁boat 
-▁bob 
-▁bodies 
-▁bodily 
-▁body 
-▁boil 
-▁bold 
-▁bolt 
-▁bon 
-▁bond 
-▁bonnet 
-▁book 
-▁books 
-▁boot 
-▁border 
-▁bore 
-▁born 
-▁borne 
-▁borrow 
-▁bosom 
-▁boston 
-▁both 
-▁bottle 
-▁bottom 
-▁bought 
-▁bound 
-▁bow 
-▁bowed 
-▁bowl 
-▁box 
-▁boy 
-▁boys 
-▁bra 
-▁brain 
-▁branch 
-▁branches 
-▁brand 
-▁brave 
-▁bre 
-▁bread 
-▁break 
-▁breakfast 
-▁breaking 
-▁breast 
-▁breath 
-▁breeze 
-▁brethren 
-▁bri 
-▁brick 
-▁bride 
-▁bridge 
-▁bridle 
-▁brief 
-▁brig 
-▁bright 
-▁brilliant 
-▁bring 
-▁brisk 
-▁britain 
-▁british 
-▁bro 
-▁broad 
-▁broke 
-▁broken 
-▁bronze 
-▁brood 
-▁brook 
-▁brother 
-▁brothers 
-▁brought 
-▁brow 
-▁brown 
-▁bruce 
-▁brush 
-▁brutal 
-▁brute 
-▁bu 
-▁buck 
-▁build 
-▁building 
-▁built 
-▁bulk 
-▁bull 
-▁bullet 
-▁bundle 
-▁bur 
-▁burden 
-▁burg 
-▁buried 
-▁burn 
-▁burning 
-▁burst 
-▁bush 
-▁bushes 
-▁business 
-▁busy 
-▁but 
-▁butter 
-▁buy 
-▁by 
-▁c 
-▁ca 
-▁cab 
-▁cabin 
-▁caesar 
-▁cake 
-▁cal 
-▁calamit 
-▁california 
-▁call 
-▁called 
-▁calling 
-▁calm 
-▁came 
-▁camp 
-▁campaign 
-▁can 
-▁candid 
-▁candle 
-▁cannon 
-▁cannot 
-▁canoe 
-▁canvas 
-▁cap 
-▁capable 
-▁capacity 
-▁capital 
-▁captain 
-▁car 
-▁card 
-▁cardinal 
-▁care 
-▁careful 
-▁carefully 
-▁careless 
-▁carlyle 
-▁carpenter 
-▁carpet 
-▁carriage 
-▁carried 
-▁carry 
-▁carrying 
-▁cart 
-▁carved 
-▁case 
-▁cast 
-▁castle 
-▁casual 
-▁cat 
-▁catch 
-▁cathedral 
-▁catherine 
-▁catholic 
-▁cattle 
-▁caught 
-▁cause 
-▁caused 
-▁caution 
-▁cavalry 
-▁cave 
-▁ce 
-▁cease 
-▁ceased 
-▁ceiling 
-▁celebrat 
-▁cell 
-▁cellar 
-▁cent 
-▁center 
-▁central 
-▁centre 
-▁centuries 
-▁century 
-▁ceremony 
-▁certain 
-▁certainly 
-▁cetera 
-▁cha 
-▁chain 
-▁chair 
-▁challenge 
-▁chamber 
-▁champion 
-▁chance 
-▁chancellor 
-▁change 
-▁changed 
-▁changing 
-▁channel 
-▁chap 
-▁chapter 
-▁char 
-▁character 
-▁characteristic 
-▁charge 
-▁chariot 
-▁charles 
-▁charlotte 
-▁charm 
-▁charming 
-▁chase 
-▁chateau 
-▁chatter 
-▁chauvelin 
-▁che 
-▁cheap 
-▁check 
-▁cheek 
-▁cheeks 
-▁cheer 
-▁cheerful 
-▁cheese 
-▁cherish 
-▁chest 
-▁chi 
-▁chicago 
-▁chicken 
-▁chief 
-▁child 
-▁childhood 
-▁children 
-▁chill 
-▁chimney 
-▁chin 
-▁china 
-▁chinese 
-▁cho 
-▁choice 
-▁choose 
-▁chose 
-▁chosen 
-▁chris 
-▁christ 
-▁christian 
-▁christmas 
-▁chu 
-▁chuck 
-▁church 
-▁cigar 
-▁circle 
-▁circular 
-▁circulat 
-▁circumstance 
-▁circumstances 
-▁cities 
-▁citizen 
-▁city 
-▁civil 
-▁civilization 
-▁cl 
-▁claim 
-▁clapp 
-▁clara 
-▁clasp 
-▁class 
-▁classes 
-▁claw 
-▁clay 
-▁clean 
-▁clear 
-▁clearly 
-▁clerk 
-▁clever 
-▁cliff 
-▁climate 
-▁climb 
-▁clo 
-▁cloak 
-▁clock 
-▁close 
-▁closed 
-▁closely 
-▁cloth 
-▁clothes 
-▁cloud 
-▁clouds 
-▁club 
-▁clung 
-▁cluster 
-▁clutch 
-▁co 
-▁coach 
-▁coal 
-▁coarse 
-▁coast 
-▁coat 
-▁cock 
-▁coffee 
-▁coffin 
-▁coin 
-▁col 
-▁cold 
-▁collar 
-▁collect 
-▁college 
-▁colonel 
-▁coloni 
-▁colony 
-▁color 
-▁colour 
-▁column 
-▁com 
-▁comb 
-▁combat 
-▁combination 
-▁combined 
-▁come 
-▁comes 
-▁comfort 
-▁comfortable 
-▁coming 
-▁command 
-▁commenced 
-▁commend 
-▁comment 
-▁commerce 
-▁commercial 
-▁commission 
-▁commit 
-▁committed 
-▁committee 
-▁common 
-▁commun 
-▁communicat 
-▁communication 
-▁community 
-▁comp 
-▁companion 
-▁companions 
-▁company 
-▁compare 
-▁comparison 
-▁compass 
-▁compelled 
-▁complain 
-▁complete 
-▁completely 
-▁complex 
-▁compliment 
-▁composed 
-▁composition 
-▁comprehend 
-▁comrade 
-▁con 
-▁conceal 
-▁conceive 
-▁concentrat 
-▁conception 
-▁concern 
-▁concerned 
-▁concerning 
-▁concert 
-▁conclud 
-▁concluded 
-▁conclusion 
-▁condemn 
-▁condition 
-▁conditions 
-▁conduct 
-▁confess 
-▁confide 
-▁confidence 
-▁confident 
-▁confine 
-▁confirm 
-▁conflict 
-▁confound 
-▁confront 
-▁confused 
-▁confusion 
-▁congress 
-▁conjecture 
-▁connected 
-▁connection 
-▁conquer 
-▁conquest 
-▁conscience 
-▁conscious 
-▁consciousness 
-▁conseil 
-▁consent 
-▁consequence 
-▁consequently 
-▁consider 
-▁considerable 
-▁consideration 
-▁considered 
-▁consist 
-▁consolation 
-▁conspicuous 
-▁constance 
-▁constant 
-▁constantly 
-▁constitute 
-▁constitution 
-▁construct 
-▁consult 
-▁consum 
-▁contact 
-▁contain 
-▁contemplate 
-▁contempt 
-▁content 
-▁contest 
-▁continent 
-▁continual 
-▁continually 
-▁continue 
-▁continued 
-▁contract 
-▁contradict 
-▁contrary 
-▁contrast 
-▁contribute 
-▁control 
-▁convenient 
-▁convent 
-▁convention 
-▁conversation 
-▁converse 
-▁convert 
-▁convey 
-▁convict 
-▁conviction 
-▁convince 
-▁convinced 
-▁convuls 
-▁cook 
-▁cool 
-▁copper 
-▁copy 
-▁cor 
-▁cordial 
-▁corn 
-▁corner 
-▁corporal 
-▁corpse 
-▁correct 
-▁correspond 
-▁corridor 
-▁corrupt 
-▁cosette 
-▁cost 
-▁costume 
-▁cottage 
-▁cotton 
-▁couch 
-▁could 
-▁couldn 
-▁council 
-▁counsel 
-▁count 
-▁countenance 
-▁counter 
-▁countess 
-▁countries 
-▁country 
-▁couple 
-▁courage 
-▁course 
-▁court 
-▁cousin 
-▁cover 
-▁covered 
-▁cow 
-▁coward 
-▁cra 
-▁crack 
-▁craft 
-▁crash 
-▁crawl 
-▁crazy 
-▁cre 
-▁cream 
-▁created 
-▁creature 
-▁creatures 
-▁credit 
-▁creek 
-▁creep 
-▁crep 
-▁crew 
-▁cried 
-▁cries 
-▁crime 
-▁criminal 
-▁crimson 
-▁cristo 
-▁critic 
-▁cro 
-▁cross 
-▁crossed 
-▁crow 
-▁crowd 
-▁crown 
-▁cru 
-▁cruel 
-▁crumbs 
-▁crush 
-▁cry 
-▁crying 
-▁crystal 
-▁cu 
-▁cultivate 
-▁culture 
-▁cunning 
-▁cup 
-▁cur 
-▁curiosity 
-▁curious 
-▁curl 
-▁current 
-▁curse 
-▁curtain 
-▁cushion 
-▁custom 
-▁cut 
-▁cutting 
-▁cyril 
-▁d 
-▁da 
-▁dagger 
-▁daily 
-▁damage 
-▁damn 
-▁damp 
-▁damsel 
-▁dan 
-▁dance 
-▁dancing 
-▁danger 
-▁dangerous 
-▁danglars 
-▁daniel 
-▁darcy 
-▁dare 
-▁dared 
-▁dark 
-▁darkness 
-▁darling 
-▁dart 
-▁dash 
-▁date 
-▁daughter 
-▁david 
-▁dawn 
-▁day 
-▁days 
-▁de 
-▁dead 
-▁deaf 
-▁deal 
-▁dear 
-▁dearest 
-▁death 
-▁debt 
-▁decay 
-▁deceive 
-▁december 
-▁decide 
-▁decided 
-▁decision 
-▁deck 
-▁declare 
-▁declared 
-▁decline 
-▁decorat 
-▁decree 
-▁deep 
-▁deeply 
-▁defeat 
-▁defect 
-▁defence 
-▁defend 
-▁defense 
-▁defi 
-▁definite 
-▁degree 
-▁delay 
-▁deliberate 
-▁delicacy 
-▁delicate 
-▁delicious 
-▁delight 
-▁delighted 
-▁delightful 
-▁deliver 
-▁demand 
-▁demanded 
-▁democratic 
-▁demon 
-▁den 
-▁denied 
-▁deny 
-▁depart 
-▁department 
-▁departure 
-▁depend 
-▁deposit 
-▁depress 
-▁deprived 
-▁depth 
-▁derived 
-▁descend 
-▁descent 
-▁describe 
-▁described 
-▁description 
-▁desert 
-▁deserve 
-▁design 
-▁desirable 
-▁desire 
-▁desired 
-▁desirous 
-▁desk 
-▁desolate 
-▁despair 
-▁despatch 
-▁desperate 
-▁despise 
-▁despite 
-▁destined 
-▁destiny 
-▁destroy 
-▁destroyed 
-▁destruction 
-▁detach 
-▁detail 
-▁detain 
-▁detect 
-▁detective 
-▁determin 
-▁determined 
-▁develop 
-▁development 
-▁device 
-▁devil 
-▁devoted 
-▁devotion 
-▁devour 
-▁dexter 
-▁di 
-▁diamond 
-▁diana 
-▁dick 
-▁did 
-▁didn 
-▁die 
-▁died 
-▁differ 
-▁difference 
-▁different 
-▁difficult 
-▁difficulties 
-▁difficulty 
-▁dig 
-▁dignified 
-▁dignity 
-▁dim 
-▁diminish 
-▁din 
-▁dinner 
-▁direct 
-▁directed 
-▁direction 
-▁directly 
-▁dirty 
-▁dis 
-▁disagreeable 
-▁disappear 
-▁disappeared 
-▁disappoint 
-▁disappointment 
-▁disc 
-▁discern 
-▁discharge 
-▁disciple 
-▁discipline 
-▁discourage 
-▁discourse 
-▁discover 
-▁discovered 
-▁discovery 
-▁discuss 
-▁discussion 
-▁disdain 
-▁disease 
-▁disgrace 
-▁disguise 
-▁disgust 
-▁dish 
-▁dislike 
-▁dismal 
-▁dismay 
-▁dismiss 
-▁disorder 
-▁display 
-▁disposed 
-▁disposition 
-▁dispute 
-▁dissolv 
-▁distance 
-▁distant 
-▁distinct 
-▁distinction 
-▁distinguish 
-▁distinguished 
-▁distract 
-▁distress 
-▁distribut 
-▁district 
-▁distrust 
-▁disturb 
-▁div 
-▁divers 
-▁divide 
-▁divided 
-▁divine 
-▁division 
-▁dixon 
-▁do 
-▁doctor 
-▁doctrine 
-▁document 
-▁does 
-▁doesn 
-▁dog 
-▁dogs 
-▁doing 
-▁dollars 
-▁domestic 
-▁dominion 
-▁don 
-▁done 
-▁donkey 
-▁door 
-▁doorway 
-▁dorothy 
-▁double 
-▁doubt 
-▁doubtful 
-▁doubtless 
-▁down 
-▁downstairs 
-▁dozen 
-▁drag 
-▁dragg 
-▁dragon 
-▁drain 
-▁drake 
-▁drama 
-▁drank 
-▁draught 
-▁draw 
-▁drawing 
-▁drawn 
-▁dread 
-▁dreadful 
-▁dream 
-▁dreary 
-▁dress 
-▁dressed 
-▁drew 
-▁dried 
-▁drift 
-▁drink 
-▁drive 
-▁driven 
-▁driving 
-▁droop 
-▁drop 
-▁dropped 
-▁dropping 
-▁drove 
-▁drown 
-▁drug 
-▁drum 
-▁drunk 
-▁dry 
-▁du 
-▁duchess 
-▁duck 
-▁due 
-▁duke 
-▁dull 
-▁dumb 
-▁dun 
-▁dunbar 
-▁dur 
-▁dusk 
-▁dust 
-▁dutch 
-▁duties 
-▁duty 
-▁dwarf 
-▁dwell 
-▁dwelt 
-▁dying 
-▁e 
-▁each 
-▁eager 
-▁eagerly 
-▁eagle 
-▁ear 
-▁earl 
-▁earlier 
-▁earliest 
-▁early 
-▁earn 
-▁earnest 
-▁ears 
-▁earth 
-▁ease 
-▁easier 
-▁easily 
-▁east 
-▁eastern 
-▁easy 
-▁eat 
-▁eaten 
-▁eating 
-▁echo 
-▁economic 
-▁edge 
-▁edison 
-▁edith 
-▁editor 
-▁educat 
-▁education 
-▁edward 
-▁effect 
-▁effort 
-▁eggs 
-▁egypt 
-▁egyptian 
-▁eight 
-▁eighteen 
-▁eighty 
-▁either 
-▁el 
-▁elaborate 
-▁elbow 
-▁elder 
-▁eldest 
-▁eleanor 
-▁elect 
-▁electric 
-▁elegant 
-▁element 
-▁elephant 
-▁eleven 
-▁eliza 
-▁elizabeth 
-▁else 
-▁elsewhere 
-▁elsie 
-▁em 
-▁embark 
-▁embarrass 
-▁embrace 
-▁embroider 
-▁emerg 
-▁emily 
-▁eminent 
-▁emotion 
-▁emperor 
-▁emphasis 
-▁empire 
-▁employ 
-▁employed 
-▁empty 
-▁en 
-▁enable 
-▁enchant 
-▁encounter 
-▁encourage 
-▁end 
-▁endeavor 
-▁endeavour 
-▁endure 
-▁enemies 
-▁enemy 
-▁energy 
-▁engage 
-▁engaged 
-▁engagement 
-▁engine 
-▁england 
-▁english 
-▁enjoy 
-▁enjoyment 
-▁enlighten 
-▁enormous 
-▁enough 
-▁ensu 
-▁enter 
-▁entered 
-▁enterprise 
-▁entertain 
-▁enthusiasm 
-▁entire 
-▁entirely 
-▁entitled 
-▁entrance 
-▁entreat 
-▁envelope 
-▁envy 
-▁epi 
-▁equal 
-▁equally 
-▁er 
-▁ere 
-▁erect 
-▁errand 
-▁error 
-▁escape 
-▁escaped 
-▁escort 
-▁especially 
-▁essence 
-▁essential 
-▁establish 
-▁established 
-▁establishment 
-▁estate 
-▁esteem 
-▁estimate 
-▁estralla 
-▁eternal 
-▁eternity 
-▁eu 
-▁europe 
-▁eustace 
-▁eva 
-▁even 
-▁evening 
-▁events 
-▁ever 
-▁every 
-▁everybody 
-▁everyone 
-▁everything 
-▁everywhere 
-▁evidence 
-▁evident 
-▁evidently 
-▁evil 
-▁ex 
-▁exact 
-▁exactly 
-▁examination 
-▁examine 
-▁examined 
-▁examining 
-▁example 
-▁exceed 
-▁exceedingly 
-▁excellency 
-▁excellent 
-▁except 
-▁exception 
-▁excess 
-▁exchange 
-▁excite 
-▁excited 
-▁excitement 
-▁exciting 
-▁exclaimed 
-▁exclamation 
-▁exclusive 
-▁excursion 
-▁excuse 
-▁execut 
-▁execution 
-▁exercise 
-▁exhaust 
-▁exhibit 
-▁exist 
-▁existence 
-▁expand 
-▁expect 
-▁expectation 
-▁expected 
-▁expedition 
-▁expense 
-▁experience 
-▁experiment 
-▁explain 
-▁explained 
-▁explanation 
-▁explore 
-▁exposed 
-▁express 
-▁expressed 
-▁expression 
-▁exquisite 
-▁extend 
-▁extended 
-▁extensive 
-▁extent 
-▁external 
-▁extract 
-▁extraordinary 
-▁extreme 
-▁extremely 
-▁extremity 
-▁eye 
-▁eyebrows 
-▁eyes 
-▁f 
-▁fa 
-▁face 
-▁faces 
-▁facilit 
-▁facing 
-▁fact 
-▁faculties 
-▁faculty 
-▁faded 
-▁fail 
-▁failed 
-▁failure 
-▁faint 
-▁fair 
-▁fairly 
-▁fairy 
-▁faith 
-▁faithful 
-▁fall 
-▁fallen 
-▁falling 
-▁false 
-▁fame 
-▁familiar 
-▁families 
-▁family 
-▁famous 
-▁fan 
-▁fancied 
-▁fancies 
-▁fancy 
-▁fanny 
-▁fantastic 
-▁far 
-▁farewell 
-▁farm 
-▁farmer 
-▁farther 
-▁fashion 
-▁fast 
-▁fastened 
-▁fat 
-▁fatal 
-▁fate 
-▁father 
-▁fatigue 
-▁fault 
-▁favor 
-▁favorite 
-▁favour 
-▁favourite 
-▁fe 
-▁fear 
-▁fearful 
-▁feast 
-▁feather 
-▁feature 
-▁features 
-▁february 
-▁federal 
-▁feeble 
-▁feed 
-▁feel 
-▁feeling 
-▁feelings 
-▁feet 
-▁felicity 
-▁fell 
-▁fellow 
-▁felt 
-▁female 
-▁feminine 
-▁fence 
-▁fer 
-▁fertil 
-▁fetch 
-▁fever 
-▁few 
-▁fi 
-▁field 
-▁fields 
-▁fierce 
-▁fiery 
-▁fifteen 
-▁fifth 
-▁fifty 
-▁fight 
-▁fighting 
-▁figure 
-▁fill 
-▁filled 
-▁film 
-▁fin 
-▁final 
-▁finally 
-▁find 
-▁finding 
-▁fine 
-▁finger 
-▁fingers 
-▁finish 
-▁finished 
-▁fire 
-▁firm 
-▁firmly 
-▁first 
-▁fish 
-▁fisherman 
-▁fit 
-▁fitted 
-▁five 
-▁fix 
-▁fixed 
-▁fl 
-▁flag 
-▁flame 
-▁flank 
-▁flash 
-▁flat 
-▁flatter 
-▁fled 
-▁flee 
-▁fleet 
-▁flesh 
-▁flew 
-▁flicker 
-▁flight 
-▁flo 
-▁flock 
-▁flood 
-▁floor 
-▁florence 
-▁flour 
-▁flow 
-▁flower 
-▁flowers 
-▁flu 
-▁flutter 
-▁fly 
-▁flying 
-▁fo 
-▁fog 
-▁fold 
-▁folk 
-▁follow 
-▁followed 
-▁following 
-▁folly 
-▁fond 
-▁food 
-▁fool 
-▁foolish 
-▁foot 
-▁footsteps 
-▁for 
-▁forbid 
-▁force 
-▁forced 
-▁fore 
-▁forehead 
-▁foreign 
-▁foresee 
-▁forest 
-▁forget 
-▁forgive 
-▁forgot 
-▁forgotten 
-▁form 
-▁formed 
-▁former 
-▁formidable 
-▁forsake 
-▁forth 
-▁fortnight 
-▁fortunate 
-▁fortune 
-▁forty 
-▁forward 
-▁fought 
-▁found 
-▁fountain 
-▁four 
-▁fourteen 
-▁fourth 
-▁fowl 
-▁fox 
-▁fra 
-▁fragment 
-▁frame 
-▁france 
-▁francis 
-▁francs 
-▁frank 
-▁frantic 
-▁franz 
-▁fred 
-▁frederick 
-▁free 
-▁freedom 
-▁french 
-▁frequent 
-▁frequently 
-▁fresh 
-▁fri 
-▁friday 
-▁friend 
-▁friendly 
-▁friends 
-▁friendship 
-▁fright 
-▁frightened 
-▁frightful 
-▁fringe 
-▁fro 
-▁frog 
-▁from 
-▁front 
-▁frown 
-▁frozen 
-▁fruit 
-▁fu 
-▁fulfil 
-▁full 
-▁fully 
-▁fun 
-▁function 
-▁fundamental 
-▁funeral 
-▁funny 
-▁fur 
-▁furious 
-▁furnish 
-▁furniture 
-▁further 
-▁future 
-▁g 
-▁ga 
-▁gain 
-▁gained 
-▁gal 
-▁gallant 
-▁gallery 
-▁gallop 
-▁game 
-▁gar 
-▁garden 
-▁garrison 
-▁gas 
-▁gate 
-▁gather 
-▁gathered 
-▁gave 
-▁gay 
-▁gaze 
-▁gazed 
-▁gazing 
-▁ge 
-▁gen 
-▁general 
-▁generally 
-▁generation 
-▁generosity 
-▁generous 
-▁genius 
-▁gentle 
-▁gentleman 
-▁gentlemen 
-▁gently 
-▁genuine 
-▁george 
-▁ger 
-▁german 
-▁gesture 
-▁get 
-▁getting 
-▁ghastl 
-▁ghost 
-▁gi 
-▁giant 
-▁gift 
-▁gigantic 
-▁gil 
-▁gilbert 
-▁girl 
-▁girls 
-▁give 
-▁given 
-▁giving 
-▁glacier 
-▁glad 
-▁glance 
-▁glancing 
-▁glare 
-▁glass 
-▁gleam 
-▁glid 
-▁glimmer 
-▁glimpse 
-▁glitter 
-▁globe 
-▁gloom 
-▁gloomy 
-▁glorious 
-▁glory 
-▁glove 
-▁glow 
-▁go 
-▁goat 
-▁god 
-▁goddess 
-▁goes 
-▁going 
-▁gold 
-▁golden 
-▁gone 
-▁good 
-▁gorgeous 
-▁gospel 
-▁gossip 
-▁got 
-▁govern 
-▁government 
-▁governor 
-▁gown 
-▁gra 
-▁grace 
-▁graceful 
-▁gracious 
-▁gradually 
-▁grand 
-▁grandfather 
-▁grandmother 
-▁grant 
-▁grasp 
-▁grass 
-▁grateful 
-▁gratify 
-▁gratitude 
-▁grave 
-▁gravity 
-▁gray 
-▁gre 
-▁great 
-▁greater 
-▁greatest 
-▁greatly 
-▁greek 
-▁green 
-▁grew 
-▁grey 
-▁gri 
-▁grief 
-▁grieve 
-▁grim 
-▁grin 
-▁gro 
-▁groan 
-▁ground 
-▁group 
-▁grove 
-▁grow 
-▁growing 
-▁growl 
-▁grown 
-▁growth 
-▁gu 
-▁guard 
-▁guess 
-▁guest 
-▁guide 
-▁guilt 
-▁guilty 
-▁guinea 
-▁gun 
-▁h 
-▁ha 
-▁habit 
-▁habitual 
-▁had 
-▁hair 
-▁hale 
-▁half 
-▁hall 
-▁halt 
-▁ham 
-▁hamilton 
-▁hammer 
-▁hand 
-▁handkerchief 
-▁hands 
-▁handsome 
-▁hang 
-▁hanging 
-▁hans 
-▁happen 
-▁happened 
-▁happier 
-▁happily 
-▁happiness 
-▁happy 
-▁har 
-▁harbor 
-▁harbour 
-▁hard 
-▁hardly 
-▁harm 
-▁harry 
-▁harsh 
-▁harvest 
-▁has 
-▁haste 
-▁hastened 
-▁hastily 
-▁hat 
-▁hate 
-▁hath 
-▁hatred 
-▁haunt 
-▁have 
-▁haven 
-▁having 
-▁hawk 
-▁hay 
-▁hazard 
-▁he 
-▁head 
-▁heads 
-▁health 
-▁heap 
-▁hear 
-▁heard 
-▁hearing 
-▁heart 
-▁heat 
-▁heaven 
-▁heavily 
-▁heavy 
-▁hebrew 
-▁hedge 
-▁height 
-▁held 
-▁helen 
-▁help 
-▁helpless 
-▁hence 
-▁henry 
-▁her 
-▁herbert 
-▁hercules 
-▁here 
-▁hero 
-▁herself 
-▁hesitate 
-▁hesitated 
-▁hesitation 
-▁hi 
-▁hid 
-▁hidden 
-▁hide 
-▁hideous 
-▁high 
-▁higher 
-▁highest 
-▁hill 
-▁hills 
-▁him 
-▁himself 
-▁hind 
-▁hint 
-▁his 
-▁history 
-▁hit 
-▁hither 
-▁hitherto 
-▁ho 
-▁hoarse 
-▁hold 
-▁holding 
-▁hole 
-▁holiday 
-▁holland 
-▁hollow 
-▁holy 
-▁home 
-▁honest 
-▁honey 
-▁honor 
-▁honour 
-▁hook 
-▁hope 
-▁hoped 
-▁hopeless 
-▁horizon 
-▁horn 
-▁horrible 
-▁horrid 
-▁horror 
-▁horse 
-▁horses 
-▁hospital 
-▁host 
-▁hot 
-▁hotel 
-▁hour 
-▁hours 
-▁house 
-▁household 
-▁housekeeper 
-▁houses 
-▁how 
-▁however 
-▁hu 
-▁huge 
-▁hum 
-▁human 
-▁humanity 
-▁humble 
-▁humor 
-▁humour 
-▁hundred 
-▁hung 
-▁hunger 
-▁hungry 
-▁hunt 
-▁hunter 
-▁hunting 
-▁hurried 
-▁hurry 
-▁hurt 
-▁husband 
-▁hush 
-▁hut 
-▁hy 
-▁i 
-▁ice 
-▁idea 
-▁ideal 
-▁ideas 
-▁identity 
-▁idiot 
-▁idle 
-▁if 
-▁ignor 
-▁ignorance 
-▁ignorant 
-▁ill 
-▁illusion 
-▁illustrate 
-▁illustration 
-▁image 
-▁imagination 
-▁imagine 
-▁imitat 
-▁immediate 
-▁immediately 
-▁immense 
-▁immortal 
-▁imp 
-▁impart 
-▁impatience 
-▁impatient 
-▁imperfect 
-▁imperial 
-▁import 
-▁importance 
-▁important 
-▁impossible 
-▁impressed 
-▁impression 
-▁improve 
-▁improvement 
-▁impulse 
-▁in 
-▁incapable 
-▁incense 
-▁incessant 
-▁inches 
-▁incident 
-▁inclination 
-▁inclined 
-▁includ 
-▁income 
-▁increase 
-▁increased 
-▁increasing 
-▁indeed 
-▁independence 
-▁independent 
-▁india 
-▁indian 
-▁indians 
-▁indifference 
-▁indifferent 
-▁indignant 
-▁indignation 
-▁individual 
-▁induce 
-▁indulge 
-▁industry 
-▁inevitable 
-▁infant 
-▁inferior 
-▁infinite 
-▁inflict 
-▁influence 
-▁information 
-▁informed 
-▁inhabit 
-▁inhabitants 
-▁inherit 
-▁injured 
-▁injury 
-▁injustice 
-▁innocence 
-▁innocent 
-▁innumerable 
-▁inquire 
-▁inquired 
-▁inquiries 
-▁inquiry 
-▁insect 
-▁inside 
-▁insist 
-▁inspect 
-▁instance 
-▁instant 
-▁instantly 
-▁instead 
-▁instinct 
-▁instinctively 
-▁institution 
-▁instruct 
-▁instrument 
-▁insult 
-▁intellect 
-▁intellectual 
-▁intelligence 
-▁intelligent 
-▁intelligible 
-▁intend 
-▁intended 
-▁intense 
-▁intensity 
-▁intent 
-▁intention 
-▁inter 
-▁intercourse 
-▁interest 
-▁interested 
-▁interesting 
-▁interfere 
-▁internal 
-▁interposed 
-▁interpret 
-▁interrupt 
-▁interrupted 
-▁interval 
-▁interven 
-▁interview 
-▁intimacy 
-▁intimate 
-▁into 
-▁introduced 
-▁invariably 
-▁invent 
-▁investigat 
-▁invisible 
-▁invitation 
-▁invited 
-▁ireland 
-▁irish 
-▁iron 
-▁irregular 
-▁irresistible 
-▁is 
-▁isabel 
-▁island 
-▁isn 
-▁issue 
-▁it 
-▁italian 
-▁italy 
-▁its 
-▁itself 
-▁ivan 
-▁j 
-▁ja 
-▁jack 
-▁jackson 
-▁jacob 
-▁james 
-▁jane 
-▁january 
-▁japanese 
-▁jar 
-▁jaw 
-▁je 
-▁jealous 
-▁jean 
-▁jerk 
-▁jerry 
-▁jerusalem 
-▁jest 
-▁jesus 
-▁jew 
-▁jewel 
-▁jim 
-▁jimmie 
-▁jimmy 
-▁jo 
-▁job 
-▁joe 
-▁john 
-▁johnson 
-▁join 
-▁joined 
-▁joke 
-▁jolly 
-▁jones 
-▁joseph 
-▁journal 
-▁journey 
-▁joy 
-▁ju 
-▁jud 
-▁judge 
-▁judgment 
-▁juice 
-▁julia 
-▁julie 
-▁julius 
-▁jump 
-▁jumped 
-▁june 
-▁jungle 
-▁just 
-▁justice 
-▁justify 
-▁k 
-▁ka 
-▁kate 
-▁katy 
-▁ke 
-▁keen 
-▁keep 
-▁keeping 
-▁keith 
-▁kennedy 
-▁kept 
-▁key 
-▁ki 
-▁kick 
-▁kill 
-▁killed 
-▁kin 
-▁kind 
-▁kindly 
-▁kindness 
-▁king 
-▁kingdom 
-▁kiss 
-▁kissed 
-▁kit 
-▁kitchen 
-▁kitty 
-▁knee 
-▁knees 
-▁knelt 
-▁knew 
-▁knife 
-▁knight 
-▁knit 
-▁knock 
-▁knot 
-▁know 
-▁knowing 
-▁knowledge 
-▁known 
-▁knows 
-▁ko 
-▁l 
-▁la 
-▁labor 
-▁labour 
-▁lace 
-▁lack 
-▁lad 
-▁ladder 
-▁ladies 
-▁lady 
-▁laid 
-▁lake 
-▁lamb 
-▁lament 
-▁lamp 
-▁land 
-▁landlord 
-▁landscape 
-▁lane 
-▁language 
-▁lantern 
-▁lap 
-▁large 
-▁larger 
-▁last 
-▁late 
-▁later 
-▁latter 
-▁laugh 
-▁laughed 
-▁laughing 
-▁laughter 
-▁launcelot 
-▁launch 
-▁laura 
-▁law 
-▁laws 
-▁lawyer 
-▁lay 
-▁lazy 
-▁le 
-▁lead 
-▁leader 
-▁leading 
-▁leaf 
-▁league 
-▁lean 
-▁leaned 
-▁leaning 
-▁leap 
-▁learn 
-▁learned 
-▁least 
-▁leather 
-▁leave 
-▁leaves 
-▁leaving 
-▁lecture 
-▁led 
-▁left 
-▁leg 
-▁legend 
-▁legislature 
-▁legs 
-▁leisure 
-▁lemon 
-▁lend 
-▁length 
-▁leonora 
-▁less 
-▁lesson 
-▁lest 
-▁let 
-▁letter 
-▁letters 
-▁level 
-▁levi 
-▁li 
-▁liberal 
-▁liberty 
-▁library 
-▁lie 
-▁lies 
-▁lieutenant 
-▁life 
-▁lift 
-▁lifted 
-▁light 
-▁lightning 
-▁like 
-▁liked 
-▁likely 
-▁likewise 
-▁limb 
-▁limit 
-▁limp 
-▁lin 
-▁lincoln 
-▁line 
-▁lines 
-▁linger 
-▁lion 
-▁lips 
-▁liquid 
-▁liquor 
-▁list 
-▁listen 
-▁listened 
-▁listening 
-▁literally 
-▁literary 
-▁literature 
-▁little 
-▁live 
-▁lived 
-▁lives 
-▁living 
-▁lo 
-▁load 
-▁loaf 
-▁local 
-▁lock 
-▁locked 
-▁lodge 
-▁lodging 
-▁log 
-▁london 
-▁lonely 
-▁long 
-▁longer 
-▁look 
-▁looked 
-▁looking 
-▁looks 
-▁loose 
-▁lord 
-▁lose 
-▁losing 
-▁loss 
-▁lost 
-▁lot 
-▁loud 
-▁louis 
-▁loung 
-▁love 
-▁loved 
-▁lovely 
-▁lover 
-▁loving 
-▁low 
-▁lower 
-▁loyal 
-▁lu 
-▁luc 
-▁luck 
-▁lucy 
-▁lunch 
-▁luxury 
-▁lying 
-▁lyn 
-▁m 
-▁ma 
-▁mac 
-▁machine 
-▁mad 
-▁madam 
-▁madame 
-▁made 
-▁mademoiselle 
-▁mag 
-▁magazine 
-▁maggie 
-▁magic 
-▁magician 
-▁magistrate 
-▁magnet 
-▁magnificent 
-▁maid 
-▁maiden 
-▁main 
-▁maintain 
-▁majesty 
-▁major 
-▁majority 
-▁make 
-▁makes 
-▁making 
-▁mal 
-▁male 
-▁mamma 
-▁man 
-▁manage 
-▁managed 
-▁manifest 
-▁mankind 
-▁manner 
-▁manufacture 
-▁manuscript 
-▁many 
-▁mar 
-▁marble 
-▁march 
-▁margaret 
-▁marguerite 
-▁marian 
-▁marilla 
-▁mark 
-▁marked 
-▁market 
-▁marquis 
-▁marriage 
-▁married 
-▁marry 
-▁marsh 
-▁martha 
-▁martian 
-▁martin 
-▁martyr 
-▁marvel 
-▁marvellous 
-▁mary 
-▁mask 
-▁mass 
-▁master 
-▁mat 
-▁match 
-▁mate 
-▁material 
-▁matter 
-▁matters 
-▁matthew 
-▁maxim 
-▁may 
-▁maybe 
-▁me 
-▁meadow 
-▁meal 
-▁mean 
-▁meaning 
-▁means 
-▁meant 
-▁meantime 
-▁meanwhile 
-▁measure 
-▁meat 
-▁mechanical 
-▁medical 
-▁medicine 
-▁medium 
-▁meet 
-▁meeting 
-▁melancholy 
-▁member 
-▁members 
-▁memories 
-▁memory 
-▁men 
-▁mental 
-▁mention 
-▁mentioned 
-▁mer 
-▁merchant 
-▁mercy 
-▁mere 
-▁merely 
-▁merit 
-▁merry 
-▁message 
-▁messenger 
-▁met 
-▁metal 
-▁method 
-▁mexican 
-▁mi 
-▁michael 
-▁mid 
-▁middle 
-▁midnight 
-▁midst 
-▁might 
-▁mighty 
-▁mil 
-▁mile 
-▁miles 
-▁military 
-▁milk 
-▁mill 
-▁million 
-▁min 
-▁mind 
-▁mine 
-▁mingled 
-▁minister 
-▁minute 
-▁minutes 
-▁miracle 
-▁mirror 
-▁mirth 
-▁mis 
-▁mischief 
-▁miserable 
-▁misery 
-▁misfortune 
-▁miss 
-▁mission 
-▁missus 
-▁mist 
-▁mistake 
-▁mistaken 
-▁mister 
-▁mistress 
-▁mitya 
-▁mix 
-▁mixture 
-▁mo 
-▁mock 
-▁mode 
-▁moderate 
-▁modern 
-▁modest 
-▁moment 
-▁mon 
-▁monarch 
-▁monday 
-▁money 
-▁monk 
-▁monkey 
-▁monsieur 
-▁monster 
-▁monstrous 
-▁monte 
-▁month 
-▁months 
-▁monument 
-▁mood 
-▁moon 
-▁moonlight 
-▁mor 
-▁moral 
-▁more 
-▁moreover 
-▁morning 
-▁morrow 
-▁mortal 
-▁moscow 
-▁most 
-▁mother 
-▁motion 
-▁motionless 
-▁motive 
-▁motor 
-▁mould 
-▁mount 
-▁mountain 
-▁mountains 
-▁mounted 
-▁mourn 
-▁mouse 
-▁mouth 
-▁move 
-▁moved 
-▁movement 
-▁moving 
-▁much 
-▁mud 
-▁mule 
-▁multitude 
-▁mun 
-▁murder 
-▁murderer 
-▁murmur 
-▁murmured 
-▁muscle 
-▁muscular 
-▁music 
-▁musket 
-▁must 
-▁mute 
-▁muttered 
-▁mutual 
-▁my 
-▁myself 
-▁mysterious 
-▁mystery 
-▁n 
-▁na 
-▁nail 
-▁naked 
-▁name 
-▁named 
-▁nancy 
-▁napoleon 
-▁narrative 
-▁narrow 
-▁natasha 
-▁nation 
-▁national 
-▁native 
-▁natural 
-▁naturally 
-▁nature 
-▁naught 
-▁nautilus 
-▁navigat 
-▁nay 
-▁ne 
-▁near 
-▁nearer 
-▁nearest 
-▁nearly 
-▁neat 
-▁necessarily 
-▁necessary 
-▁necessity 
-▁neck 
-▁need 
-▁needed 
-▁neglect 
-▁negro 
-▁neighbor 
-▁neighborhood 
-▁neighbour 
-▁neighbourhood 
-▁neither 
-▁nephew 
-▁nerve 
-▁nervous 
-▁nest 
-▁never 
-▁nevertheless 
-▁new 
-▁news 
-▁newspaper 
-▁next 
-▁ni 
-▁nice 
-▁nicholas 
-▁niece 
-▁nigh 
-▁night 
-▁nightingale 
-▁nine 
-▁nineteen 
-▁ninety 
-▁ninth 
-▁no 
-▁nobility 
-▁noble 
-▁nobody 
-▁nodded 
-▁noise 
-▁none 
-▁nonsense 
-▁nor 
-▁normal 
-▁norman 
-▁north 
-▁northern 
-▁nose 
-▁not 
-▁note 
-▁nothing 
-▁notice 
-▁noticed 
-▁notwithstanding 
-▁novel 
-▁november 
-▁now 
-▁nowhere 
-▁nu 
-▁number 
-▁numerous 
-▁nurse 
-▁nut 
-▁o 
-▁oak 
-▁oath 
-▁ob 
-▁obedience 
-▁obey 
-▁object 
-▁objection 
-▁obligation 
-▁obliged 
-▁obscure 
-▁observation 
-▁observe 
-▁observed 
-▁observing 
-▁obstacle 
-▁obstinate 
-▁obtain 
-▁obtained 
-▁obvious 
-▁occasion 
-▁occasionally 
-▁occupation 
-▁occupied 
-▁occupy 
-▁occur 
-▁occurred 
-▁occurrence 
-▁ocean 
-▁october 
-▁odd 
-▁of 
-▁off 
-▁offend 
-▁offer 
-▁offered 
-▁office 
-▁officer 
-▁officers 
-▁official 
-▁often 
-▁oh 
-▁oil 
-▁old 
-▁oliver 
-▁on 
-▁once 
-▁one 
-▁only 
-▁open 
-▁opened 
-▁opening 
-▁opera 
-▁operation 
-▁opinion 
-▁opponent 
-▁opportunity 
-▁opposite 
-▁opposition 
-▁oppress 
-▁or 
-▁orange 
-▁orchard 
-▁order 
-▁ordered 
-▁orders 
-▁ordinary 
-▁organ 
-▁organiz 
-▁origin 
-▁original 
-▁ornament 
-▁other 
-▁others 
-▁otherwise 
-▁ought 
-▁ounce 
-▁our 
-▁ourselves 
-▁out 
-▁outrage 
-▁outside 
-▁oven 
-▁over 
-▁overcome 
-▁overflow 
-▁overlook 
-▁overtake 
-▁overwhelm 
-▁owe 
-▁owing 
-▁owl 
-▁own 
-▁oyster 
-▁p 
-▁pa 
-▁pace 
-▁pacific 
-▁pack 
-▁page 
-▁paid 
-▁pain 
-▁painful 
-▁painted 
-▁pair 
-▁pal 
-▁palace 
-▁pale 
-▁palm 
-▁pan 
-▁papa 
-▁paper 
-▁papers 
-▁par 
-▁para 
-▁paradise 
-▁parallel 
-▁parcel 
-▁pardon 
-▁parents 
-▁paris 
-▁park 
-▁parliament 
-▁parlor 
-▁parlour 
-▁part 
-▁particular 
-▁particularly 
-▁parties 
-▁partner 
-▁parts 
-▁party 
-▁pass 
-▁passage 
-▁passed 
-▁passenger 
-▁passing 
-▁passion 
-▁passionate 
-▁past 
-▁pat 
-▁patch 
-▁path 
-▁patience 
-▁patient 
-▁patriot 
-▁paul 
-▁pause 
-▁paused 
-▁pavement 
-▁pay 
-▁pe 
-▁pea 
-▁peace 
-▁pearl 
-▁peasant 
-▁peculiar 
-▁peep 
-▁peer 
-▁pen 
-▁pencil 
-▁penetrate 
-▁penny 
-▁people 
-▁pepper 
-▁per 
-▁perceive 
-▁perceived 
-▁perceiving 
-▁perception 
-▁perch 
-▁perfect 
-▁perfection 
-▁perfectly 
-▁perform 
-▁performance 
-▁perfume 
-▁perhaps 
-▁peril 
-▁period 
-▁perish 
-▁permanent 
-▁permission 
-▁permit 
-▁permitted 
-▁perpetual 
-▁perplex 
-▁persecut 
-▁persist 
-▁person 
-▁personal 
-▁persons 
-▁persuade 
-▁pet 
-▁peter 
-▁ph 
-▁pharaoh 
-▁phenomena 
-▁phenomenon 
-▁phil 
-▁philadelphia 
-▁philip 
-▁philosopher 
-▁philosophy 
-▁phoenix 
-▁photograph 
-▁phrase 
-▁physical 
-▁physician 
-▁pi 
-▁piano 
-▁pick 
-▁picked 
-▁picture 
-▁piece 
-▁pieces 
-▁pierced 
-▁pierre 
-▁pig 
-▁pile 
-▁pilgrim 
-▁pill 
-▁pillow 
-▁pilot 
-▁pin 
-▁pine 
-▁pink 
-▁pinocchio 
-▁pipe 
-▁pirate 
-▁pistol 
-▁pit 
-▁pitch 
-▁pitiful 
-▁pity 
-▁pla 
-▁plac 
-▁place 
-▁placed 
-▁places 
-▁plague 
-▁plain 
-▁plainly 
-▁plan 
-▁planet 
-▁plant 
-▁plate 
-▁platform 
-▁play 
-▁played 
-▁playing 
-▁pleaded 
-▁pleasant 
-▁please 
-▁pleased 
-▁pleasing 
-▁pleasure 
-▁pledge 
-▁plenty 
-▁plot 
-▁plough 
-▁pluck 
-▁plum 
-▁plunder 
-▁plunge 
-▁po 
-▁pocket 
-▁poem 
-▁poet 
-▁poetry 
-▁point 
-▁pointed 
-▁poison 
-▁pole 
-▁police 
-▁policy 
-▁polish 
-▁polite 
-▁political 
-▁politics 
-▁polly 
-▁pomp 
-▁pond 
-▁pony 
-▁pool 
-▁poor 
-▁pope 
-▁popular 
-▁population 
-▁porch 
-▁port 
-▁porthos 
-▁portion 
-▁portrait 
-▁position 
-▁positive 
-▁possess 
-▁possessed 
-▁possession 
-▁possibility 
-▁possible 
-▁possibly 
-▁post 
-▁pot 
-▁potatoes 
-▁pound 
-▁pounds 
-▁pour 
-▁poverty 
-▁powder 
-▁power 
-▁powerful 
-▁pra 
-▁practical 
-▁practice 
-▁practise 
-▁prairie 
-▁praise 
-▁pray 
-▁prayer 
-▁pre 
-▁preach 
-▁precaution 
-▁precede 
-▁preceding 
-▁precious 
-▁precise 
-▁prefer 
-▁preferred 
-▁prejudice 
-▁preparation 
-▁prepare 
-▁prepared 
-▁preparing 
-▁presence 
-▁present 
-▁presented 
-▁presently 
-▁preserv 
-▁president 
-▁press 
-▁pressed 
-▁pressure 
-▁presume 
-▁pretend 
-▁pretty 
-▁prevail 
-▁prevent 
-▁previous 
-▁price 
-▁prick 
-▁pride 
-▁priest 
-▁prim 
-▁primitive 
-▁prince 
-▁princess 
-▁principal 
-▁principle 
-▁print 
-▁prior 
-▁priscilla 
-▁prison 
-▁prisoner 
-▁priv 
-▁private 
-▁privilege 
-▁prize 
-▁pro 
-▁probability 
-▁probable 
-▁probably 
-▁problem 
-▁proceed 
-▁proceeded 
-▁process 
-▁proclaim 
-▁procure 
-▁produce 
-▁produced 
-▁producing 
-▁product 
-▁profess 
-▁profession 
-▁professor 
-▁profit 
-▁profound 
-▁progress 
-▁prohibit 
-▁project 
-▁prominent 
-▁promise 
-▁promised 
-▁promising 
-▁promote 
-▁prompt 
-▁pronounc 
-▁proof 
-▁prop 
-▁proper 
-▁properly 
-▁property 
-▁prophet 
-▁proportion 
-▁proposal 
-▁propose 
-▁proposed 
-▁proposition 
-▁proprietor 
-▁prospect 
-▁prosperity 
-▁protect 
-▁protection 
-▁protest 
-▁proud 
-▁prove 
-▁proved 
-▁proverb 
-▁provide 
-▁provided 
-▁province 
-▁provision 
-▁provoke 
-▁prudence 
-▁prudent 
-▁psmith 
-▁pu 
-▁public 
-▁publish 
-▁puff 
-▁pull 
-▁pulled 
-▁pulse 
-▁pump 
-▁pun 
-▁punish 
-▁punishment 
-▁pupil 
-▁pur 
-▁purchase 
-▁pure 
-▁purple 
-▁purpose 
-▁purse 
-▁pursue 
-▁pursued 
-▁pursuit 
-▁push 
-▁pushed 
-▁put 
-▁putting 
-▁puzzled 
-▁qua 
-▁qualities 
-▁quality 
-▁quantity 
-▁quarrel 
-▁quarter 
-▁queen 
-▁queer 
-▁quest 
-▁question 
-▁questions 
-▁qui 
-▁quick 
-▁quickly 
-▁quiet 
-▁quietly 
-▁quite 
-▁quiver 
-▁quixote 
-▁quo 
-▁quoth 
-▁r 
-▁ra 
-▁rabbit 
-▁race 
-▁rachel 
-▁radiant 
-▁raft 
-▁rag 
-▁rage 
-▁rail 
-▁railroad 
-▁railway 
-▁rain 
-▁rainbow 
-▁raise 
-▁raised 
-▁raising 
-▁ralph 
-▁ram 
-▁ran 
-▁rang 
-▁range 
-▁rank 
-▁raoul 
-▁rap 
-▁rapid 
-▁rapidly 
-▁rare 
-▁rascal 
-▁rat 
-▁rate 
-▁rather 
-▁rational 
-▁rattl 
-▁raven 
-▁ray 
-▁re 
-▁reach 
-▁reached 
-▁reaction 
-▁read 
-▁reader 
-▁readily 
-▁reading 
-▁ready 
-▁real 
-▁reality 
-▁realized 
-▁really 
-▁rear 
-▁reason 
-▁rebecca 
-▁rebel 
-▁recall 
-▁receive 
-▁received 
-▁receiving 
-▁reception 
-▁recess 
-▁recit 
-▁reckless 
-▁reckon 
-▁recognition 
-▁recognize 
-▁recognized 
-▁recollect 
-▁recollection 
-▁recommend 
-▁record 
-▁recover 
-▁recovered 
-▁red 
-▁reduced 
-▁refer 
-▁reference 
-▁refined 
-▁reflect 
-▁reflection 
-▁reform 
-▁refrain 
-▁refresh 
-▁refuge 
-▁refuse 
-▁refused 
-▁regain 
-▁regard 
-▁regarded 
-▁regiment 
-▁region 
-▁regret 
-▁regular 
-▁regulat 
-▁reign 
-▁reject 
-▁rejoice 
-▁rejoicing 
-▁relate 
-▁related 
-▁relation 
-▁relative 
-▁relax 
-▁release 
-▁reli 
-▁relief 
-▁relieve 
-▁religion 
-▁religious 
-▁reluctant 
-▁remain 
-▁remained 
-▁remark 
-▁remarkable 
-▁remarked 
-▁remedy 
-▁remember 
-▁remembered 
-▁remembrance 
-▁remind 
-▁remorse 
-▁remote 
-▁remove 
-▁removed 
-▁render 
-▁renew 
-▁rent 
-▁rep 
-▁repair 
-▁repeat 
-▁repeated 
-▁repent 
-▁replace 
-▁replied 
-▁reply 
-▁report 
-▁represent 
-▁representative 
-▁reproach 
-▁republic 
-▁reputation 
-▁request 
-▁require 
-▁required 
-▁rescue 
-▁resemblance 
-▁resemble 
-▁reserve 
-▁residence 
-▁resign 
-▁resist 
-▁resistance 
-▁resolute 
-▁resolution 
-▁resolved 
-▁resort 
-▁resource 
-▁respect 
-▁response 
-▁responsibility 
-▁responsible 
-▁rest 
-▁restore 
-▁restrain 
-▁result 
-▁resumed 
-▁retain 
-▁retire 
-▁retired 
-▁retorted 
-▁retreat 
-▁return 
-▁returned 
-▁returning 
-▁rev 
-▁reveal 
-▁revelation 
-▁revenge 
-▁revere 
-▁reverse 
-▁review 
-▁revolt 
-▁revolution 
-▁reward 
-▁ri 
-▁ribbon 
-▁rich 
-▁richard 
-▁richmond 
-▁rid 
-▁ride 
-▁ridge 
-▁ridiculous 
-▁riding 
-▁rifle 
-▁right 
-▁rigid 
-▁ring 
-▁ripe 
-▁rise 
-▁rising 
-▁risk 
-▁rival 
-▁river 
-▁ro 
-▁road 
-▁roar 
-▁roast 
-▁rob 
-▁robber 
-▁robe 
-▁robert 
-▁robin 
-▁rock 
-▁rocks 
-▁rode 
-▁roll 
-▁rolled 
-▁roman 
-▁rome 
-▁roof 
-▁room 
-▁root 
-▁rope 
-▁rosa 
-▁rose 
-▁rough 
-▁round 
-▁roused 
-▁route 
-▁row 
-▁royal 
-▁ru 
-▁rub 
-▁rubbed 
-▁rubbing 
-▁rude 
-▁ruin 
-▁rule 
-▁rum 
-▁run 
-▁running 
-▁rush 
-▁rushed 
-▁russia 
-▁russian 
-▁ruth 
-▁s 
-▁sa 
-▁sacred 
-▁sacrifice 
-▁sad 
-▁saddle 
-▁safe 
-▁safety 
-▁said 
-▁sail 
-▁sailor 
-▁saint 
-▁sake 
-▁sal 
-▁salt 
-▁salute 
-▁sam 
-▁same 
-▁samuel 
-▁san 
-▁sancho 
-▁sand 
-▁sang 
-▁sank 
-▁sarah 
-▁sat 
-▁satisfaction 
-▁satisfactory 
-▁satisfied 
-▁satisfy 
-▁saturday 
-▁sauce 
-▁savage 
-▁save 
-▁saved 
-▁saving 
-▁saw 
-▁say 
-▁saying 
-▁says 
-▁sc 
-▁scale 
-▁scandal 
-▁scar 
-▁scarce 
-▁scarcely 
-▁scarecrow 
-▁scarlet 
-▁scattered 
-▁scene 
-▁scheme 
-▁scholar 
-▁school 
-▁science 
-▁scientific 
-▁scold 
-▁score 
-▁scorn 
-▁scotch 
-▁scotland 
-▁scott 
-▁scoundrel 
-▁scout 
-▁scr 
-▁scramble 
-▁scrap 
-▁scratch 
-▁scream 
-▁screen 
-▁screw 
-▁scrooge 
-▁se 
-▁sea 
-▁seal 
-▁search 
-▁season 
-▁seat 
-▁seated 
-▁second 
-▁secret 
-▁secretary 
-▁section 
-▁secure 
-▁security 
-▁see 
-▁seeing 
-▁seek 
-▁seem 
-▁seemed 
-▁seems 
-▁seen 
-▁seize 
-▁seized 
-▁seldom 
-▁select 
-▁self 
-▁selfish 
-▁sell 
-▁senate 
-▁senator 
-▁send 
-▁sensation 
-▁sense 
-▁sensible 
-▁sensitive 
-▁sent 
-▁sentence 
-▁sentiment 
-▁separate 
-▁separated 
-▁september 
-▁serene 
-▁sergeant 
-▁series 
-▁serious 
-▁sermon 
-▁serpent 
-▁servant 
-▁servants 
-▁serve 
-▁served 
-▁service 
-▁serving 
-▁set 
-▁setting 
-▁settle 
-▁settled 
-▁seven 
-▁seventeen 
-▁seventy 
-▁several 
-▁severe 
-▁sex 
-▁sh 
-▁sha 
-▁shade 
-▁shadow 
-▁shaft 
-▁shaggy 
-▁shake 
-▁shakespeare 
-▁shaking 
-▁shall 
-▁shame 
-▁shape 
-▁share 
-▁sharp 
-▁sharply 
-▁shawl 
-▁she 
-▁sheep 
-▁shelter 
-▁shepherd 
-▁sheriff 
-▁shield 
-▁shift 
-▁shilling 
-▁shine 
-▁shining 
-▁ship 
-▁ships 
-▁shirt 
-▁shiver 
-▁shock 
-▁shoe 
-▁shoes 
-▁shone 
-▁shook 
-▁shoot 
-▁shop 
-▁shore 
-▁short 
-▁shot 
-▁should 
-▁shoulder 
-▁shoulders 
-▁shout 
-▁shouted 
-▁show 
-▁showed 
-▁shown 
-▁shrewd 
-▁shriek 
-▁shrill 
-▁shrink 
-▁shudder 
-▁shut 
-▁si 
-▁sick 
-▁side 
-▁sides 
-▁siege 
-▁sigh 
-▁sighed 
-▁sight 
-▁sign 
-▁signal 
-▁significance 
-▁significant 
-▁silence 
-▁silent 
-▁silk 
-▁silly 
-▁silver 
-▁similar 
-▁simon 
-▁simple 
-▁simplicity 
-▁simply 
-▁sin 
-▁since 
-▁sing 
-▁singing 
-▁single 
-▁singular 
-▁sink 
-▁sir 
-▁sister 
-▁sit 
-▁sitting 
-▁situated 
-▁situation 
-▁six 
-▁sixteen 
-▁sixty 
-▁size 
-▁sketch 
-▁ski 
-▁skilful 
-▁skill 
-▁skin 
-▁skirt 
-▁skull 
-▁sky 
-▁slain 
-▁slaughter 
-▁slave 
-▁slavery 
-▁slaves 
-▁sledge 
-▁sleep 
-▁sleeve 
-▁slender 
-▁slept 
-▁slew 
-▁slice 
-▁slid 
-▁slight 
-▁slightest 
-▁slightly 
-▁slim 
-▁slip 
-▁slipped 
-▁slope 
-▁slow 
-▁slowly 
-▁slumber 
-▁small 
-▁smart 
-▁smash 
-▁smell 
-▁smile 
-▁smiled 
-▁smiling 
-▁smith 
-▁smoke 
-▁smoking 
-▁smooth 
-▁smot 
-▁snake 
-▁snap 
-▁snatch 
-▁sneer 
-▁snow 
-▁so 
-▁social 
-▁society 
-▁soft 
-▁softly 
-▁sold 
-▁soldier 
-▁soldiers 
-▁solemn 
-▁solicit 
-▁solid 
-▁solitary 
-▁solitude 
-▁solomon 
-▁solution 
-▁some 
-▁somebody 
-▁somehow 
-▁someone 
-▁something 
-▁sometimes 
-▁somewhat 
-▁somewhere 
-▁son 
-▁song 
-▁soon 
-▁sooner 
-▁sooth 
-▁sorrow 
-▁sorry 
-▁sort 
-▁sought 
-▁soul 
-▁sound 
-▁source 
-▁south 
-▁southern 
-▁sovereign 
-▁sp 
-▁space 
-▁spain 
-▁spaniard 
-▁spanish 
-▁spar 
-▁spare 
-▁spark 
-▁speak 
-▁speaking 
-▁spear 
-▁special 
-▁species 
-▁specimen 
-▁speck 
-▁spectacle 
-▁spectator 
-▁speculat 
-▁speech 
-▁speed 
-▁spell 
-▁spend 
-▁spent 
-▁sphere 
-▁spi 
-▁spin 
-▁spirit 
-▁spirits 
-▁spiritual 
-▁spite 
-▁splash 
-▁splendid 
-▁split 
-▁spoil 
-▁spoke 
-▁spoken 
-▁spoon 
-▁sport 
-▁spot 
-▁sprang 
-▁spread 
-▁spring 
-▁sprinkle 
-▁spur 
-▁squ 
-▁square 
-▁squeez 
-▁squire 
-▁squirrel 
-▁st 
-▁sta 
-▁stable 
-▁staff 
-▁stage 
-▁stagger 
-▁staircase 
-▁stairs 
-▁stalk 
-▁stamp 
-▁stand 
-▁standard 
-▁standing 
-▁star 
-▁stared 
-▁stars 
-▁start 
-▁started 
-▁startled 
-▁state 
-▁statement 
-▁states 
-▁station 
-▁statue 
-▁stay 
-▁ste 
-▁steadily 
-▁steady 
-▁steal 
-▁steam 
-▁steel 
-▁steep 
-▁step 
-▁stephen 
-▁stepped 
-▁steps 
-▁stern 
-▁stick 
-▁stiff 
-▁still 
-▁stir 
-▁stirred 
-▁sto 
-▁stock 
-▁stole 
-▁stomach 
-▁stone 
-▁stones 
-▁stood 
-▁stoop 
-▁stop 
-▁stopped 
-▁stopping 
-▁store 
-▁stories 
-▁storm 
-▁story 
-▁stout 
-▁stra 
-▁straight 
-▁strain 
-▁strange 
-▁stranger 
-▁straw 
-▁streak 
-▁stream 
-▁street 
-▁streets 
-▁strength 
-▁stretch 
-▁stretched 
-▁stricken 
-▁strict 
-▁strike 
-▁striking 
-▁string 
-▁strip 
-▁stro 
-▁stroke 
-▁strong 
-▁struck 
-▁structure 
-▁struggle 
-▁struggling 
-▁stuck 
-▁student 
-▁studied 
-▁studies 
-▁studio 
-▁study 
-▁stuff 
-▁stumble 
-▁stump 
-▁stupid 
-▁style 
-▁su 
-▁sub 
-▁subdued 
-▁subject 
-▁sublime 
-▁submit 
-▁subsequent 
-▁substance 
-▁substantial 
-▁subtle 
-▁succeed 
-▁succeeded 
-▁success 
-▁successful 
-▁such 
-▁sudden 
-▁suddenly 
-▁suffer 
-▁suffered 
-▁suffering 
-▁suffice 
-▁sufficient 
-▁sufficiently 
-▁suffrage 
-▁sugar 
-▁suggest 
-▁suggested 
-▁suggestion 
-▁suit 
-▁sullen 
-▁sultan 
-▁sum 
-▁summer 
-▁summit 
-▁summon 
-▁sun 
-▁sunday 
-▁sunlight 
-▁sunrise 
-▁sunset 
-▁sunshine 
-▁sup 
-▁super 
-▁superintend 
-▁superior 
-▁supper 
-▁supplied 
-▁supplies 
-▁supply 
-▁support 
-▁suppose 
-▁supposed 
-▁supposing 
-▁suppress 
-▁supreme 
-▁sur 
-▁sure 
-▁surely 
-▁surface 
-▁surgeon 
-▁surpass 
-▁surprise 
-▁surprised 
-▁surprising 
-▁surrender 
-▁surrounded 
-▁surrounding 
-▁survey 
-▁surviv 
-▁susan 
-▁suspect 
-▁suspicion 
-▁suspicious 
-▁sustain 
-▁sw 
-▁swallow 
-▁swarm 
-▁swear 
-▁sweat 
-▁sweep 
-▁sweet 
-▁swell 
-▁swept 
-▁swift 
-▁swim 
-▁swimming 
-▁sword 
-▁swore 
-▁swung 
-▁sylvia 
-▁symbol 
-▁sympathetic 
-▁sympathy 
-▁symptom 
-▁system 
-▁t 
-▁ta 
-▁table 
-▁tail 
-▁take 
-▁taken 
-▁taking 
-▁tale 
-▁talent 
-▁talk 
-▁talked 
-▁talking 
-▁tall 
-▁tang 
-▁tap 
-▁tar 
-▁task 
-▁taste 
-▁taught 
-▁tax 
-▁te 
-▁tea 
-▁teach 
-▁teacher 
-▁tear 
-▁tears 
-▁teeth 
-▁telegraph 
-▁telephone 
-▁tell 
-▁telling 
-▁temper 
-▁temperament 
-▁temperature 
-▁tempest 
-▁temple 
-▁temporary 
-▁tempt 
-▁temptation 
-▁ten 
-▁tendency 
-▁tender 
-▁tenderness 
-▁tent 
-▁ter 
-▁term 
-▁terms 
-▁terrace 
-▁terrible 
-▁terribly 
-▁terrified 
-▁territory 
-▁terror 
-▁test 
-▁testimony 
-▁text 
-▁th 
-▁than 
-▁thank 
-▁that 
-▁the 
-▁theatre 
-▁their 
-▁them 
-▁themselves 
-▁then 
-▁there 
-▁therefore 
-▁thereupon 
-▁these 
-▁they 
-▁thick 
-▁thief 
-▁thieves 
-▁thin 
-▁thing 
-▁things 
-▁think 
-▁thinking 
-▁third 
-▁thirst 
-▁thirteen 
-▁thirty 
-▁this 
-▁thither 
-▁thomas 
-▁thor 
-▁thornton 
-▁thorough 
-▁thoroughly 
-▁those 
-▁thou 
-▁though 
-▁thought 
-▁thoughtfully 
-▁thoughts 
-▁thousand 
-▁thread 
-▁threat 
-▁threatened 
-▁threatening 
-▁three 
-▁threshold 
-▁threw 
-▁thrill 
-▁throat 
-▁throne 
-▁throng 
-▁through 
-▁throughout 
-▁throw 
-▁thrown 
-▁thrust 
-▁thumb 
-▁thunder 
-▁thus 
-▁thy 
-▁thyself 
-▁ti 
-▁tide 
-▁tied 
-▁tight 
-▁till 
-▁timber 
-▁time 
-▁times 
-▁timid 
-▁tin 
-▁tiny 
-▁tip 
-▁tired 
-▁title 
-▁to 
-▁tobacco 
-▁together 
-▁told 
-▁tom 
-▁tomb 
-▁tomorrow 
-▁tone 
-▁tongue 
-▁too 
-▁took 
-▁top 
-▁torment 
-▁torrent 
-▁torture 
-▁total 
-▁touch 
-▁touched 
-▁toward 
-▁towards 
-▁tower 
-▁town 
-▁tra 
-▁trace 
-▁track 
-▁trade 
-▁tradition 
-▁tragedy 
-▁tragic 
-▁trail 
-▁train 
-▁traitor 
-▁tramp 
-▁tranquil 
-▁trans 
-▁transport 
-▁trap 
-▁travel 
-▁traveller 
-▁tre 
-▁tread 
-▁treasure 
-▁treat 
-▁treated 
-▁treatment 
-▁tree 
-▁trees 
-▁tremble 
-▁trembling 
-▁tremendous 
-▁trench 
-▁tri 
-▁trial 
-▁tribe 
-▁trick 
-▁tried 
-▁trifle 
-▁trifling 
-▁trip 
-▁tristram 
-▁triumph 
-▁triumphant 
-▁tro 
-▁troops 
-▁trot 
-▁trouble 
-▁troubled 
-▁trousers 
-▁tru 
-▁true 
-▁truly 
-▁trumpet 
-▁trunk 
-▁trust 
-▁truth 
-▁try 
-▁trying 
-▁tu 
-▁tulliver 
-▁tumble 
-▁tumult 
-▁tur 
-▁turkey 
-▁turn 
-▁turned 
-▁turning 
-▁turtle 
-▁twas 
-▁twelve 
-▁twentieth 
-▁twenty 
-▁twice 
-▁twilight 
-▁twin 
-▁twist 
-▁two 
-▁ty 
-▁type 
-▁tyrant 
-▁u 
-▁ugly 
-▁ultimate 
-▁umbrella 
-▁un 
-▁unable 
-▁unc 
-▁uncertain 
-▁uncle 
-▁uncomfortable 
-▁uncommon 
-▁unconscious 
-▁und 
-▁under 
-▁underneath 
-▁understand 
-▁understanding 
-▁understood 
-▁undertake 
-▁undertaking 
-▁undoubtedly 
-▁uneasiness 
-▁uneasy 
-▁unexpected 
-▁unfortunate 
-▁unhappy 
-▁uniform 
-▁union 
-▁united 
-▁universal 
-▁universe 
-▁university 
-▁unjust 
-▁unknown 
-▁unless 
-▁unnatural 
-▁unnecessary 
-▁unpleasant 
-▁unre 
-▁unseen 
-▁until 
-▁unto 
-▁unusual 
-▁unwilling 
-▁unworthy 
-▁up 
-▁upon 
-▁upper 
-▁upstairs 
-▁ur 
-▁urge 
-▁us 
-▁use 
-▁used 
-▁useful 
-▁useless 
-▁usual 
-▁usually 
-▁utmost 
-▁utter 
-▁uttered 
-▁utterly 
-▁va 
-▁vacant 
-▁vague 
-▁vain 
-▁val 
-▁valentine 
-▁valjean 
-▁valley 
-▁valuable 
-▁value 
-▁van 
-▁vanished 
-▁vari 
-▁variety 
-▁various 
-▁vast 
-▁vault 
-▁ve 
-▁vegetable 
-▁vehicle 
-▁veil 
-▁velvet 
-▁ven 
-▁vengeance 
-▁venture 
-▁ventured 
-▁ver 
-▁verse 
-▁very 
-▁vessel 
-▁vexed 
-▁vi 
-▁vibrat 
-▁vice 
-▁victim 
-▁victor 
-▁victory 
-▁view 
-▁vigorous 
-▁village 
-▁villain 
-▁villefort 
-▁vine 
-▁violence 
-▁violent 
-▁violet 
-▁virgin 
-▁virginia 
-▁virtue 
-▁visible 
-▁vision 
-▁visit 
-▁visitor 
-▁vital 
-▁vivid 
-▁vo 
-▁voice 
-▁vol 
-▁volume 
-▁volunteer 
-▁vote 
-▁voyage 
-▁vulgar 
-▁w 
-▁wa 
-▁wag 
-▁wagon 
-▁waist 
-▁waistcoat 
-▁wait 
-▁waited 
-▁waiting 
-▁wake 
-▁waking 
-▁wal 
-▁walk 
-▁walked 
-▁walking 
-▁wall 
-▁walls 
-▁walter 
-▁wander 
-▁wandering 
-▁want 
-▁wanted 
-▁war 
-▁warm 
-▁warn 
-▁warning 
-▁warrant 
-▁warrior 
-▁was 
-▁wash 
-▁washington 
-▁waste 
-▁watch 
-▁watched 
-▁watching 
-▁water 
-▁wave 
-▁waving 
-▁wax 
-▁way 
-▁we 
-▁weak 
-▁weakness 
-▁wealth 
-▁weapon 
-▁wear 
-▁weary 
-▁weather 
-▁wedding 
-▁week 
-▁weeks 
-▁weep 
-▁weigh 
-▁weight 
-▁welcome 
-▁welfare 
-▁well 
-▁went 
-▁wept 
-▁were 
-▁west 
-▁western 
-▁whale 
-▁what 
-▁whatever 
-▁wheat 
-▁wheel 
-▁when 
-▁whence 
-▁where 
-▁wherefore 
-▁whereupon 
-▁whether 
-▁which 
-▁while 
-▁whilst 
-▁whim 
-▁whip 
-▁whirl 
-▁whisk 
-▁whisper 
-▁whispered 
-▁whistle 
-▁whit 
-▁white 
-▁whither 
-▁who 
-▁whole 
-▁wholly 
-▁whom 
-▁whose 
-▁why 
-▁wi 
-▁wicked 
-▁wide 
-▁widow 
-▁wife 
-▁wil 
-▁wild 
-▁wilderness 
-▁will 
-▁william 
-▁willing 
-▁wilson 
-▁win 
-▁wind 
-▁window 
-▁windows 
-▁wine 
-▁wings 
-▁winter 
-▁wip 
-▁wire 
-▁wisdom 
-▁wise 
-▁wish 
-▁wished 
-▁wishes 
-▁wit 
-▁witch 
-▁with 
-▁withdraw 
-▁withdrew 
-▁within 
-▁without 
-▁witness 
-▁wives 
-▁wo 
-▁wolf 
-▁wolves 
-▁woman 
-▁women 
-▁won 
-▁wonder 
-▁wondered 
-▁wonderful 
-▁wondering 
-▁wood 
-▁wooden 
-▁woods 
-▁word 
-▁words 
-▁wore 
-▁work 
-▁worked 
-▁working 
-▁world 
-▁worm 
-▁worn 
-▁worried 
-▁worry 
-▁worse 
-▁worship 
-▁worst 
-▁worth 
-▁worthy 
-▁would 
-▁wouldn 
-▁wound 
-▁wounded 
-▁wrap 
-▁wrapped 
-▁wrath 
-▁wreck 
-▁wretch 
-▁wretched 
-▁wrinkl 
-▁wrist 
-▁write 
-▁writer 
-▁writing 
-▁written 
-▁wrong 
-▁wrote 
-▁wrought 
-▁ya 
-▁yard 
-▁ye 
-▁year 
-▁years 
-▁yellow 
-▁yes 
-▁yesterday 
-▁yet 
-▁yield 
-▁yo 
-▁yonder 
-▁york 
-▁you 
-▁young 
-▁your 
-▁yourself 
-▁yourselves 
-▁youth 
-▁yu 
-▁z 
-▁zeal 
+<s>
+</s>
+<unk>
+一
+丁
+七
+万
+丈
+三
+上
+下
+不
+与
+丐
+丑
+专
+且
+世
+丘
+丙
+业
+丛
+东
+丝
+丞
+丢
+两
+严
+丧
+个
+丫
+中
+丰
+串
+临
+丸
+丹
+为
+主
+丽
+举
+乃
+久
+么
+义
+之
+乌
+乍
+乎
+乏
+乐
+乒
+乓
+乔
+乖
+乘
+乙
+九
+乞
+也
+习
+乡
+书
+买
+乱
+乳
+乾
+了
+予
+争
+事
+二
+于
+亏
+云
+互
+五
+井
+亚
+些
+亟
+亡
+亢
+交
+亥
+亦
+产
+亨
+亩
+享
+京
+亭
+亮
+亲
+亳
+亵
+人
+亿
+什
+仁
+仄
+仅
+仇
+今
+介
+仍
+从
+仑
+仓
+仔
+仕
+他
+仗
+付
+仙
+仡
+代
+令
+以
+仨
+仪
+们
+仰
+仲
+件
+价
+任
+份
+仿
+企
+伉
+伊
+伍
+伎
+伏
+伐
+休
+众
+优
+伙
+会
+伞
+伟
+传
+伢
+伤
+伦
+伪
+伯
+估
+伴
+伶
+伸
+伺
+似
+伽
+佃
+但
+位
+低
+住
+佐
+佑
+体
+何
+佘
+余
+佛
+作
+佟
+你
+佣
+佩
+佬
+佳
+佶
+佼
+使
+侃
+侄
+侈
+例
+侍
+侑
+侗
+供
+依
+侠
+侣
+侥
+侦
+侧
+侨
+侬
+侮
+侯
+侵
+便
+促
+俄
+俊
+俏
+俐
+俗
+俘
+俚
+保
+俞
+信
+俨
+俩
+俪
+俭
+修
+俯
+俱
+俸
+俺
+俾
+倍
+倒
+倘
+候
+倚
+倜
+借
+倡
+倦
+倩
+倪
+债
+值
+倾
+假
+偏
+做
+停
+健
+偶
+偷
+偿
+傅
+傍
+傥
+储
+催
+傲
+傻
+像
+僚
+僧
+僮
+僵
+僻
+儒
+儿
+兀
+允
+元
+兄
+充
+兆
+先
+光
+克
+免
+兑
+兔
+兖
+党
+兜
+兢
+入
+全
+八
+公
+六
+兰
+共
+关
+兴
+兵
+其
+具
+典
+兹
+养
+兼
+兽
+冀
+内
+冈
+冉
+册
+再
+冒
+冕
+写
+军
+农
+冠
+冤
+冥
+冬
+冯
+冰
+冲
+决
+况
+冶
+冷
+冻
+净
+凄
+准
+凇
+凉
+凋
+凌
+减
+凑
+凝
+几
+凡
+凤
+凭
+凯
+凰
+凳
+凶
+凸
+凹
+出
+击
+函
+凿
+刀
+刁
+刃
+分
+切
+刊
+刑
+划
+列
+刘
+则
+刚
+创
+初
+删
+判
+刨
+利
+别
+刮
+到
+制
+刷
+券
+刹
+刺
+刻
+剁
+剂
+剃
+削
+前
+剐
+剑
+剔
+剖
+剥
+剧
+剩
+剪
+副
+割
+剽
+剿
+劈
+力
+劝
+办
+功
+加
+务
+劣
+动
+助
+努
+劫
+励
+劲
+劳
+劵
+势
+勃
+勇
+勉
+勋
+勒
+勘
+募
+勤
+勺
+勾
+勿
+匀
+包
+匆
+匈
+匕
+化
+北
+匙
+匝
+匠
+匡
+匣
+匪
+匮
+匹
+区
+医
+匾
+匿
+十
+千
+升
+午
+卉
+半
+华
+协
+卑
+卒
+卓
+单
+卖
+南
+博
+卜
+卞
+占
+卡
+卢
+卤
+卦
+卧
+卫
+卯
+印
+危
+卲
+即
+却
+卵
+卷
+卸
+卿
+厂
+厄
+厅
+历
+厉
+压
+厌
+厕
+厘
+厚
+原
+厢
+厥
+厦
+厨
+厩
+厮
+去
+县
+参
+又
+叉
+及
+友
+双
+反
+发
+叔
+取
+受
+变
+叙
+叛
+叠
+口
+古
+句
+另
+叨
+叩
+只
+叫
+召
+叭
+叮
+可
+台
+叱
+史
+右
+叵
+叶
+号
+司
+叹
+叼
+吁
+吃
+各
+吆
+合
+吉
+吊
+同
+名
+后
+吏
+吐
+向
+吓
+吕
+吗
+君
+吝
+吞
+吟
+否
+吧
+吨
+吩
+含
+听
+吭
+启
+吴
+吵
+吸
+吹
+吻
+吼
+吾
+吿
+呀
+呃
+呆
+呈
+告
+呐
+呕
+呗
+员
+呛
+呜
+呢
+呦
+周
+呲
+味
+呵
+呼
+命
+咀
+咄
+咋
+和
+咎
+咏
+咐
+咒
+咔
+咕
+咖
+咚
+咣
+咤
+咧
+咨
+咪
+咫
+咬
+咯
+咱
+咳
+咸
+咽
+哀
+品
+哄
+哆
+哇
+哈
+哉
+响
+哎
+哑
+哒
+哗
+哟
+哥
+哦
+哨
+哪
+哭
+哲
+哺
+哼
+哽
+唁
+唇
+唉
+唏
+唐
+唠
+唤
+唬
+售
+唯
+唱
+唾
+啃
+商
+啊
+啕
+啡
+啤
+啥
+啦
+啧
+啪
+啬
+啰
+啵
+啶
+啸
+啼
+喀
+喂
+善
+喆
+喇
+喉
+喊
+喔
+喘
+喜
+喝
+喧
+喱
+喵
+喷
+喻
+喽
+嗅
+嗑
+嗒
+嗓
+嗡
+嗣
+嗤
+嗦
+嗨
+嗬
+嗯
+嗲
+嗷
+嗽
+嘀
+嘉
+嘎
+嘘
+嘛
+嘟
+嘭
+嘱
+嘲
+嘴
+嘻
+噎
+器
+噩
+噪
+噬
+噱
+噼
+嚎
+嚏
+嚓
+嚣
+嚷
+嚼
+囊
+囚
+四
+回
+因
+团
+囤
+囧
+园
+困
+围
+固
+国
+图
+圆
+圈
+土
+圣
+在
+圩
+圪
+圭
+地
+圳
+场
+圾
+址
+坂
+均
+坊
+坍
+坎
+坏
+坐
+坑
+块
+坚
+坛
+坝
+坞
+坟
+坠
+坡
+坤
+坦
+坪
+坯
+坷
+垂
+垃
+垄
+垅
+型
+垌
+垒
+垛
+垢
+垣
+垤
+垦
+垫
+垮
+埃
+埋
+城
+埔
+埜
+域
+培
+基
+堂
+堆
+堕
+堡
+堤
+堪
+堰
+堵
+塌
+塑
+塔
+塘
+塞
+填
+塬
+塾
+境
+墅
+墓
+墙
+增
+墟
+墨
+墩
+壁
+壑
+壕
+壤
+士
+壮
+声
+壳
+壶
+壹
+处
+备
+复
+夏
+夕
+外
+夙
+多
+夜
+够
+大
+天
+太
+夫
+夭
+央
+夯
+失
+头
+夷
+夸
+夹
+夺
+奂
+奇
+奈
+奉
+奋
+奎
+奏
+契
+奔
+奕
+奖
+套
+奘
+奚
+奠
+奢
+奥
+女
+奴
+奶
+奸
+她
+好
+如
+妃
+妄
+妆
+妇
+妈
+妊
+妍
+妒
+妖
+妙
+妞
+妤
+妥
+妧
+妨
+妩
+妮
+妯
+妹
+妻
+姆
+姊
+始
+姐
+姑
+姓
+委
+姗
+姚
+姜
+姝
+姣
+姥
+姨
+姬
+姻
+姿
+威
+娃
+娄
+娅
+娇
+娌
+娘
+娜
+娟
+娠
+娥
+娩
+娱
+娴
+娶
+娼
+婀
+婆
+婉
+婕
+婚
+婧
+婪
+婴
+婵
+婶
+婷
+婿
+媒
+媚
+媛
+媞
+媲
+媳
+嫁
+嫂
+嫉
+嫌
+嫔
+嫖
+嫚
+嫣
+嫦
+嫩
+嬉
+嬛
+嬷
+孀
+子
+孔
+孕
+字
+存
+孙
+孚
+孜
+孝
+孟
+孢
+季
+孤
+学
+孩
+孪
+孰
+孱
+孵
+孺
+宁
+它
+宅
+宇
+守
+安
+宋
+完
+宏
+宓
+宕
+宗
+官
+宙
+定
+宛
+宜
+宝
+实
+宠
+审
+客
+宣
+室
+宦
+宪
+宫
+宰
+害
+宴
+宵
+家
+宸
+容
+宽
+宾
+宿
+寂
+寄
+寅
+密
+寇
+富
+寐
+寒
+寓
+寝
+寞
+察
+寡
+寥
+寨
+寮
+寰
+寸
+对
+寺
+寻
+导
+寿
+封
+射
+将
+尊
+小
+少
+尔
+尖
+尘
+尚
+尝
+尤
+尧
+尬
+就
+尴
+尸
+尹
+尺
+尼
+尽
+尾
+尿
+局
+屁
+层
+居
+屈
+届
+屋
+屌
+屎
+屏
+屑
+展
+属
+屠
+屡
+履
+屯
+山
+屹
+屿
+岁
+岂
+岌
+岐
+岔
+岖
+岗
+岚
+岛
+岩
+岬
+岭
+岱
+岳
+岷
+岸
+峁
+峙
+峡
+峥
+峨
+峪
+峭
+峰
+峻
+崂
+崃
+崇
+崎
+崔
+崖
+崛
+崧
+崩
+崭
+崴
+嵋
+嵌
+嵘
+嵛
+嵩
+嶝
+巅
+巍
+川
+州
+巡
+巢
+工
+左
+巧
+巨
+巩
+巫
+差
+己
+已
+巴
+巷
+巾
+巿
+币
+市
+布
+帅
+帆
+师
+希
+帐
+帕
+帖
+帘
+帚
+帜
+帝
+带
+席
+帮
+帷
+常
+帼
+帽
+幂
+幄
+幅
+幌
+幕
+幢
+干
+平
+年
+并
+幸
+幺
+幻
+幼
+幽
+广
+庄
+庆
+庇
+床
+序
+庐
+库
+应
+底
+店
+庙
+庚
+府
+庞
+废
+度
+座
+庭
+庵
+康
+庸
+庾
+廉
+廊
+廓
+廖
+延
+廷
+建
+开
+异
+弃
+弄
+弈
+弊
+式
+弓
+引
+弗
+弘
+弛
+弟
+张
+弥
+弦
+弧
+弩
+弯
+弱
+弹
+强
+归
+当
+录
+彝
+形
+彤
+彦
+彩
+彪
+彬
+彭
+彰
+影
+彷
+役
+彻
+彼
+彿
+往
+征
+径
+待
+徇
+很
+徉
+徊
+律
+徐
+徒
+得
+徘
+徙
+御
+循
+微
+德
+徽
+心
+必
+忆
+忌
+忍
+忐
+忑
+志
+忘
+忙
+忠
+忧
+忪
+快
+忱
+念
+忽
+怀
+态
+怂
+怎
+怒
+怕
+怖
+怜
+思
+怠
+怡
+急
+怦
+性
+怨
+怪
+怯
+怵
+总
+恋
+恍
+恐
+恒
+恙
+恢
+恣
+恤
+恨
+恩
+恪
+恬
+恭
+息
+恰
+恳
+恶
+恸
+恺
+恼
+恿
+悄
+悉
+悍
+悔
+悖
+悚
+悟
+悠
+患
+悦
+您
+悬
+悯
+悲
+悴
+悸
+悼
+情
+惊
+惋
+惑
+惕
+惚
+惜
+惟
+惠
+惦
+惧
+惨
+惩
+惫
+惬
+惮
+惯
+惰
+想
+惶
+惹
+惺
+愁
+愈
+愉
+意
+愕
+愚
+感
+愤
+愧
+愿
+慈
+慌
+慎
+慑
+慕
+慢
+慧
+慨
+慰
+慷
+憋
+憔
+憧
+憨
+憩
+憬
+憷
+憾
+懂
+懈
+懊
+懋
+懒
+懵
+懿
+戈
+戎
+戏
+成
+我
+戒
+或
+战
+戚
+戛
+戟
+截
+戬
+戮
+戳
+戴
+户
+房
+所
+扁
+扇
+扉
+手
+才
+扎
+扑
+扒
+打
+扔
+托
+扛
+扣
+执
+扩
+扫
+扬
+扭
+扮
+扯
+扰
+扳
+扶
+批
+扼
+找
+承
+技
+抄
+抉
+把
+抑
+抒
+抓
+投
+抖
+抗
+折
+抚
+抛
+抠
+抡
+抢
+护
+报
+抨
+披
+抬
+抱
+抵
+抹
+押
+抽
+抿
+拄
+担
+拆
+拇
+拈
+拉
+拌
+拍
+拎
+拐
+拒
+拓
+拔
+拖
+拗
+拘
+拙
+招
+拜
+拟
+拢
+拣
+拥
+拦
+拧
+拨
+择
+括
+拭
+拮
+拯
+拱
+拳
+拴
+拷
+拼
+拽
+拾
+拿
+持
+挂
+指
+按
+挎
+挑
+挖
+挚
+挛
+挝
+挟
+挠
+挡
+挣
+挤
+挥
+挨
+挪
+挫
+振
+挺
+挽
+捂
+捅
+捆
+捉
+捍
+捎
+捏
+捐
+捕
+捞
+损
+捡
+换
+捣
+捧
+据
+捷
+捺
+捻
+掀
+掂
+授
+掉
+掌
+掏
+掐
+排
+掖
+掘
+掠
+探
+掣
+接
+控
+推
+掩
+措
+掬
+掮
+掰
+掴
+掷
+掺
+揉
+揍
+描
+提
+插
+握
+揣
+揩
+揪
+揭
+援
+揽
+搀
+搁
+搂
+搅
+搏
+搜
+搞
+搡
+搪
+搬
+搭
+携
+搽
+摁
+摄
+摆
+摇
+摊
+摒
+摔
+摘
+摧
+摩
+摸
+摹
+撂
+撇
+撑
+撒
+撕
+撞
+撤
+撩
+撬
+播
+撮
+撰
+撵
+撸
+撼
+擂
+擅
+操
+擎
+擒
+擘
+擞
+擦
+攀
+攒
+攥
+支
+收
+改
+攻
+放
+政
+故
+效
+敌
+敏
+救
+敖
+教
+敛
+敝
+敞
+敢
+散
+敦
+敬
+数
+敲
+整
+敷
+文
+斌
+斐
+斑
+斓
+斗
+料
+斛
+斜
+斟
+斤
+斥
+斧
+斩
+断
+斯
+新
+方
+施
+旁
+旅
+旋
+族
+旗
+无
+既
+日
+旦
+旧
+旨
+早
+旬
+旭
+旱
+时
+旷
+旺
+昀
+昂
+昆
+昊
+昌
+明
+昏
+易
+昔
+昕
+昙
+星
+映
+春
+昧
+昨
+昭
+是
+昱
+昵
+昼
+显
+晃
+晋
+晏
+晒
+晓
+晔
+晕
+晖
+晗
+晚
+晟
+晤
+晦
+晨
+普
+景
+晰
+晴
+晶
+智
+晾
+暂
+暄
+暇
+暑
+暖
+暗
+暧
+暨
+暮
+暴
+曙
+曝
+曦
+曰
+曲
+更
+曹
+曼
+曾
+替
+最
+月
+有
+朋
+服
+朐
+朔
+朗
+望
+朝
+期
+朦
+木
+未
+末
+本
+札
+术
+朱
+朴
+朵
+机
+朽
+杀
+杂
+权
+杆
+杉
+李
+杏
+材
+村
+杖
+杜
+杞
+束
+杠
+条
+来
+杨
+杭
+杯
+杰
+杳
+松
+板
+极
+构
+枉
+析
+枕
+林
+枚
+果
+枝
+枞
+枢
+枣
+枪
+枫
+枭
+枯
+架
+枷
+柄
+柏
+某
+染
+柔
+柜
+柞
+柠
+查
+柬
+柯
+柱
+柳
+柴
+柿
+栅
+标
+栈
+栋
+栏
+树
+栓
+栖
+栗
+校
+株
+样
+核
+根
+格
+栽
+栾
+桂
+桃
+框
+案
+桉
+桌
+桎
+桐
+桑
+桓
+桔
+档
+桥
+桦
+桩
+桶
+梁
+梅
+梓
+梗
+梦
+梧
+梨
+梭
+梯
+械
+梳
+梵
+检
+棉
+棋
+棍
+棒
+棕
+棘
+棚
+棠
+森
+棱
+棵
+棺
+椅
+椋
+植
+椎
+椒
+椰
+椿
+楂
+楔
+楚
+楞
+楠
+楣
+楷
+楼
+概
+榄
+榆
+榈
+榉
+榔
+榕
+榜
+榨
+榭
+榴
+榷
+榻
+槌
+槎
+槐
+槛
+槟
+槽
+槿
+樊
+樟
+模
+横
+樱
+橄
+橘
+橙
+橡
+橱
+檀
+檐
+檬
+欠
+次
+欢
+欣
+欧
+欲
+欺
+款
+歆
+歇
+歉
+歌
+止
+正
+此
+步
+武
+歧
+歪
+歹
+死
+殃
+殆
+殉
+殊
+残
+殒
+殓
+殖
+殚
+殡
+殭
+殴
+段
+殷
+殿
+毁
+毂
+毅
+毋
+母
+每
+毒
+毓
+比
+毕
+毗
+毙
+毛
+毫
+毯
+毽
+氏
+民
+氓
+气
+氛
+氟
+氢
+氦
+氧
+氨
+氪
+氮
+氯
+氰
+水
+永
+汀
+汁
+求
+汇
+汉
+汕
+汗
+汛
+汝
+汞
+江
+池
+污
+汤
+汪
+汰
+汲
+汴
+汶
+汹
+汽
+汾
+沁
+沃
+沅
+沈
+沉
+沏
+沐
+沓
+沙
+沛
+沟
+没
+沣
+沥
+沦
+沧
+沪
+沫
+沮
+沱
+河
+沸
+油
+治
+沼
+沽
+沾
+沿
+泄
+泉
+泊
+泌
+泓
+泔
+法
+泗
+泛
+泞
+泠
+泡
+波
+泣
+泥
+注
+泪
+泯
+泰
+泱
+泳
+泵
+泷
+泸
+泻
+泼
+泽
+泾
+洁
+洋
+洒
+洗
+洙
+洛
+洞
+津
+洪
+洱
+洲
+洵
+活
+洼
+洽
+派
+流
+浅
+浆
+浇
+浈
+浊
+测
+济
+浏
+浑
+浓
+浙
+浚
+浦
+浩
+浪
+浮
+浴
+海
+浸
+涂
+涅
+消
+涉
+涌
+涎
+涓
+涕
+涛
+涝
+涞
+涠
+涡
+涤
+润
+涧
+涨
+涩
+涮
+涯
+液
+涵
+涿
+淀
+淄
+淆
+淇
+淋
+淌
+淑
+淖
+淘
+淝
+淞
+淡
+淤
+淫
+淮
+深
+淳
+混
+淹
+添
+淼
+渀
+清
+渊
+渍
+渎
+渐
+渔
+渗
+渚
+渝
+渠
+渡
+渣
+渤
+渥
+温
+渭
+港
+渲
+渴
+游
+渺
+湃
+湍
+湖
+湘
+湛
+湾
+湿
+溃
+溅
+溉
+源
+溜
+溢
+溥
+溧
+溪
+溯
+溶
+溺
+滁
+滇
+滋
+滑
+滔
+滕
+滚
+滞
+满
+滢
+滤
+滥
+滨
+滩
+滴
+漂
+漆
+漏
+漓
+演
+漕
+漠
+漩
+漫
+漭
+漯
+漱
+漳
+漾
+潇
+潘
+潜
+潞
+潢
+潭
+潮
+潼
+澄
+澈
+澎
+澜
+澡
+澳
+激
+濑
+濒
+濠
+濡
+濮
+瀑
+瀚
+瀛
+灌
+灞
+火
+灭
+灯
+灰
+灵
+灶
+灼
+灾
+灿
+炅
+炉
+炊
+炎
+炒
+炕
+炖
+炙
+炜
+炫
+炬
+炭
+炮
+炯
+炳
+炷
+炸
+点
+炼
+炽
+烁
+烂
+烃
+烈
+烊
+烘
+烙
+烟
+烤
+烦
+烧
+烨
+烫
+热
+烯
+烷
+烹
+烽
+焉
+焊
+焕
+焖
+焘
+焚
+焦
+焯
+焰
+焱
+然
+煊
+煌
+煎
+煜
+煞
+煤
+煦
+照
+煮
+煲
+熄
+熊
+熏
+熔
+熙
+熟
+熠
+熨
+熬
+熹
+燃
+燊
+燎
+燕
+燥
+爆
+爪
+爬
+爱
+爵
+父
+爷
+爸
+爹
+爽
+片
+版
+牌
+牙
+牛
+牟
+牡
+牢
+牧
+物
+牲
+牵
+特
+牺
+牾
+犀
+犊
+犒
+犬
+犯
+状
+犷
+犹
+狂
+狄
+狈
+狐
+狗
+狙
+狞
+狠
+狡
+狩
+独
+狭
+狮
+狰
+狱
+狸
+狼
+猎
+猖
+猛
+猜
+猝
+猥
+猩
+猪
+猫
+猬
+献
+猴
+猾
+猿
+獒
+獗
+獾
+玄
+率
+玉
+王
+玖
+玛
+玟
+玥
+玩
+玫
+玮
+环
+现
+玲
+玳
+玺
+玻
+珀
+珉
+珊
+珍
+珏
+珑
+珜
+珠
+班
+珮
+珲
+珺
+球
+琅
+理
+琉
+琊
+琏
+琐
+琛
+琢
+琥
+琦
+琪
+琬
+琰
+琳
+琴
+琵
+琶
+琼
+瑁
+瑄
+瑕
+瑙
+瑚
+瑛
+瑜
+瑞
+瑟
+瑰
+瑶
+瑾
+璀
+璃
+璇
+璋
+璐
+璞
+璧
+璨
+瓜
+瓢
+瓣
+瓦
+瓮
+瓯
+瓶
+瓷
+甄
+甘
+甚
+甜
+生
+甥
+用
+甩
+甫
+甬
+田
+由
+甲
+申
+电
+男
+甸
+町
+画
+畅
+畊
+界
+畏
+畔
+留
+畜
+略
+番
+畴
+畸
+畿
+疃
+疆
+疏
+疑
+疗
+疚
+疝
+疤
+疫
+疯
+疲
+疵
+疹
+疼
+疾
+病
+症
+痉
+痊
+痒
+痕
+痘
+痛
+痣
+痪
+痫
+痰
+痱
+痴
+痹
+痼
+瘀
+瘁
+瘟
+瘠
+瘤
+瘦
+瘩
+瘪
+瘫
+瘸
+瘾
+癌
+癖
+癣
+癫
+登
+白
+百
+皂
+的
+皆
+皇
+皋
+皎
+皓
+皖
+皙
+皮
+皱
+盆
+盈
+益
+盎
+盐
+监
+盒
+盔
+盖
+盗
+盘
+盛
+盟
+目
+盯
+盲
+直
+相
+盹
+盼
+盾
+省
+眈
+眉
+看
+真
+眠
+眨
+眬
+眯
+眶
+眷
+眺
+眼
+着
+睁
+睐
+睛
+睡
+督
+睦
+睫
+睬
+睹
+睿
+瞄
+瞅
+瞌
+瞎
+瞒
+瞟
+瞧
+瞩
+瞪
+瞬
+瞰
+瞳
+瞻
+瞿
+矗
+矛
+矜
+矢
+矣
+知
+矩
+矫
+短
+矮
+石
+矶
+矿
+码
+砂
+砌
+砍
+砒
+研
+砖
+砚
+砝
+砥
+砰
+砲
+破
+砷
+砸
+砺
+砾
+础
+硅
+硕
+硚
+硝
+硫
+硬
+确
+碉
+碌
+碍
+碎
+碑
+碗
+碘
+碚
+碟
+碧
+碰
+碱
+碳
+碴
+碾
+磁
+磅
+磊
+磋
+磐
+磕
+磡
+磨
+磴
+磷
+磺
+礁
+示
+礼
+社
+祁
+祈
+祉
+祖
+祛
+祝
+神
+祠
+祢
+祥
+票
+祭
+祯
+祷
+祸
+祺
+禀
+禁
+禄
+禅
+福
+禧
+禹
+禺
+离
+禽
+禾
+秀
+私
+秃
+秆
+秉
+秋
+种
+科
+秒
+秘
+租
+秣
+秤
+秦
+秧
+秩
+积
+称
+秸
+移
+秽
+稀
+程
+稍
+税
+稚
+稠
+稣
+稳
+稻
+稼
+稽
+稿
+穆
+穗
+穴
+究
+穷
+空
+穿
+突
+窃
+窄
+窈
+窍
+窑
+窒
+窕
+窖
+窗
+窘
+窜
+窝
+窟
+窥
+窦
+窨
+窿
+立
+竖
+站
+竞
+竟
+章
+竣
+童
+竭
+端
+竲
+竹
+竺
+竽
+竿
+笃
+笈
+笋
+笑
+笔
+笙
+笛
+符
+笨
+第
+笼
+等
+筋
+筐
+筑
+筒
+答
+策
+筛
+筱
+筵
+筷
+筹
+签
+简
+箍
+算
+管
+箫
+箭
+箱
+篇
+篡
+篪
+篮
+篷
+簇
+簧
+簸
+簿
+籁
+籍
+米
+类
+籽
+粉
+粒
+粕
+粗
+粘
+粟
+粤
+粥
+粪
+粮
+粱
+粹
+精
+糊
+糕
+糖
+糗
+糙
+糟
+糯
+系
+紊
+素
+索
+紧
+紫
+累
+絮
+綦
+繁
+纠
+红
+纣
+纤
+约
+级
+纪
+纬
+纯
+纰
+纱
+纲
+纳
+纵
+纶
+纷
+纸
+纹
+纺
+纽
+线
+练
+组
+绅
+细
+织
+终
+绊
+绌
+绍
+绎
+经
+绑
+绒
+结
+绕
+绘
+给
+绚
+络
+绝
+绞
+统
+绣
+继
+绩
+绪
+续
+绮
+绯
+绰
+绳
+维
+绵
+绷
+绸
+综
+绽
+绿
+缀
+缄
+缅
+缆
+缇
+缉
+缓
+缔
+缕
+编
+缘
+缙
+缚
+缜
+缝
+缠
+缤
+缨
+缩
+缪
+缭
+缮
+缰
+缴
+缸
+缺
+罂
+罄
+罐
+网
+罕
+罗
+罚
+罡
+罢
+罩
+罪
+置
+署
+罹
+羁
+羊
+美
+羚
+羞
+羡
+羣
+群
+羲
+羹
+羽
+羿
+翁
+翅
+翌
+翔
+翘
+翟
+翠
+翡
+翩
+翰
+翱
+翻
+翼
+耀
+老
+考
+耄
+者
+耋
+而
+耍
+耐
+耒
+耕
+耗
+耘
+耳
+耶
+耷
+耸
+耻
+耽
+耿
+聂
+聆
+聊
+聋
+职
+联
+聘
+聚
+聪
+肃
+肆
+肇
+肉
+肋
+肌
+肖
+肘
+肚
+肛
+肝
+肠
+股
+肢
+肤
+肥
+肩
+肪
+肮
+肯
+育
+肴
+肺
+肾
+肿
+胀
+胁
+胃
+胆
+背
+胎
+胖
+胚
+胛
+胜
+胞
+胡
+胤
+胧
+胫
+胯
+胰
+胱
+胳
+胶
+胸
+胺
+能
+脂
+脆
+脉
+脊
+脍
+脏
+脐
+脑
+脖
+脚
+脯
+脱
+脸
+脾
+腆
+腊
+腋
+腌
+腐
+腑
+腓
+腔
+腕
+腥
+腩
+腰
+腱
+腹
+腺
+腻
+腼
+腾
+腿
+膀
+膊
+膏
+膑
+膛
+膜
+膝
+膨
+膳
+膺
+臀
+臂
+臃
+臆
+臣
+自
+臭
+至
+致
+臻
+舀
+舅
+舆
+舌
+舍
+舒
+舛
+舜
+舞
+舟
+航
+般
+舰
+舱
+舵
+舶
+舸
+船
+艇
+艋
+艘
+良
+艰
+色
+艳
+艺
+艾
+节
+芊
+芋
+芒
+芙
+芜
+芝
+芦
+芬
+芭
+芮
+芯
+花
+芳
+芷
+芸
+芽
+苇
+苍
+苏
+苑
+苗
+苛
+苟
+苡
+苣
+若
+苦
+苯
+英
+苹
+茁
+茂
+范
+茄
+茅
+茆
+茎
+茗
+茜
+茨
+茫
+茵
+茶
+茸
+茹
+荃
+荆
+草
+荐
+荒
+荔
+荚
+荞
+荟
+荡
+荣
+荤
+荧
+荫
+药
+荷
+荼
+莅
+莆
+莉
+莎
+莓
+莘
+莞
+莠
+莫
+莱
+莲
+莴
+获
+莹
+莺
+莽
+菁
+菇
+菊
+菌
+菜
+菠
+菡
+菩
+菱
+菲
+萃
+萄
+萋
+萌
+萍
+萎
+萝
+萤
+营
+萦
+萧
+萨
+萱
+落
+葆
+著
+葛
+葡
+董
+葩
+葫
+葬
+葱
+葵
+蒂
+蒋
+蒙
+蒜
+蒲
+蒸
+蒿
+蓁
+蓄
+蓉
+蓝
+蓟
+蓬
+蔑
+蔓
+蔗
+蔚
+蔡
+蔫
+蔬
+蔷
+蔺
+蔽
+蕉
+蕊
+蕙
+蕲
+蕴
+蕾
+薄
+薇
+薛
+薪
+薯
+薰
+藏
+藜
+藤
+藩
+藻
+蘑
+虎
+虐
+虑
+虚
+虞
+虫
+虱
+虹
+虽
+虾
+蚀
+蚁
+蚂
+蚊
+蚌
+蚓
+蚕
+蚝
+蚣
+蚯
+蛀
+蛇
+蛋
+蛐
+蛙
+蛛
+蛟
+蛮
+蛰
+蜀
+蜂
+蜇
+蜈
+蜊
+蜒
+蜓
+蜕
+蜘
+蜚
+蜜
+蜡
+蜥
+蜴
+蜷
+蜿
+蝇
+蝉
+蝎
+蝗
+蝙
+蝠
+蝴
+蝶
+螂
+螃
+融
+螳
+螺
+蟑
+蟹
+蠢
+血
+衅
+行
+衍
+衔
+街
+衙
+衡
+衣
+补
+表
+衫
+衬
+衰
+衷
+袁
+袂
+袄
+袆
+袈
+袋
+袍
+袒
+袖
+袜
+被
+袭
+袱
+裁
+裂
+装
+裆
+裔
+裕
+裙
+裟
+裤
+裳
+裴
+裸
+裹
+褂
+褒
+褓
+褚
+褛
+褪
+褴
+褶
+襁
+襄
+襟
+西
+要
+覃
+覆
+见
+观
+规
+觅
+视
+览
+觉
+觊
+觎
+觐
+觑
+角
+解
+觥
+触
+言
+詹
+誉
+誓
+警
+譬
+计
+订
+认
+讧
+讨
+让
+讪
+训
+议
+讯
+记
+讲
+讳
+讶
+许
+讹
+论
+讼
+讽
+设
+访
+诀
+证
+评
+诅
+识
+诈
+诉
+诊
+词
+译
+诓
+试
+诗
+诙
+诚
+话
+诞
+诟
+诠
+诡
+询
+该
+详
+诧
+诩
+诫
+诬
+语
+误
+诱
+诲
+说
+诵
+诶
+请
+诸
+诺
+读
+诽
+课
+诿
+谀
+谁
+调
+谅
+谈
+谊
+谋
+谌
+谍
+谎
+谐
+谑
+谓
+谕
+谙
+谚
+谜
+谢
+谣
+谤
+谦
+谨
+谩
+谬
+谭
+谱
+谴
+谷
+豁
+豆
+豚
+象
+豪
+豫
+豹
+貅
+貉
+貌
+貔
+贝
+贞
+负
+贡
+财
+责
+贤
+败
+账
+货
+质
+贩
+贪
+贫
+贬
+购
+贮
+贯
+贱
+贴
+贵
+贷
+贸
+费
+贺
+贼
+贾
+贿
+赁
+赂
+赃
+资
+赋
+赌
+赎
+赏
+赐
+赔
+赖
+赘
+赚
+赛
+赝
+赞
+赠
+赡
+赢
+赣
+赤
+赦
+赫
+走
+赴
+赵
+赶
+起
+趁
+超
+越
+趋
+趟
+趣
+足
+趴
+趸
+趾
+跃
+跄
+跆
+跌
+跑
+跛
+距
+跟
+跤
+跨
+跪
+路
+跳
+践
+跷
+跺
+跻
+踉
+踊
+踏
+踝
+踞
+踢
+踩
+踪
+踵
+踹
+蹂
+蹄
+蹈
+蹊
+蹚
+蹦
+蹬
+蹭
+蹲
+蹴
+蹶
+蹼
+蹿
+躁
+躏
+身
+躬
+躯
+躲
+躺
+车
+轧
+轨
+轩
+转
+轮
+软
+轰
+轴
+轶
+轻
+载
+轿
+较
+辄
+辅
+辆
+辈
+辉
+辍
+辐
+辑
+输
+辖
+辗
+辘
+辙
+辛
+辜
+辞
+辟
+辣
+辨
+辩
+辫
+辰
+辱
+边
+辽
+达
+迁
+迂
+迄
+迅
+过
+迈
+迎
+运
+近
+返
+还
+这
+进
+远
+违
+连
+迟
+迢
+迥
+迪
+迫
+迭
+述
+迷
+迸
+迹
+追
+退
+送
+适
+逃
+逅
+逆
+选
+逊
+逍
+透
+逐
+递
+途
+逗
+通
+逛
+逝
+逞
+速
+造
+逡
+逢
+逮
+逵
+逸
+逻
+逼
+逾
+遁
+遂
+遇
+遍
+遏
+遐
+道
+遗
+遛
+遢
+遣
+遥
+遨
+遭
+遮
+遴
+遵
+避
+邀
+邂
+邃
+邋
+邑
+邓
+邛
+邝
+邢
+那
+邦
+邪
+邬
+邮
+邯
+邱
+邵
+邹
+邺
+邻
+郁
+郊
+郎
+郑
+郜
+郝
+郡
+部
+郫
+郭
+郸
+都
+鄂
+鄙
+鄞
+鄢
+酋
+酌
+配
+酒
+酗
+酝
+酣
+酪
+酬
+酯
+酱
+酵
+酶
+酷
+酸
+酿
+醇
+醉
+醋
+醍
+醐
+醒
+醛
+采
+釉
+释
+里
+重
+野
+量
+金
+釜
+鉴
+鏖
+鑫
+针
+钉
+钊
+钓
+钛
+钝
+钞
+钟
+钠
+钢
+钥
+钦
+钧
+钩
+钮
+钰
+钱
+钵
+钻
+钾
+铀
+铁
+铂
+铃
+铅
+铆
+铉
+铎
+铐
+铜
+铝
+铠
+铣
+铨
+铬
+铭
+铮
+铰
+铲
+银
+铸
+铺
+链
+铿
+销
+锁
+锂
+锄
+锅
+锆
+锈
+锋
+锌
+锏
+锐
+错
+锜
+锟
+锡
+锢
+锣
+锤
+锥
+锦
+锭
+键
+锯
+锰
+锵
+锷
+锹
+锻
+镀
+镁
+镇
+镉
+镊
+镍
+镑
+镖
+镜
+镯
+镳
+镶
+长
+门
+闪
+闫
+闭
+问
+闯
+闰
+闲
+闳
+间
+闵
+闷
+闸
+闹
+闺
+闻
+闽
+阀
+阁
+阂
+阅
+阎
+阐
+阔
+阙
+阚
+阜
+队
+阮
+阱
+防
+阳
+阴
+阵
+阶
+阻
+阿
+陀
+陂
+附
+际
+陆
+陈
+陋
+陌
+降
+限
+陕
+陡
+院
+除
+陨
+险
+陪
+陬
+陵
+陶
+陷
+隅
+隆
+隋
+隍
+随
+隐
+隔
+隘
+隙
+障
+隧
+隶
+隼
+隽
+难
+雀
+雁
+雄
+雅
+集
+雇
+雌
+雍
+雏
+雕
+雨
+雪
+雯
+雳
+零
+雷
+雾
+需
+霁
+霄
+霆
+震
+霈
+霉
+霍
+霎
+霏
+霖
+霜
+霞
+露
+霸
+霹
+霾
+靑
+青
+靓
+靖
+静
+靛
+非
+靠
+靡
+面
+革
+靳
+靴
+靶
+鞋
+鞍
+鞘
+鞠
+鞭
+韦
+韧
+韩
+韬
+音
+韵
+韶
+页
+顶
+顷
+项
+顺
+须
+顽
+顾
+顿
+颁
+颂
+预
+颅
+领
+颇
+颈
+颊
+颍
+颐
+频
+颓
+颖
+颗
+题
+颚
+颜
+额
+颠
+颤
+风
+飒
+飓
+飘
+飙
+飚
+飞
+食
+餐
+餮
+饕
+饥
+饪
+饭
+饮
+饰
+饱
+饲
+饵
+饶
+饺
+饼
+饽
+饿
+馀
+馅
+馆
+馈
+馊
+馋
+馑
+馒
+首
+馗
+香
+馥
+馨
+马
+驭
+驯
+驰
+驱
+驳
+驴
+驶
+驻
+驼
+驾
+驿
+骁
+骂
+骄
+骅
+骆
+骇
+骊
+骋
+验
+骏
+骐
+骑
+骗
+骚
+骜
+骤
+骥
+骨
+骷
+骸
+骼
+髅
+髋
+髓
+高
+髦
+鬼
+魁
+魂
+魄
+魅
+魇
+魏
+魔
+鱼
+鲁
+鲍
+鲜
+鲟
+鲨
+鲶
+鲷
+鲸
+鳄
+鳅
+鳌
+鳖
+鳝
+鳞
+鸟
+鸠
+鸡
+鸣
+鸥
+鸦
+鸭
+鸯
+鸳
+鸵
+鸽
+鸾
+鸿
+鹃
+鹅
+鹊
+鹏
+鹜
+鹞
+鹤
+鹭
+鹰
+鹿
+麋
+麒
+麓
+麟
+麦
+麻
+麾
+黄
+黍
+黎
+黏
+黑
+黔
+默
+黛
+黝
+黯
+鼎
+鼓
+鼠
+鼻
+鼾
+齐
+齿
+龄
+龙
+龚
+龟

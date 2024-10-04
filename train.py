@@ -17,17 +17,13 @@ from torch.cuda.amp import autocast as autocast
 from conformer import ConformerBlock
 from conv_stft import STFT
 import scipy.signal
-import sentencepiece as spm
 from lstmp import LSTMP
-
-sp = spm.SentencePieceProcessor()
-sp.Load("bpe.model")
 
 torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
 torch.backends.cudnn.benchmark=True
 
-n_class=6766
+n_class=4233
 cur_step=0
 
 def hz2mel(hz):
@@ -99,69 +95,30 @@ def audiofile_to_input_vector(audio_filename, train=True):
 def get_dict():
     w2i={}
     i2w=[]
-    p2i={}
-    i2p=[]
-    pi2w=[]
-    w2p={}
-    w2pi=[]
-    max_phn_num=0
-    max_word_num=0
     f = open('vocab.txt', "r",encoding='utf-8')
     s = f.readlines()
     f.close()
-    for i in s:
-        l=i.split()
-        if l[0] not in w2i:
-            w2i[l[0]]=len(w2i)
-            i2w.append(l[0])
-            if len(l)-1>max_phn_num:
-                max_phn_num=len(l)-1
-            w2pi.append([])
-            w2p[l[0]]=l[1:] if len(l)>1 else l[0:]
-            for p in w2p[l[0]]:
-                if p not in p2i:
-                    p2i[p]=len(p2i)
-                    i2p.append(p)
-                    pi2w.append([])
-                pi2w[-1].append(l[0])
-                max_word_num=max(max_word_num,len(pi2w[-1]))
-                w2pi[-1].append(p2i[p])
-        
-    return w2i,i2w,w2p,pi2w,p2i,w2pi,i2p
+    for l in s:
+        l=l.strip()
+        if l not in w2i:
+            w2i[l]=len(w2i)
+            i2w.append(l)
+    return w2i,i2w
 
-w2i,i2w,w2p,pi2w,p2i,w2pi,i2p=get_dict()
+w2i,i2w=get_dict()
 
 sos_id=w2i['<s>']
 eos_id=w2i['</s>']
 unk_id=w2i['<unk>']
 
-def text_to_char_array(original):
+def text_to_char_array(text):
     label=[]
-    try:
-      original=original.lower()
-      s=''
-      for c in original:
-            s+=c
-            if c not in "' ▁" and (ord(c)<ord('a') or ord(c)>ord('z')):
-                s+=' '
-      original=sp.encode_as_pieces(s)
-      for w in original:
-        if w=='▁':
-            continue
-        elif w in w2i:
-            label.append(w2i[w])
-        else:
-            for c in w:
-                if c in w2i:
-                    label.append(w2i[c])
-                else:
-                    label.append(unk_id)
-      label.append(eos_id)
-      label = [unk_id if x>=n_class else x for x in label]
-    except Exception as e:
-        print(e)
-        print('error label',original)
-        return None
+    for c in text.lower():
+        if c in w2i:
+            label.append(w2i[c])
+        elif c!=' ':
+            label.append(unk_id)
+    label.append(eos_id)
     return np.asarray(label)
 
 def collate_fn(batch):
@@ -784,7 +741,7 @@ class PartSampler():
     
 def train():
     parser = argparse.ArgumentParser(description="recognition argument")
-    parser.add_argument("--epoch", type=int, default=200)
+    parser.add_argument("--epoch", type=int, default=300)
     parser.add_argument("--test_epoch", type=int, default=10)
     parser.add_argument("--batch_size",type=int,default=64)
     parser.add_argument("--accum_grad", type=int, default=4)

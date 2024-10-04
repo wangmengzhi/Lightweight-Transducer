@@ -5,7 +5,7 @@ from torch.utils.data import Dataset, DataLoader
 import torch
 import torch.nn.functional as F
 
-w2i,i2w,w2p,p2w,p2i,w2pi,i2p=get_dict()
+w2i,i2w=get_dict()
 
 model = Model(256)
 model.load_state_dict(torch.load('save/model.avg'))
