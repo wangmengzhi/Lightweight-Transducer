@@ -804,15 +804,15 @@ def train():
     model = nn.DataParallel(model)
     model.to(device)
     
-    tr_dataloader = DataLoader(tr_dataset, batch_size=args.batch_size, shuffle=False, num_workers=1, collate_fn=collate_fn,drop_last=False,pin_memory=False)
-    cv_dataloader = DataLoader(cv_dataset, batch_size=args.batch_size, shuffle=False, num_workers=1, collate_fn=collate_fn,drop_last=False,pin_memory=False)
+    tr_dataloader = DataLoader(tr_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4, collate_fn=collate_fn,drop_last=False,pin_memory=False)
+    cv_dataloader = DataLoader(cv_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4, collate_fn=collate_fn,drop_last=False,pin_memory=False)
     
     total_step=len(tr_dataloader)*args.epoch
     global cur_step
     cur_step=len(tr_dataloader)*init_epoch
     
     if init_step>0:
-        tr_dataloader2 = DataLoader(tr_dataset, sampler=PartSampler((init_step-cur_step)*args.batch_size,len(tr_dataset)),batch_size=args.batch_size, shuffle=False, num_workers=1, collate_fn=collate_fn,drop_last=True,pin_memory=False)
+        tr_dataloader2 = DataLoader(tr_dataset, sampler=PartSampler((init_step-cur_step)*args.batch_size,len(tr_dataset)),batch_size=args.batch_size, shuffle=False, num_workers=4, collate_fn=collate_fn,drop_last=True,pin_memory=False)
         cur_step=init_step
     print('step per epoch:',len(tr_dataloader))
     print('total step:',total_step)
