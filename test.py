@@ -64,6 +64,7 @@ def infer(x, is_file,sr):
         nbest=nbest[:,prev_k]
         nbest=torch.cat([nbest,last_pred.unsqueeze(0)],dim=0)
         lm_state=lm_state[prev_k]
+        lm=lm[prev_k]
         emb=emb[prev_k]
         last_ct=last_ct[prev_k]
         
