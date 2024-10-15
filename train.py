@@ -17,7 +17,6 @@ from torch.cuda.amp import autocast as autocast
 from conformer import ConformerBlock
 from conv_stft import STFT
 import scipy.signal
-from lstmp import LSTMP
 
 torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
@@ -246,8 +245,7 @@ class Encoder(nn.Module):
             x = self.net[i](x)
             if i==3:
                 x=self.down(x.permute(0,2,1)).permute(0,2,1)
-        x=x.permute(1,0,2)
-        return x
+        return x.permute(1,0,2)
 
 class CELoss(nn.Module):
     def __init__(self):
@@ -289,12 +287,12 @@ def ctc_fa(ctc_logit,blank_id,label):
     dp[:,0,1]=ctc_logit[bi,0,label[:,1]]
     bp=torch.arange(lab_T).view(1,1,-1).repeat(B,T,1).to(ctc_logit).long()
     
-    cond=(label==blank_id)|(label==F.pad(label,pad=[2,0,0,0],value=-1)[:,:-2])
+    cond=(label==blank_id)|(label==F.pad(label,pad=[2,-2,0,0],value=-1))
     for i in range(1,T):
-        a=torch.cat([dp[:,i-1].unsqueeze(-1),F.pad(dp[:,i-1],pad=[1,0,0,0],value=pad_value)[:,:-1].unsqueeze(-1)],dim=-1)
+        a=torch.cat([dp[:,i-1].unsqueeze(-1),F.pad(dp[:,i-1],pad=[1,-1,0,0],value=pad_value).unsqueeze(-1)],dim=-1)
         v1,idx1=a.max(-1)
         a=torch.logsumexp(a,-1)
-        a2=torch.cat([dp[:,i-1].unsqueeze(-1),F.pad(dp[:,i-1],pad=[1,0,0,0],value=pad_value)[:,:-1].unsqueeze(-1),F.pad(dp[:,i-1],pad=[2,0,0,0],value=pad_value)[:,:-2].unsqueeze(-1)],dim=-1)
+        a2=torch.cat([dp[:,i-1].unsqueeze(-1),F.pad(dp[:,i-1],pad=[1,-1,0,0],value=pad_value).unsqueeze(-1),F.pad(dp[:,i-1],pad=[2,-2,0,0],value=pad_value).unsqueeze(-1)],dim=-1)
         v2,idx2=a2.max(-1)
         a2=torch.logsumexp(a2,-1)
         dp[:,i]=ctc_logit[bi2,i,label.view(-1)].view(a.shape)+torch.where(cond,a,a2)
@@ -312,10 +310,13 @@ class Model(nn.Module):
     def __init__(self, dmodel):
         super(Model, self).__init__()
         self.emb_dim=512
-        self.rnnlm_dim=1024
         self.bce_loss=nn.BCELoss()
         self.emb=nn.Embedding(n_class,self.emb_dim)
-        self.lm = LSTMP(input_size=self.emb_dim, hidden_size=self.rnnlm_dim, projection_size=self.emb_dim,dropout=0.4)
+        self.context_size=2
+        self.lm=nn.Sequential(
+            nn.Conv1d(self.emb_dim,self.emb_dim,self.context_size),
+            nn.LeakyReLU(inplace=True)
+        )
         self.to_blank=nn.Sequential(
             nn.Linear(in_features=dmodel*2+self.emb_dim,out_features=dmodel,bias=True),
             nn.Tanh(),
@@ -387,7 +388,7 @@ class Model(nn.Module):
     def forward(self, x,y=None,x_mask=None,speedup=None,sr=torch.tensor([16000])):
         with autocast():
             x,x_mask=self.get_feat(x,x_mask,speedup,sr)
-        
+            
         enc=self.encoder(x,x_mask)
         T,B,H=enc.shape
         
@@ -421,8 +422,11 @@ class Model(nn.Module):
             lm_input=y2.long()
             sos=torch.ones((1,B),dtype=torch.long,device=enc.device)*sos_id
             lm=torch.cat((sos,lm_input[:-1]),dim=0)
-            lm_emb=F.embedding(lm.clamp(min=0).long(),self.emb.weight)
-            lm=self.lm(lm_emb)
+            lm=F.embedding(lm.clamp(min=0).long(),self.emb.weight)
+            lm=lm.permute(1,2,0)
+            lm=F.pad(lm,[self.context_size-1,0])
+            lm=self.lm(lm)
+            lm=lm.permute(2,0,1)
             batch_idx=torch.arange(B,device=enc.device).long()
             dec_idx=enc.new_zeros(B).long()
             logits=[]
@@ -437,16 +441,15 @@ class Model(nn.Module):
             blanks=self.to_blank(blanks)
             amlm=torch.cat([am,lm],dim=-1)
             logit=self.out(amlm)
-            nnt_loss=self.loss(logit,y2,y2_mask*(ctc_loss2<2).float().unsqueeze(0),True,0.9,n_class)
+            nt_loss=self.loss(logit,y2,y2_mask*(ctc_loss2<2).float().unsqueeze(0),True,0.9,n_class)
             blank_label=1-nonblank.detach().float()
             blank_loss=self.bce_loss(blanks.squeeze(-1).transpose(1,0).float(), blank_label).mean()
             dec=(torch.argmax(logit,-1)*y2_mask.long()).permute(1,0)
         if not self.training:
-            lm = enc.new_zeros(B, 512, requires_grad=False)
-            cx = enc.new_zeros(B, self.rnnlm_dim, requires_grad=False)
             last_pred=torch.ones(B,dtype=torch.long,device=enc.device)*sos_id
             emb=F.embedding(last_pred.long(),self.emb.weight)
-            _, lm, cx = self.lm.step(emb, lm, cx)
+            lm_state=F.pad(emb.unsqueeze(-1), [self.context_size-1,0])
+            lm=self.lm(lm_state).squeeze(-1)
             dec=enc.new_zeros(B,T).long()+eos_id
             last_ct=enc.new_zeros(B,H)
             for i in range(T):
@@ -460,17 +463,15 @@ class Model(nn.Module):
                 dec[:,i]=last_pred
                 nonblank=last_pred>0
                 if nonblank.sum()>0:
-                    last_pred=last_pred[nonblank]                    
-                    this_emb=F.embedding(last_pred.long(),self.emb.weight)
-                    _, lm2, cx2 = self.lm.step(this_emb, lm[nonblank], cx[nonblank])
-                    lm[nonblank]=lm2
-                    cx[nonblank]=cx2
+                    this_emb=F.embedding(last_pred[nonblank].long(),self.emb.weight)
+                    lm_state[nonblank]=torch.cat([lm_state[nonblank,:,1:], this_emb[:,:,None]], dim=-1)
+                    lm[nonblank]=self.lm(lm_state[nonblank]).squeeze(-1)
                     last_ct[nonblank]=enc[i][nonblank]
                     emb[nonblank]=this_emb
             
         dec_ctc=torch.argmax(ctc_logit,-1).permute(1,0)
         if y is not None:
-            return nnt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss
+            return nt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss
         return x,ctc_logit,dec_ctc,dec
 
 def adjust_lr(optimizer, lr):
@@ -607,12 +608,12 @@ def train_once(model,tr_dataloader,epoch,optimizer,total_step,args):
             y=y.cuda()
             x_mask=x_mask.cuda()
             sr=sr.cuda()
-            nnt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss = model(x,y,x_mask,speedup,sr)
-            nnt_loss=nnt_loss.mean()
+            nt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss = model(x,y,x_mask,speedup,sr)
+            nt_loss=nt_loss.mean()
             ctc_loss2=ctc_loss2.mean()
             blank_loss=blank_loss.mean()
             ctc_loss=ctc_loss.mean()
-            loss=ctc_loss*0.3+nnt_loss*0.7+blank_loss
+            loss=nt_loss*0.7+ctc_loss*0.3+blank_loss
             loss=loss/args.accum_grad
             loss.backward()
             nn.utils.clip_grad_norm_(model.parameters(), max_norm=5, norm_type=2)
@@ -660,7 +661,7 @@ def train_once(model,tr_dataloader,epoch,optimizer,total_step,args):
                 if j==0:
                     print('LAB:',lab)
                     print('CTC:',rec_ctc)
-                    print('NNT:',rec)
+                    print('NT:',rec)
                 total_d+=d
                 total_l+=l
                 total_sub+=sub
@@ -668,9 +669,9 @@ def train_once(model,tr_dataloader,epoch,optimizer,total_step,args):
                 total_dele+=dele
             total_l=max(total_l,1)
             
-            print("TRAIN epoch: %d step: %d lr: %g  nnt: %.3f ctc: %.3f ctc2: %.3f blank: %.3f loss: %.3f ml: %.3f time: %.3f per: %.3f wer:%.2f S=%.2f I=%.2f D=%.2f" % (epoch,cur_step,optimizer.param_groups[0]['lr'],nnt_loss,ctc_loss,ctc_loss2,blank_loss,loss,total_loss/(i+1),t2-t1,cur_step/total_step,total_d/total_l*100,total_sub/total_l*100,total_ins/total_l*100,total_dele/total_l*100))
+            print("TRAIN epoch: %d step: %d lr: %g  nt: %.3f ctc: %.3f ctc2: %.3f blank: %.3f loss: %.3f ml: %.3f time: %.3f per: %.3f wer:%.2f S=%.2f I=%.2f D=%.2f" % (epoch,cur_step,optimizer.param_groups[0]['lr'],nt_loss,ctc_loss,ctc_loss2,blank_loss,loss,total_loss/(i+1),t2-t1,cur_step/total_step,total_d/total_l*100,total_sub/total_l*100,total_ins/total_l*100,total_dele/total_l*100))
         else:
-            print("TRAIN epoch: %d step: %d lr: %g  nnt: %.3f ctc: %.3f ctc2: %.3f blank: %.3f loss: %.3f ml: %.3f time: %.3f per: %.3f" % (epoch,cur_step,optimizer.param_groups[0]['lr'],nnt_loss,ctc_loss,ctc_loss2,blank_loss,loss,total_loss/(i+1),t2-t1,cur_step/total_step))
+            print("TRAIN epoch: %d step: %d lr: %g  nt: %.3f ctc: %.3f ctc2: %.3f blank: %.3f loss: %.3f ml: %.3f time: %.3f per: %.3f" % (epoch,cur_step,optimizer.param_groups[0]['lr'],nt_loss,ctc_loss,ctc_loss2,blank_loss,loss,total_loss/(i+1),t2-t1,cur_step/total_step))
                 
         t1 = t2
     return total_loss/(i+1)
@@ -697,12 +698,12 @@ def test_once(model,cv_dataloader,epoch,bpe=True):
             x_mask=x_mask.cuda()
             sr=sr.cuda()
             
-            nnt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss= model(x,y,x_mask,sr=sr)
-            nnt_loss=nnt_loss.mean()
+            nt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss= model(x,y,x_mask,sr=sr)
+            nt_loss=nt_loss.mean()
             ctc_loss=ctc_loss.mean()
             ctc_loss2=ctc_loss2.mean()
             blank_loss=blank_loss.mean()
-            loss=nnt_loss*0.7+ctc_loss*0.3+blank_loss
+            loss=nt_loss*0.7+ctc_loss*0.3+blank_loss
 
             total_loss+=loss.item()
             for j in range(len(dec)):
@@ -714,7 +715,7 @@ def test_once(model,cv_dataloader,epoch,bpe=True):
                 if j==0:
                     print('LAB:',lab)
                     print('CTC:',rec_ctc)
-                    print('NNT:',rec)
+                    print('NT:',rec)
                 total_d+=d
                 total_l+=l
                 total_sub+=sub
@@ -727,7 +728,7 @@ def test_once(model,cv_dataloader,epoch,bpe=True):
                 total_ins_ctc+=ins
                 total_dele_ctc+=dele
             
-            print("TEST epoch: %d step: %d loss: %.3f mean loss: %.3f time: %.3f per: %.3f wer:%.2f S=%.2f I=%.2f D=%.2f ctc wer:%.2f S_ctc=%.2f I_ctc=%.2f D_ctc=%.2f" % (epoch,i,loss,total_loss/(i+1),timeit.default_timer()-t1,i/len(cv_dataloader),total_d/total_l*100,total_sub/total_l*100,total_ins/total_l*100,total_dele/total_l*100,total_d_ctc/total_l_ctc*100,total_sub_ctc/total_l_ctc*100,total_ins_ctc/total_l_ctc*100,total_dele_ctc/total_l_ctc*100))
+            print("TEST epoch: %d step: %d loss: %.3f mean loss: %.3f time: %.3f per: %.3f wer:%.2f S=%.2f I=%.2f D=%.2f ctc wer:%.2f S_ctc=%.2f I_ctc=%.2f D_ctc=%.2f" % (epoch,i,loss,total_loss/(i+1),timeit.default_timer()-t1,(i+1)/len(cv_dataloader),total_d/total_l*100,total_sub/total_l*100,total_ins/total_l*100,total_dele/total_l*100,total_d_ctc/total_l_ctc*100,total_sub_ctc/total_l_ctc*100,total_ins_ctc/total_l_ctc*100,total_dele_ctc/total_l_ctc*100))
         
 class PartSampler():
     def __init__(self, start, end) -> None:
@@ -741,7 +742,7 @@ class PartSampler():
     
 def train():
     parser = argparse.ArgumentParser(description="recognition argument")
-    parser.add_argument("--epoch", type=int, default=300)
+    parser.add_argument("--epoch", type=int, default=360)
     parser.add_argument("--test_epoch", type=int, default=10)
     parser.add_argument("--batch_size",type=int,default=64)
     parser.add_argument("--accum_grad", type=int, default=4)
@@ -812,7 +813,7 @@ def train():
     cur_step=len(tr_dataloader)*init_epoch
     
     if init_step>0:
-        tr_dataloader2 = DataLoader(tr_dataset, sampler=PartSampler((init_step-cur_step)*args.batch_size,len(tr_dataset)),batch_size=args.batch_size, shuffle=False, num_workers=4, collate_fn=collate_fn,drop_last=True,pin_memory=False)
+        tr_dataloader2 = DataLoader(tr_dataset, sampler=PartSampler((init_step-cur_step)*args.batch_size,len(tr_dataset)),batch_size=args.batch_size, shuffle=False, num_workers=4, collate_fn=collate_fn,drop_last=False,pin_memory=False)
         cur_step=init_step
     print('step per epoch:',len(tr_dataloader))
     print('total step:',total_step)
