@@ -30,7 +30,7 @@ Training one epoch takes about five minutes with a single GPU RTX 4090 and CPU i
 ## Results
 | Testset |   Sub  |  Del  | Ins  |  CER |
 | :---: |:----: |:----: |:----: | :----: |
-| dev | 4.03  |  0.10  |  0.08  | 4.21 |
-| test | 4.30  |  0.18  |  0.07  | 4.55 |
+| dev | 3.97  |  0.10  |  0.07  | 4.15 |
+| test | 4.27  |  0.17  |  0.05  | 4.49 |
 
-[Pre-trained model](https://drive.google.com/file/d/1GRGUp4zx2QNlWbKIaRmVGkJV_MauR4Kh/view?usp=sharing)
+[Pre-trained model](https://drive.google.com/file/d/1niSmhzLCgrsMEaoYi8cTOc-FOSlBZlyT/view?usp=sharing)

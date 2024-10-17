@@ -18,10 +18,12 @@ from conformer import ConformerBlock
 from conv_stft import STFT
 import scipy.signal
 
+torch.set_num_threads(8)
+torch.set_num_interop_threads(8)
 torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
 torch.backends.cudnn.benchmark=True
-
+    
 n_class=4233
 cur_step=0
 
@@ -309,7 +311,7 @@ def ctc_fa(ctc_logit,blank_id,label):
 class Model(nn.Module):
     def __init__(self, dmodel):
         super(Model, self).__init__()
-        self.emb_dim=512
+        self.emb_dim=dmodel
         self.bce_loss=nn.BCELoss()
         self.emb=nn.Embedding(n_class,self.emb_dim)
         self.context_size=2
@@ -742,7 +744,7 @@ class PartSampler():
     
 def train():
     parser = argparse.ArgumentParser(description="recognition argument")
-    parser.add_argument("--epoch", type=int, default=360)
+    parser.add_argument("--epoch", type=int, default=540)
     parser.add_argument("--test_epoch", type=int, default=10)
     parser.add_argument("--batch_size",type=int,default=64)
     parser.add_argument("--accum_grad", type=int, default=4)
