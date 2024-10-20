@@ -1,108 +1,48 @@
 import torch
-from torch import nn, einsum
+from torch import nn
 import torch.nn.functional as F
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
 
-# helper functions
+class RotaryEmbedding:
+    def __init__(self, dim, max_len=2048):
+        freqs = 1. / (10000 ** (torch.arange(0, dim, 2).float() / dim))
+        freqs = torch.arange(max_len, dtype=torch.float32).unsqueeze(-1)*freqs
+        freqs = repeat(freqs, '... n -> ... (n r)', r = 2)
+        self.cos = freqs.cos()
+        self.sin = freqs.sin()
 
-def exists(val):
-    return val is not None
+    def __call__(self, x):
+        seq_len, device = x.shape[-2], x.device
+        cos, sin = self.cos[:seq_len].to(device), self.sin[:seq_len].to(device)
+        x2 = torch.stack((-x[...,1::2], x[...,::2]), dim = -1)
+        x2 = rearrange(x2, '... d r -> ... (d r)')
+        return x * cos + x2 * sin
 
-def default(val, d):
-    return val if exists(val) else d
+pos_emb = RotaryEmbedding(dim = 64)
 
-# helper classes
-
-class Swish(nn.Module):
-    def forward(self, x):
-        return x * x.sigmoid()
-
-class GLU(nn.Module):
-    def __init__(self, dim):
-        super().__init__()
-        self.dim = dim
-
-    def forward(self, x):
-        out, gate = x.chunk(2, dim=self.dim)
-        return out * gate.sigmoid()
-
-class DepthWiseConv1d(nn.Module):
-    def __init__(self, chan_in, chan_out, kernel_size, padding):
-        super().__init__()
-        self.padding = padding
-        self.conv = nn.Conv1d(chan_in, chan_out, kernel_size, groups = chan_in)
-
-    def forward(self, x):
-        x = F.pad(x, self.padding)
-        return self.conv(x)
-
-# attention, feedforward, and conv module
-
-class Scale(nn.Module):
-    def __init__(self, scale, fn):
-        super().__init__()
-        self.fn = fn
-        self.scale = scale
-
-    def forward(self, x, **kwargs):
-        return self.fn(x, **kwargs) * self.scale
-    
-class PreNorm(nn.Module):
-    def __init__(self, dim, fn):
-        super().__init__()
-        self.fn = fn
-        self.norm = nn.LayerNorm(dim)
-
-    def forward(self, x, **kwargs):
-        x = self.norm(x)
-        return self.fn(x, **kwargs)
-
-# classes
-    
 class Attention(nn.Module):
     def __init__(
         self,
         dim,
-        heads = 4,
-        dim_qk = 64,
-        dim_v = 64,
+        dim_qkv = 64,
         dropout = 0.,
-        max_pos_emb = 10,
-        mask = None,
     ):
         super().__init__()
-        inner_dim = dim_v * heads
-        self.inner_dim=inner_dim
-        self.heads= heads
-        self.scale = dim_qk ** -0.5
-        self.to_qk = nn.Linear(dim, dim_qk*heads*2, bias = False)
-        self.to_v = nn.Linear(dim, dim, bias = False)
+        self.norm = nn.LayerNorm(dim)
+        self.heads = dim//dim_qkv
+        self.to_qkv = nn.Linear(dim, dim*3, bias = False)
         self.to_out = nn.Linear(dim, dim)
-
-        self.max_pos_emb = max_pos_emb
-        self.conv=nn.Parameter(torch.Tensor(heads,2 * max_pos_emb + 1))
-        self.dropout_att = nn.Dropout(dropout)
+        self.dropout_p = dropout
         self.dropout = nn.Dropout(dropout,inplace=True)
-        self.mask=mask
-        nn.init.zeros_(self.conv)
 
-    def forward(self, x, mask):
-        b, n, device, h, max_pos_emb = x.shape[0], x.shape[-2], x.device, self.heads, self.max_pos_emb
-        q,k= self.to_qk(x).chunk(2, dim = -1)
-        v= self.to_v(x)
-        q, k, v = map(lambda t: rearrange(t, 'b n (h d) -> b h n d', h = h), (q, k, v))
-        n=k.shape[2]
-        dots = einsum('b h i d, b h j d -> b h i j', q, k) * self.scale
-        # shaw's relative positional embedding
-        seq = torch.arange(n, device = device)
-        dist = rearrange(seq, 'j -> () j')-rearrange(seq, 'i -> i ()')
-        dist = dist.clip(-max_pos_emb, max_pos_emb) + max_pos_emb
-        conv=torch.gather(self.conv.unsqueeze(1).repeat(1,n,1),index=dist.unsqueeze(0).repeat(h,1,1),dim=-1) #head*T*len head*T*T
-        dots = dots+conv
-        attn = dots.softmax(dim = -1)
-        attn=self.dropout_att(attn)
-        out = einsum('b h i j, b h j d -> b h i d', attn, v)
+    def forward(self, x):
+        x = self.norm(x)
+        q,k,v= self.to_qkv(x).chunk(3, dim = -1)
+        q, k, v = map(lambda t: rearrange(t, 'b n (h d) -> b h n d', h = self.heads), (q, k, v))
+        q = pos_emb(q)
+        k = pos_emb(k)
+        out = F.scaled_dot_product_attention(q, k, v, dropout_p=self.dropout_p if self.training else 0)
         out = rearrange(out, 'b h n d -> b n (h d)')
         out = self.to_out(out)
         return self.dropout(out)
@@ -111,15 +51,16 @@ class FeedForward(nn.Module):
     def __init__(
         self,
         dim,
-        mult = 4,
+        dim_ff = 2048,
         dropout = 0.,
     ):
         super().__init__()
         self.net = nn.Sequential(
-            nn.Linear(dim, dim * mult),
-            Swish(),
+            nn.LayerNorm(dim),
+            nn.Linear(dim, dim_ff),
+            nn.SiLU(),
             nn.Dropout(dropout,inplace=True),
-            nn.Linear(dim * mult, dim),
+            nn.Linear(dim_ff, dim),
             nn.Dropout(dropout,inplace=True)
         )
 
@@ -130,59 +71,47 @@ class ConformerConvModule(nn.Module):
     def __init__(
         self,
         dim,
-        output_dim,
-        lorder = 1,
-        rorder = 1,
+        kernel_size = 15,
         dropout = 0.):
         super().__init__()
 
         self.net = nn.Sequential(
             nn.LayerNorm(dim),
-            nn.Linear(dim, output_dim * 2),
+            nn.Linear(dim, dim * 2),
             Rearrange('b n c -> b c n'),
-            GLU(dim=1),
-            DepthWiseConv1d(output_dim, output_dim, kernel_size = lorder+rorder+1, padding = (lorder,rorder)),
+            nn.GLU(dim=1),
+            nn.Conv1d(dim, dim, kernel_size, padding=(kernel_size-1)//2, groups = dim),
             Rearrange('b c n -> b n c'),
-            nn.LayerNorm((output_dim)),
-            Swish(),
-            nn.Linear(output_dim, output_dim),
+            nn.LayerNorm((dim)),
+            nn.SiLU(),
+            nn.Linear(dim, dim),
             nn.Dropout(dropout,inplace=True)
         )
 
     def forward(self, x):
         return self.net(x)
 
-# Conformer Block
-
 class ConformerBlock(nn.Module):
     def __init__(
         self,
         *,
         dim,
-        dim_qk=64,
-        dim_v = 64,
-        heads = 8,
-        ff_mult = 4,
-        lorder = 7,
-        rorder = 7,
-        attn_dropout = 0.,
-        ff_dropout = 0.,
-        conv_dropout = 0.,
-        att_mask=None
+        dim_qkv=64,
+        dim_ff = 2048,
+        kernel_size = 15,
+        dropout = 0.
     ):
         super().__init__()
-        self.ff1 = FeedForward(dim = dim, mult = ff_mult, dropout = ff_dropout)
-        self.ff2 = FeedForward(dim = dim, mult = ff_mult, dropout = ff_dropout)
-        self.ff1 = Scale(0.5, PreNorm(dim, self.ff1))
-        self.ff2 = Scale(0.5, PreNorm(dim, self.ff2))
-        self.conv = ConformerConvModule(dim = dim, output_dim=heads*dim_v, lorder = lorder, rorder = rorder, dropout = conv_dropout)
-        self.attn = Attention(dim = dim, dim_qk=dim_qk, dim_v = dim_v, heads = heads, dropout = attn_dropout, mask=att_mask)
-        self.attn = PreNorm(dim, self.attn)
+        self.ff1 = FeedForward(dim = dim, dim_ff = dim_ff, dropout = dropout)
+        self.ff2 = FeedForward(dim = dim, dim_ff = dim_ff, dropout = dropout)
+        self.conv = ConformerConvModule(dim = dim, kernel_size = kernel_size, dropout = dropout)
+        self.attn = Attention(dim = dim, dim_qkv=dim_qkv, dropout = dropout)
         self.post_norm = nn.LayerNorm(dim)
+        
     def forward(self, x):
-        x = self.ff1(x) + x
-        x = self.attn(x,mask=None)+x
+        x = self.ff1(x)*0.5+x
+        x = self.attn(x)+x
         x = self.conv(x)+x
-        x =self.ff2(x)+x
+        x =self.ff2(x)*0.5+x
         x = self.post_norm(x)
         return x

@@ -25,8 +25,8 @@ eos_id=w2i['</s>']
 blank_id=0
 logzero=-1e10
     
-def infer(x, is_file,sr):
-    if is_file:
+def infer(x, sr):
+    if isinstance(x, str):
         x,sr=audiofile_to_input_vector(x,False)
         x=torch.FloatTensor(x).unsqueeze(0).to(device)
         sr=torch.IntTensor([sr]).to(device)
@@ -90,9 +90,9 @@ def test():
         x,y,x_mask,sr = minibatch
         x=x.cuda()
         with torch.no_grad():
-            nbest,_=infer(x,False,sr.cuda())
-        lab=id2s(y[0],bpe=True)
-        rec=id2s(nbest[0],bpe=True)
+            nbest,_=infer(x,sr.cuda())
+        lab=id2s(y[0])
+        rec=id2s(nbest[0])
         (d,ins,dele,sub),l = wer(lab, rec)
         total_l+=l
         total_d+=d

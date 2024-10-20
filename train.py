@@ -192,11 +192,11 @@ class SpeechDataset(Dataset):
         return x,y,sr
 
 class Encoder(nn.Module):
-    def __init__(self,dmodel,ctc_out):
+    def __init__(self,dmodel):
         super(Encoder, self).__init__()
         n_input=80
-        self.dropout_rate=0.1
-        self.dropout=nn.Dropout(self.dropout_rate,inplace=True)
+        dropout_p=0.1
+        self.dropout=nn.Dropout(dropout_p,inplace=True)
         self.bn=torch.nn.BatchNorm1d(n_input,affine=False)
         self.conv = nn.Sequential(
             nn.Conv2d(1, 64, 3, 2,1),
@@ -206,20 +206,13 @@ class Encoder(nn.Module):
         )
         self.proj=nn.Linear(n_input//4*64,dmodel)
         net=[]
-        self.n_layers=12
-        for i in range(self.n_layers):
+        for i in range(12):
             block = ConformerBlock(
                 dim = dmodel,
-                dim_qk=64,
-                dim_v = 64,
-                heads = dmodel//64,
-                ff_mult = 2048//dmodel,
-                lorder =7,
-                rorder =7,
-                attn_dropout = self.dropout_rate,
-                ff_dropout = self.dropout_rate,
-                conv_dropout = self.dropout_rate,
-                att_mask=None
+                dim_qkv = 64,
+                dim_ff = 2048,
+                kernel_size =15,
+                dropout = dropout_p
             )
             net.append(block)
         self.net = nn.Sequential(*net)
@@ -243,8 +236,8 @@ class Encoder(nn.Module):
         x=x.permute(0,2,1) #B H T->B T H
         x=self.proj(x)
         x=self.dropout(x)
-        for i in range(len(self.net)):
-            x = self.net[i](x)
+        for i, block in enumerate(self.net):
+            x = block(x)
             if i==3:
                 x=self.down(x.permute(0,2,1)).permute(0,2,1)
         return x.permute(1,0,2)
@@ -330,7 +323,7 @@ class Model(nn.Module):
             nn.Linear(in_features=dmodel,out_features=n_class,bias=True),
         )
         self.ctc_out=nn.Linear(in_features=dmodel,out_features=n_class,bias=True)
-        self.encoder=Encoder(dmodel,self.ctc_out)
+        self.encoder=Encoder(dmodel)
         self.loss = CELoss()
         self.stft = STFT(win_len=int(16000*0.032),win_hop=int(16000*0.01),fft_len=int(16000//31.25),pad_center=False,win_type='hamm')
         self.stft_8k = STFT(win_len=int(8000*0.032),win_hop=int(8000*0.01),fft_len=int(8000//31.25),pad_center=False,win_type='hamm')
@@ -550,42 +543,20 @@ def wer(original, result):
         return (1,0,len(original),0), float(len(original))
     return levenshtein(original, result) , float(len(original))
 
-def id2s(ids,print_eos=False,bpe=False,pinyin=False):
-    dic= i2p if pinyin else i2w
+def id2s(ids):
     s=[]
     for j in ids:
-        if j==0:continue
         if j==eos_id:
-            if print_eos:
-                s.append('</s>')
-            else:
-                break
-        if j < len(dic):
-            t=dic[j]
-            if bpe and t[0] not in "'▁" and (ord(t[0])<ord('a') or ord(t[0])>ord('z') or t[-1] in '01234'):
-                t='▁'+t
-            s.append(t)
-    if bpe:
-        s=''.join(s).split('▁')
+            break
+        if j!=0:
+            s.append(i2w[j])
     return ' '.join(s)
 
-def id2s_ctc(ids,ctc_logit=None,lm_logits=None,bpe=False,pinyin=False):
-    dic= i2p if pinyin else i2w
+def id2s_ctc(ids):
     s=[]
     for i,j in enumerate(ids):
-        if j!=0 and (i==0 or j!=ids[i-1]) and j < len(dic):
-            if ctc_logit is None or len(s)>lm_logits.shape[0]-1:
-                t=dic[j]
-            else:
-                ctc_logit=torch.log_softmax(ctc_logit,dim=1)
-                idx=torch.argmax(ctc_logit[i]+lm_logits[len(s)])
-                t=dic[idx]
-            if t=='</s>':break
-            if bpe and t[0] not in "'▁" and (ord(t[0])<ord('a') or ord(t[0])>ord('z') or t[-1] in '01234'):
-                t='▁'+t
-            s.append(t)
-    if bpe:
-        s=''.join(s).split('▁')
+        if j!=0 and (i==0 or j!=ids[i-1]):
+            s.append(i2w[j])
     return ' '.join(s)
 
 def train_once(model,tr_dataloader,epoch,optimizer,total_step,args):
@@ -656,9 +627,9 @@ def train_once(model,tr_dataloader,epoch,optimizer,total_step,args):
             total_ins=0.0
             total_dele=0.0
             for j in range(len(dec)):
-                lab=id2s(y[j],bpe=True)
-                rec=id2s(dec[j],bpe=True)
-                rec_ctc=id2s_ctc(dec_ctc[j],bpe=True)
+                lab=id2s(y[j])
+                rec=id2s(dec[j])
+                rec_ctc=id2s_ctc(dec_ctc[j])
                 (d,ins,dele,sub),l = wer(lab, rec)
                 if j==0:
                     print('LAB:',lab)
@@ -678,7 +649,7 @@ def train_once(model,tr_dataloader,epoch,optimizer,total_step,args):
         t1 = t2
     return total_loss/(i+1)
 
-def test_once(model,cv_dataloader,epoch,bpe=True):
+def test_once(model,cv_dataloader,epoch):
     with torch.no_grad():
         model.eval()
         total_loss=0
@@ -709,9 +680,9 @@ def test_once(model,cv_dataloader,epoch,bpe=True):
 
             total_loss+=loss.item()
             for j in range(len(dec)):
-                lab=id2s(y[j],bpe=bpe)
-                rec_ctc=id2s_ctc(dec_ctc[j],bpe=bpe)
-                rec=id2s(dec[j],bpe=bpe)
+                lab=id2s(y[j])
+                rec_ctc=id2s_ctc(dec_ctc[j])
+                rec=id2s(dec[j])
                 (d,ins,dele,sub),l = wer(lab, rec)
                 
                 if j==0:
@@ -744,11 +715,10 @@ class PartSampler():
     
 def train():
     parser = argparse.ArgumentParser(description="recognition argument")
-    parser.add_argument("--epoch", type=int, default=540)
+    parser.add_argument("--epoch", type=int, default=720)
     parser.add_argument("--test_epoch", type=int, default=10)
     parser.add_argument("--batch_size",type=int,default=64)
     parser.add_argument("--accum_grad", type=int, default=4)
-    parser.add_argument("--dropout",type=float,default=0.1)
     parser.add_argument("--init_lr",type=float,default=0.0015)
     parser.add_argument("--lr_schedule",type=str,default='warmup')
     parser.add_argument("--warmup_step", type=int, default=25000)
