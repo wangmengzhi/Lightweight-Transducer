@@ -31,22 +31,22 @@ class Attention(nn.Module):
         super().__init__()
         self.norm = nn.LayerNorm(dim)
         self.heads = dim//dim_qkv
-        self.to_qkv = nn.Linear(dim, dim*3, bias = False)
-        self.to_out = nn.Linear(dim, dim)
+        self.qkv = nn.Linear(dim, dim*3, bias = False)
+        self.out = nn.Linear(dim, dim)
         self.dropout_p = dropout
-        self.dropout = nn.Dropout(dropout,inplace=True)
+        self.dropout = nn.Dropout(dropout, inplace=True)
 
     def forward(self, x):
         x = self.norm(x)
-        q,k,v= self.to_qkv(x).chunk(3, dim = -1)
+        q, k, v = self.qkv(x).chunk(3, dim = -1)
         q, k, v = map(lambda t: rearrange(t, 'b n (h d) -> b h n d', h = self.heads), (q, k, v))
         q = pos_emb(q)
         k = pos_emb(k)
         out = F.scaled_dot_product_attention(q, k, v, dropout_p=self.dropout_p if self.training else 0)
         out = rearrange(out, 'b h n d -> b n (h d)')
-        out = self.to_out(out)
+        out = self.out(out)
         return self.dropout(out)
-    
+
 class FeedForward(nn.Module):
     def __init__(
         self,
@@ -55,17 +55,16 @@ class FeedForward(nn.Module):
         dropout = 0.,
     ):
         super().__init__()
-        self.net = nn.Sequential(
-            nn.LayerNorm(dim),
-            nn.Linear(dim, dim_ff),
-            nn.SiLU(),
-            nn.Dropout(dropout,inplace=True),
-            nn.Linear(dim_ff, dim),
-            nn.Dropout(dropout,inplace=True)
-        )
+        self.norm = nn.LayerNorm(dim)
+        self.w = nn.Linear(dim, dim_ff*2)
+        self.p = nn.Linear(dim_ff, dim)
+        self.dropout = nn.Dropout(dropout, inplace=True)
 
     def forward(self, x):
-        return self.net(x)
+        x = self.norm(x)
+        x1, x2 = self.w(x).chunk(2, dim=-1)
+        x = self.dropout(x1*F.silu(x2))
+        return self.dropout(self.p(x))
 
 class ConformerConvModule(nn.Module):
     def __init__(
@@ -82,8 +81,8 @@ class ConformerConvModule(nn.Module):
             nn.GLU(dim=1),
             nn.Conv1d(dim, dim, kernel_size, padding=(kernel_size-1)//2, groups = dim),
             Rearrange('b c n -> b n c'),
-            nn.LayerNorm((dim)),
-            nn.SiLU(),
+            nn.LayerNorm(dim),
+            nn.SiLU(inplace=True),
             nn.Linear(dim, dim),
             nn.Dropout(dropout,inplace=True)
         )
@@ -96,7 +95,7 @@ class ConformerBlock(nn.Module):
         self,
         *,
         dim,
-        dim_qkv=64,
+        dim_qkv = 64,
         dim_ff = 2048,
         kernel_size = 15,
         dropout = 0.

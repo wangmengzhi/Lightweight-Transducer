@@ -18,8 +18,8 @@ from conformer import ConformerBlock
 from conv_stft import STFT
 import scipy.signal
 
-torch.set_num_threads(8)
-torch.set_num_interop_threads(8)
+torch.set_num_threads(1)
+torch.set_num_interop_threads(1)
 torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
 torch.backends.cudnn.benchmark=True
@@ -76,7 +76,6 @@ def get_filterbanks(nfilt=20,nfft=512,samplerate=16000,lowfreq=0,highfreq=None):
 def audiofile_to_input_vector(audio_filename, train=True):
     try:
         x,fs=soundfile.read(audio_filename)
-        x*=32768
     except Exception as e:
         print(e,audio_filename)
         return None,16000
@@ -96,14 +95,12 @@ def audiofile_to_input_vector(audio_filename, train=True):
 def get_dict():
     w2i={}
     i2w=[]
-    f = open('vocab.txt', "r",encoding='utf-8')
-    s = f.readlines()
-    f.close()
-    for l in s:
-        l=l.strip()
-        if l not in w2i:
-            w2i[l]=len(w2i)
-            i2w.append(l)
+    with open('vocab.txt', "r",encoding='utf-8') as f:
+        for l in f:
+            l=l.strip()
+            if l not in w2i:
+                w2i[l]=len(w2i)
+                i2w.append(l)
     return w2i,i2w
 
 w2i,i2w=get_dict()
@@ -197,26 +194,26 @@ class Encoder(nn.Module):
         n_input=80
         dropout_p=0.1
         self.dropout=nn.Dropout(dropout_p,inplace=True)
-        self.bn=torch.nn.BatchNorm1d(n_input,affine=False)
+        self.bn=nn.BatchNorm1d(n_input,affine=False)
         self.conv = nn.Sequential(
-            nn.Conv2d(1, 64, 3, 2,1),
+            nn.Conv2d(1, 64, 3, 2, 1),
             nn.LeakyReLU(inplace=True),
-            nn.Conv2d(64, 64, 3, 2,1),
+            nn.Conv2d(64, 64, 3, 2, 1),
             nn.LeakyReLU(inplace=True),
         )
-        self.proj=nn.Linear(n_input//4*64,dmodel)
+        self.proj=nn.Linear(n_input//4*64, dmodel)
         net=[]
         for i in range(12):
             block = ConformerBlock(
                 dim = dmodel,
                 dim_qkv = 64,
-                dim_ff = 2048,
+                dim_ff = 1536,
                 kernel_size =15,
                 dropout = dropout_p
             )
             net.append(block)
         self.net = nn.Sequential(*net)
-        self.down=nn.Conv1d(dmodel,dmodel,2,2,0)
+        self.down = nn.Conv1d(dmodel, dmodel, 2, 2, 0)
 
     def forward(self, x, x_mask):
         x=x.permute(0,2,1)
@@ -304,39 +301,37 @@ def ctc_fa(ctc_logit,blank_id,label):
 class Model(nn.Module):
     def __init__(self, dmodel):
         super(Model, self).__init__()
+        self.dmodel=dmodel
         self.emb_dim=dmodel
-        self.bce_loss=nn.BCELoss()
+        self.encoder=Encoder(dmodel)
+        self.ctc_out=nn.Linear(dmodel,n_class)
         self.emb=nn.Embedding(n_class,self.emb_dim)
         self.context_size=2
         self.lm=nn.Sequential(
             nn.Conv1d(self.emb_dim,self.emb_dim,self.context_size),
             nn.LeakyReLU(inplace=True)
         )
-        self.to_blank=nn.Sequential(
-            nn.Linear(in_features=dmodel*2+self.emb_dim,out_features=dmodel,bias=True),
+        self.blank=nn.Sequential(
+            nn.Linear(dmodel*2+self.emb_dim,dmodel),
             nn.Tanh(),
-            nn.Linear(in_features=dmodel,out_features=1,bias=True),
-            nn.Sigmoid()
+            nn.Linear(dmodel,1)
         )
         self.out=nn.Sequential(
-            nn.Linear(in_features=dmodel+self.emb_dim,out_features=dmodel,bias=True),
-            nn.Linear(in_features=dmodel,out_features=n_class,bias=True),
+            nn.Linear(dmodel+self.emb_dim,dmodel),
+            nn.Linear(dmodel,n_class),
         )
-        self.ctc_out=nn.Linear(in_features=dmodel,out_features=n_class,bias=True)
-        self.encoder=Encoder(dmodel)
-        self.loss = CELoss()
         self.stft = STFT(win_len=int(16000*0.032),win_hop=int(16000*0.01),fft_len=int(16000//31.25),pad_center=False,win_type='hamm')
         self.stft_8k = STFT(win_len=int(8000*0.032),win_hop=int(8000*0.01),fft_len=int(8000//31.25),pad_center=False,win_type='hamm')
         fb=get_filterbanks(80,512,16000,0,8000).T.astype(np.float32)
         self.fb = torch.from_numpy(fb)
         self.fb_inv=torch.from_numpy(np.linalg.pinv(fb))
+        self.loss = CELoss()
+        self.bce_loss=nn.BCELoss()
         self.ctc_loss=nn.CTCLoss(blank=0,reduction='none', zero_infinity=True) #mean  
     
     def get_feat(self, x, x_mask, speedup,sr):
         if x_mask is None:
             x_mask=x.new_ones(x.shape[0],x.shape[1])
-        
-        x=x/32768.0
         
         total_scale=32768
         post_scale=4096
@@ -383,41 +378,30 @@ class Model(nn.Module):
     def forward(self, x,y=None,x_mask=None,speedup=None,sr=torch.tensor([16000])):
         with autocast():
             x,x_mask=self.get_feat(x,x_mask,speedup,sr)
-            
         enc=self.encoder(x,x_mask)
         T,B,H=enc.shape
-        
         ctc_logit=self.ctc_out(enc).log_softmax(-1)
         if y is not None:
             ctc_label=y.clone()
-            ctc_label_len=(y>=0).sum(1)-1
-            ctc_label[(ctc_label<0)|(ctc_label==eos_id)]=0
+            ctc_label[ctc_label==eos_id]=-1
+            ctc_label_len=(ctc_label>=0).sum(1)
             ctc_in_len=torch.full((B,),T,dtype=torch.long)
             ctc_loss=self.ctc_loss(ctc_logit,ctc_label,ctc_in_len,ctc_label_len)
             ctc_loss=ctc_loss/ctc_label_len
-            y2=y.clone()
-            y2[y2==eos_id]=-1
-            y2=y2.permute(1,0)
-            y2_mask=(y2>=0).float()
-            lab_T=y2.shape[0]
-            
-            ctc_align,ctc_loss2=ctc_fa(ctc_logit.permute(1,0,2),0,y2)
+            ctc_label=ctc_label.permute(1,0)
+            ctc_label_mask=(ctc_label>=0).float()
+            lab_T=ctc_label.shape[0]
+            ctc_align,ctc_loss2=ctc_fa(ctc_logit.permute(1,0,2),0,ctc_label)
             ctc_align=ctc_align[:,:,1::2].permute(0,2,1) #B LAB_T T
             ctc_align_norm=ctc_align/(ctc_align.sum(-1,keepdim=True).clamp(min=1))
-            
             ctc_align_cum=torch.cumsum(ctc_align,dim=-1)
             ctc_align=(ctc_align_cum==1)&(ctc_align>0)
             nonblank=(ctc_align.sum(1)>0).float()
-            transducer_lab=ctc_align.float().argmax(1)
-            batch_idx=torch.arange(B,device=enc.device).long().unsqueeze(1).repeat(1,T)
-            transducer_lab=y2.permute(1,0)[batch_idx.view(-1),transducer_lab.view(-1)]
-            transducer_lab=transducer_lab.reshape(B,T)*nonblank
-            transducer_lab=transducer_lab.permute(1,0)
             am=torch.bmm(ctc_align_norm,enc.transpose(1,0)).transpose(1,0)
-            lm_input=y2.long()
+            lm_input=ctc_label.long()
             sos=torch.ones((1,B),dtype=torch.long,device=enc.device)*sos_id
             lm=torch.cat((sos,lm_input[:-1]),dim=0)
-            lm=F.embedding(lm.clamp(min=0).long(),self.emb.weight)
+            lm=self.emb(lm.clamp(min=0).long())
             lm=lm.permute(1,2,0)
             lm=F.pad(lm,[self.context_size-1,0])
             lm=self.lm(lm)
@@ -433,16 +417,16 @@ class Model(nn.Module):
                 last_ct[nonblank[:,i].bool()]=enc[i][nonblank[:,i].bool()]
                 dec_idx=dec_idx+nonblank[:,i].long()
             blanks=torch.stack(blanks) #TB
-            blanks=self.to_blank(blanks)
+            blanks=self.blank(blanks)
             amlm=torch.cat([am,lm],dim=-1)
             logit=self.out(amlm)
-            nt_loss=self.loss(logit,y2,y2_mask*(ctc_loss2<2).float().unsqueeze(0),True,0.9,n_class)
+            nt_loss=self.loss(logit,ctc_label,ctc_label_mask*(ctc_loss2<2).float()[None],True,0.9,n_class)
             blank_label=1-nonblank.detach().float()
-            blank_loss=self.bce_loss(blanks.squeeze(-1).transpose(1,0).float(), blank_label).mean()
-            dec=(torch.argmax(logit,-1)*y2_mask.long()).permute(1,0)
+            blank_loss=self.bce_loss(blanks.squeeze(-1).transpose(1,0).sigmoid(), blank_label)
+            dec=(torch.argmax(logit,-1)*ctc_label_mask.long()).permute(1,0)
         if not self.training:
             last_pred=torch.ones(B,dtype=torch.long,device=enc.device)*sos_id
-            emb=F.embedding(last_pred.long(),self.emb.weight)
+            emb=self.emb(last_pred.long())
             lm_state=F.pad(emb.unsqueeze(-1), [self.context_size-1,0])
             lm=self.lm(lm_state).squeeze(-1)
             dec=enc.new_zeros(B,T).long()+eos_id
@@ -450,15 +434,16 @@ class Model(nn.Module):
             for i in range(T):
                 blank=torch.cat([enc[i],lm,last_ct],dim=-1)
                 amlm=torch.cat([enc[i],lm],dim=-1)
-                blank=self.to_blank(blank)
+                blank=self.blank(blank)
                 logit=self.out(amlm)
-                logit=logit[:,1:].softmax(-1)*(1-blank)
-                logit=torch.cat([blank,logit],dim=-1)
+                blank2=F.logsigmoid(blank)
+                logit=logit[:,1:].log_softmax(-1)+blank2-blank
+                logit=torch.cat([blank2,logit],dim=-1)
                 last_pred=logit.argmax(-1)
                 dec[:,i]=last_pred
                 nonblank=last_pred>0
                 if nonblank.sum()>0:
-                    this_emb=F.embedding(last_pred[nonblank].long(),self.emb.weight)
+                    this_emb=self.emb(last_pred[nonblank].long())
                     lm_state[nonblank]=torch.cat([lm_state[nonblank,:,1:], this_emb[:,:,None]], dim=-1)
                     lm[nonblank]=self.lm(lm_state[nonblank]).squeeze(-1)
                     last_ct[nonblank]=enc[i][nonblank]
@@ -467,7 +452,7 @@ class Model(nn.Module):
         dec_ctc=torch.argmax(ctc_logit,-1).permute(1,0)
         if y is not None:
             return nt_loss,ctc_loss,ctc_loss2,dec,dec_ctc,blank_loss
-        return x,ctc_logit,dec_ctc,dec
+        return x,enc,ctc_logit,dec_ctc,dec
 
 def adjust_lr(optimizer, lr):
     for param_group in optimizer.param_groups:
@@ -712,10 +697,13 @@ class PartSampler():
 
     def __len__(self):
         return len(self.l)
-    
+
+def count_parameters(model):
+    return sum(p.numel() for p in model.parameters())
+
 def train():
     parser = argparse.ArgumentParser(description="recognition argument")
-    parser.add_argument("--epoch", type=int, default=720)
+    parser.add_argument("--epoch", type=int, default=540)
     parser.add_argument("--test_epoch", type=int, default=10)
     parser.add_argument("--batch_size",type=int,default=64)
     parser.add_argument("--accum_grad", type=int, default=4)
@@ -736,6 +724,7 @@ def train():
         os.mkdir(args.save_path)
     
     model = Model(args.dmodel)
+    print(f'Total parameters: {count_parameters(model)/1024/1024:.2f}M')
     optimizer = optim.Adam(model.parameters(), lr=args.init_lr,betas=(0.9, 0.98), eps=1e-9, weight_decay=1e-6)
     lr=args.init_lr
     tr_dataset = SpeechDataset("data/aishell/aishell_train.csv".split(','),'train',batch_size=args.batch_size)
