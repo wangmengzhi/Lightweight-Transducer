@@ -38,6 +38,7 @@ Training one epoch takes about five minutes with a single GPU RTX 4090 and CPU i
 
 ## Rescore
 ### Data preparation
+Download [resource_aishell](https://www.openslr.org/resources/33/resource_aishell.tgz) and extract it to the directory `data/aishell`.
 ```bash
 python get_text.py
 ```
@@ -47,7 +48,7 @@ python get_text.py
 ../kenlm/build/bin/lmplz -o 3 --text aishell_train.txt --arpa aishell_train.arpa -S 10% --interpolate_unigrams 0
 ```
 
-[Pre-trained model](https://drive.google.com/file/d/1xwyQGTs_41Dww3KL5jx0s4_sfM5QIWO1/view?usp=sharing)
+[Pre-trained language model](https://drive.google.com/file/d/1xwyQGTs_41Dww3KL5jx0s4_sfM5QIWO1/view?usp=sharing)
 
 ### Rescore
 ```bash
@@ -57,5 +58,5 @@ python rescore.py
 ### Results
 | Testset |   Sub  |  Del  | Ins  |  CER |
 | :---: |:----: |:----: |:----: | :----: |
-| dev | 3.93  |  0.11  |  0.07  | 4.10 |
-| test | 4.14  |  0.19  |  0.06  | 4.39 |
+| dev | 3.64  |  0.12  |  0.06  | 3.82 |
+| test | 3.80  |  0.20  |  0.04  | 4.04 |
