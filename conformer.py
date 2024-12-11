@@ -46,7 +46,7 @@ class Attention(nn.Module):
         out = rearrange(out, 'b h n d -> b n (h d)')
         out = self.out(out)
         return self.dropout(out)
-
+    
 class FeedForward(nn.Module):
     def __init__(
         self,
@@ -55,16 +55,17 @@ class FeedForward(nn.Module):
         dropout = 0.,
     ):
         super().__init__()
-        self.norm = nn.LayerNorm(dim)
-        self.w = nn.Linear(dim, dim_ff*2)
-        self.p = nn.Linear(dim_ff, dim)
-        self.dropout = nn.Dropout(dropout, inplace=True)
+        self.net = nn.Sequential(
+            nn.LayerNorm(dim),
+            nn.Linear(dim, dim_ff),
+            nn.SiLU(),
+            nn.Dropout(dropout,inplace=True),
+            nn.Linear(dim_ff, dim),
+            nn.Dropout(dropout,inplace=True)
+        )
 
     def forward(self, x):
-        x = self.norm(x)
-        x1, x2 = self.w(x).chunk(2, dim=-1)
-        x = self.dropout(x1*F.silu(x2))
-        return self.dropout(self.p(x))
+        return self.net(x)
 
 class ConformerConvModule(nn.Module):
     def __init__(
@@ -111,6 +112,6 @@ class ConformerBlock(nn.Module):
         x = self.ff1(x)*0.5+x
         x = self.attn(x)+x
         x = self.conv(x)+x
-        x =self.ff2(x)*0.5+x
+        x = self.ff2(x)*0.5+x
         x = self.post_norm(x)
         return x

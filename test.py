@@ -1,18 +1,15 @@
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-from train import Model,audiofile_to_input_vector,id2s,id2s_ctc,get_dict,SpeechDataset,collate_fn,wer
-from torch.utils.data import Dataset, DataLoader
+from train import Model,get_audio,i2s,i2s_ctc,get_vocab,SpeechDataset,collate_fn,wer
 import torch
 import torch.nn.functional as F
+from torch.utils.data import Dataset, DataLoader
 import timeit
 
-w2i,i2w=get_dict()
+w2i,i2w=get_vocab()
 
 model = Model(256)
-
-def count_parameters(model):
-    return sum(p.numel() for p in model.parameters())
-print(f'Total parameters: {count_parameters(model)/1024/1024:.2f}M')
+print(f'Total parameters: {sum(p.numel() for p in model.parameters())/1024/1024:.2f}M')
 
 model.load_state_dict(torch.load('save/model.avg'))
 device = torch.device("cuda:0")
@@ -28,29 +25,29 @@ nbest_path='nbest.txt'
 if nbest_path:
     f=open(nbest_path, 'w', encoding='utf-8')
     
-def infer(x, sr):
+def infer(x):
     if isinstance(x, str):
-        x,sr=audiofile_to_input_vector(x,False)
-        x=torch.FloatTensor(x).unsqueeze(0).to(device)
-        sr=torch.IntTensor([sr]).to(device)
-    x,x_mask=model.get_feat(x,None,None,sr=sr)
-    x=model.encoder(x,x_mask)
+        x=get_audio(x,False)
+        x=x.unsqueeze(0).to(device)
+    x=model.get_feat(x)
+    x=model.encoder(x)
     T,_,H=x.shape
     
     last_pred=x.new_ones(beam,dtype=torch.long)*sos_id
     emb=model.emb(last_pred.long())
     lm_state=F.pad(emb.unsqueeze(-1), [model.context_size-1,0])
     lm=model.lm(lm_state).squeeze(-1)
+    lm_logit=model.lm_out(lm)
+    am_logit=model.am_out(x)
     nbest_score=x.new_zeros(beam)
     nbest=x.new_zeros(0,beam).long()
 
     enc=x.repeat(1,beam,1)
     last_ct=x.new_zeros(beam,H)
     for k in range(T):
-        blank=torch.cat([enc[k],lm,last_ct],dim=-1)
+        blank=torch.cat([enc[k],emb,last_ct],dim=-1)
         blank=model.blank(blank)
-        amlm=torch.cat([enc[k],lm],dim=-1)
-        logit=model.out(amlm)
+        logit=am_logit[k]+lm_logit
         blank2=F.logsigmoid(blank)
         logit=logit[:,1:].log_softmax(-1)+blank2-blank
         logit=torch.cat([blank2,logit],dim=-1)
@@ -67,14 +64,17 @@ def infer(x, sr):
         nbest=nbest[:,prev_k]
         nbest=torch.cat([nbest,last_pred.unsqueeze(0)],dim=0)
         lm_state=lm_state[prev_k]
-        lm=lm[prev_k]
+        lm_logit=lm_logit[prev_k]
         last_ct=last_ct[prev_k]
+        emb=emb[prev_k]
         
         nonblank=last_pred!=blank_id
         if nonblank.sum()>0:
-            this_emb=model.emb(last_pred[nonblank].long())
-            lm_state[nonblank]=torch.cat([lm_state[nonblank,:,1:], this_emb[:,:,None]], dim=-1)
+            emb2=model.emb(last_pred[nonblank].long())
+            emb[nonblank]=emb2
+            lm_state[nonblank]=torch.cat([lm_state[nonblank,:,1:], emb2[:,:,None]], dim=-1)
             lm[nonblank]=model.lm(lm_state[nonblank]).squeeze(-1)
+            lm_logit[nonblank]=model.lm_out(lm[nonblank])
             last_ct[nonblank]=enc[k][nonblank]
         
     return nbest.permute(1,0),nbest_score
@@ -88,13 +88,12 @@ def test():
     cv_dataset = SpeechDataset("data/aishell/aishell_test.csv".split(','),'test')
     cv_dataloader = DataLoader(cv_dataset, batch_size=1, shuffle=False, num_workers=0, collate_fn=collate_fn,drop_last=False,pin_memory=False)
     for i, minibatch in enumerate(cv_dataloader):
-        x,y,x_mask,sr = minibatch
-        x=x.cuda()
+        x,y = minibatch
         with torch.no_grad():
-            nbest,score=infer(x,sr.cuda())
-        lab=id2s(y[0])
-        rec=id2s(nbest[0])
-        (d,ins,dele,sub),l = wer(lab, rec)
+            nbest,score=infer(x.cuda())
+        lab=i2s(y[0])
+        rec=i2s(nbest[0])
+        d,ins,dele,sub,l = wer(lab, rec)
         total_l+=l
         total_d+=d
         total_i+=ins
@@ -108,13 +107,14 @@ def test():
         print('')
         if nbest_path:
             for r, s in zip(nbest, score):
-                r=id2s(r)
+                r=i2s(r)
                 f.write(r+','+str(s.item())+'\n')
             f.write(lab+'\n')
 
-start_time=timeit.default_timer()
-test()
-time=timeit.default_timer()-start_time
-print('Time:',int(time//60),'m',int(time%60),'s')
-if nbest_path:
-    f.close()
+if __name__ == "__main__":
+    start_time=timeit.default_timer()
+    test()
+    time=timeit.default_timer()-start_time
+    print('Time:',int(time//60),'m',int(time%60),'s')
+    if nbest_path:
+        f.close()

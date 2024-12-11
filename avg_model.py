@@ -6,7 +6,7 @@ checkpoint_avg = {}
 
 fp='save/model.'
 n_models=0
-for ep in range(360,420):
+for ep in range(630,690):
     checkpoint_path = fp+str(ep)
     checkpoint = torch.load(checkpoint_path, map_location='cpu')
     for k, v in checkpoint.items():

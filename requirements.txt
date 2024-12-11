@@ -1,8 +1,5 @@
-torch
-numpy
+torchaudio
 pandas
 einops
-scipy
-soundfile
 kenlm
 jieba

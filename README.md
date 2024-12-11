@@ -9,6 +9,10 @@ Official implementation of the Interspeech 2024 paper ["Lightweight Transducer B
 ## Usage
 ### Data preparation
 Download [AISHELL-1](https://www.openslr.org/resources/33/data_aishell.tgz) and extract it to the directory `data/aishell`.
+```bash
+python data/aishell/get_csv.py
+python data/aishell/get_vocab.py
+```
 
 ### Training
 ```bash
@@ -31,21 +35,21 @@ Training one epoch takes about five minutes with a single GPU RTX 4090 and CPU i
 ### Results
 | Testset |   Sub  |  Del  | Ins  |  CER |
 | :---: |:----: |:----: |:----: | :----: |
-| dev | 3.93  |  0.11  |  0.07  | 4.10 |
-| test | 4.14  |  0.19  |  0.06  | 4.39 |
+| dev | 3.79  |  0.10  |  0.07  | 3.96 |
+| test | 4.10  |  0.16  |  0.05  | 4.31 |
 
-[Pre-trained model](https://drive.google.com/file/d/1J3AEiurRSS0sjLqqcxiho0r-ykaqqotV/view?usp=sharing)
+[Pre-trained model](https://pan.baidu.com/s/14wgoeAlAYC0Y7X0PkO9bsQ?pwd=h8s9)
 
 ## Rescore
 ### Data preparation
 Download [resource_aishell](https://www.openslr.org/resources/33/resource_aishell.tgz) and extract it to the directory `data/aishell`.
 ```bash
-python get_text.py
+python data/aishell/get_text.py
 ```
 
 ### Training
 ```bash
-../kenlm/build/bin/lmplz -o 3 --text aishell_train.txt --arpa aishell_train.arpa -S 10% --interpolate_unigrams 0
+../kenlm/build/bin/lmplz -o 3 --text data/aishell/aishell_train.txt --arpa data/aishell/aishell_train.arpa -S 10% --interpolate_unigrams 0
 ```
 
 [Pre-trained language model](https://drive.google.com/file/d/1xwyQGTs_41Dww3KL5jx0s4_sfM5QIWO1/view?usp=sharing)
@@ -58,5 +62,5 @@ python rescore.py
 ### Results
 | Testset |   Sub  |  Del  | Ins  |  CER |
 | :---: |:----: |:----: |:----: | :----: |
-| dev | 3.64  |  0.12  |  0.06  | 3.82 |
-| test | 3.80  |  0.20  |  0.04  | 4.04 |
+| dev | 3.61  |  0.10  |  0.07  | 3.78 |
+| test | 3.82  |  0.16  |  0.04  | 4.03 |

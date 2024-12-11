@@ -4,18 +4,18 @@ import kenlm
 import jieba
 import os
 
-if not os.path.exists('dict.txt'):
-    f_dict = open('dict.txt', 'w', encoding='utf-8')
+if not os.path.exists('data/aishell/dict.txt'):
+    f_dict = open('data/aishell/dict.txt', 'w', encoding='utf-8')
     with open('data/aishell/resource_aishell/lexicon.txt', encoding='utf-8') as f:
         for l in f:
             f_dict.write(l.split()[0]+'\n')
     f_dict.close()
 
-jieba.load_userdict('dict.txt')
+jieba.load_userdict('data/aishell/dict.txt')
 
-model = kenlm.Model('aishell_train.arpa')
+model = kenlm.Model('data/aishell/aishell_train.arpa')
 
-lm_weight=0.4
+lm_weight=0.25
 total_d=0
 total_l=0
 total_sub=0
@@ -28,7 +28,7 @@ with open('nbest.txt', encoding='utf-8') as f:
     for l in f:
         l=l.strip().split(',')
         if len(l)==1:
-            (d,ins,dele,sub),l = wer(l[0], best)
+            d,ins,dele,sub,l = wer(l[0], best)
             total_d+=d
             total_l+=l            
             total_sub+=sub
